@@ -1,0 +1,194 @@
+/************ styles for list ************/
+.asc, .desc { padding-right: 20px; background: transparent none no-repeat right center;}
+.asc { background-image: url(../images/asc.png); }
+.desc { background-image: url(../images/desc.png); }
+
+.true, .false { height: 20px; width:20px; background: transparent none no-repeat right center; text-indent:-9999px;}
+.true { background: url(../images/true.png) no-repeat 0 0;}
+.false { background: url(../images/false.png) no-repeat 0 0;}
+.export-preview td.checkboxes, .export-preview th.checkboxes { display: none } /* hides checkboxes for export preview */
+
+/************ styles for show *************/
+
+.info-block {padding:10px;border:1px solid #ccc;background:#eee;-moz-border-radius:7px;-webkit-border-radius:7px;font-size:12px;overflow:hidden;position:relative;margin-bottom:20px;}
+  .info-block dl {width:100%;margin-bottom:20px;overflow:hidden;}
+  .info-block dt {line-height:20px;font-weight:bold;color:#333;float:left;clear:left;width:22%;border-top:1px solid #ccc;padding-bottom:10px;padding-top:10px;}
+  .info-block dd {line-height:20px;float:left;clear:right;border-top:1px solid #ccc;width:78%;padding-bottom:10px;padding-top:10px; margin:0px}
+    .info-block dd form, .info-block dd fieldset {margin:0;padding:0;}
+  .info-block dt.first, .info-block dd.first { border-top: none }
+/************ styles for forms ************/
+
+.form-element {
+  margin: 5px 5px 5px 15px;
+}
+
+.form-element input {
+  border:1px solid #BBBBBB;
+  font-size:1.4em;
+  margin:5px 0 0;
+  padding:5px;
+  width:90%;
+}
+
+.form-element input.checkbox,
+.form-container input.checkbox {
+  width:auto;
+}
+
+.form-element select {
+  border:1px solid #BBBBBB;
+  font-size:1.4em;
+  margin:5px 5px 0 0;
+  padding:3px;
+}
+
+.form-element label {
+  font-size:13px;
+  display:block;
+}
+
+.required label { color:#900; font-weight:bold; }
+.required label:before { content:"* "; }
+
+.help {
+  color:#999999;
+  font-size:11px;
+  font-style:italic;
+}
+
+/************ styles for actions ************/
+
+.actions a { padding-left: 20px; background: transparent none no-repeat 0 0;}
+a.new { background-image: url(../images/new.png); }
+a.delete { background-image: url(../images/delete.png); }
+a.list { background-image: url(../images/list.png);}
+a.edit { background-image: url(../images/edit.png);}
+a.show { background-image: url(../images/show.png);}
+a.export { background-image: url(../images/right.png);}
+a.promote { background-image: url(../images/promote.png);}
+a.demote { background-image: url(../images/demote.png);}
+
+.notice
+{
+  margin: 20px 0;
+  padding: 4px 4px 4px 30px;
+  background: url(../images/tick.png) no-repeat 10px 4px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #ffc;
+}
+
+.info {
+  margin: 20px 0;
+  padding:12px 12px 12px 30px;
+  border:1px solid #ccc;
+  background:#fff url(../images/info.png) 10px 11px no-repeat;
+}
+
+.error
+{
+  margin: 20px 0;
+  padding: 4px 4px 4px 30px;
+  background: url(../images/error.png) no-repeat 10px 4px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #f33;
+  color: #fff;
+}
+
+/************ styles for pagination ************/
+.pagination {
+  font:normal 12px/150% Arial, Verdana, Arial,sans-serif;
+  margin:0;
+  padding:3px;
+  text-align:center;
+}
+.pagination a {
+  border:1px solid #999;
+  color:#666;
+  font-size:1.0em !important;
+  margin:2px;
+  padding:2px 5px;
+  text-decoration:none;
+}
+.pagination a:hover, .pagination a:active { border:1px solid #000; color:#000; }
+.pagination span.current {
+  border:1px solid #666;
+  background-color:#666;
+  color:#FFF;
+  font-weight:bold;
+  margin:2px;
+  padding:2px 5px;
+}
+.pagination span.disabled {
+  border:1px solid #DDD;
+  color:#999;
+  margin:2px;
+  padding:2px 5px;
+}
+
+/************ filter styles *************/
+.filters table td { padding: 5px }
+.filters table td label { font-weight: bold }
+.filters table td .filter-input label { font-weight: normal }
+
+.filter-form .inactive{
+  display:none;
+}
+
+.filter-select {
+  float: right;
+  clear:both;
+}
+
+.filter-form .reset {
+  float:right;
+  clear:both;
+}
+
+.filter-form .button {
+  float:right;
+}
+
+.filter-form fieldset.collapsible {
+  border-width:1px 0 0;
+  font-size:0.9em;
+}
+
+.filter-form fieldset {
+  border:1px solid #E4E4E4;
+  margin:0;
+}
+
+.filter-form fieldset.collapsible.collapsed legend {
+  background-image:url("../images/arrow_collapsed.png");
+}
+
+.filter-form fieldset.collapsible legend {
+  background:url("../images/arrow_expanded.png") no-repeat scroll 0 40% transparent;
+  cursor:pointer;
+  padding-left:16px;
+}
+
+.filter-form legend { color:#484848; }
+.filter-form .collapsible .inner { min-height: 10px; }
+
+/************ generic styles ************/
+.clear { clear:both; }
+
+.nonefound {
+  margin:15px 0 0 0;
+  padding:15px 5px;
+  border-top:1px solid #CCC;
+  border-bottom:1px solid #CCC;
+}
+
+.cancel_top { float:right; font-size:12px; padding:2px 50px 0 0; }
+a.cancel { color:#900; }
+
+/************ styles for notice/error divs ************/
+.error_list { margin:0 auto 10px auto; overflow:hidden; padding:0 5px; background-color:#EEE; }
+.error_list li { color: #FF0000; }
+.error_list p { margin:0 0 0 20px; padding:0; font-size:13px; color:#FF0000; }
+.error_list a { text-decoration:none; padding:0 3px; border: 1px solid #8A1F11; color:#8A1F11; }
+.error_list a:hover { color:#000; border:1px solid #000; }

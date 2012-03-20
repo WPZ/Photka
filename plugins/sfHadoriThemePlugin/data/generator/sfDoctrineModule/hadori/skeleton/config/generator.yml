@@ -1,0 +1,15 @@
+generator:
+  class: sfHadoriGenerator
+  param:
+##CONFIG##
+
+    config:
+      actions:  ~
+      fields:   ~
+      list:     ~
+      filter:   ~
+      form:     ~
+      edit:     ~
+      new:      ~
+      show:     ~
+      export:   ~

@@ -1,0 +1,1490 @@
+Mar 10 17:09:54 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Mar 10 17:09:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 17:09:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 17:09:54 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Mar 10 17:09:54 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Mar 10 17:09:54 symfony [info] {sfPHPView} Decorate content with "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 10 17:09:54 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 10 17:09:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 17:09:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 17:09:54 symfony [info] {sfWebDebugLogger} Configuration 107.16 ms (9)
+Mar 10 17:09:54 symfony [info] {sfWebDebugLogger} Factories 100.80 ms (1)
+Mar 10 17:09:54 symfony [info] {sfWebDebugLogger} Action "default/index" 0.22 ms (1)
+Mar 10 17:09:54 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 14.85 ms (1)
+Mar 10 17:09:54 symfony [info] {sfWebResponse} Send content (27997 o)
+Mar 10 18:20:52 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Mar 10 18:20:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:20:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:20:52 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Mar 10 18:20:52 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Mar 10 18:20:52 symfony [info] {sfPHPView} Decorate content with "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 10 18:20:52 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 10 18:20:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:20:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:20:52 symfony [info] {sfWebDebugLogger} Configuration 2.26 ms (9)
+Mar 10 18:20:52 symfony [info] {sfWebDebugLogger} Factories 36.16 ms (1)
+Mar 10 18:20:52 symfony [info] {sfWebDebugLogger} Action "default/index" 0.12 ms (1)
+Mar 10 18:20:52 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 10.40 ms (1)
+Mar 10 18:20:52 symfony [info] {sfWebResponse} Send content (28273 o)
+Mar 10 18:49:34 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Mar 10 18:49:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:49:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:49:34 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Mar 10 18:49:34 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Mar 10 18:49:34 symfony [info] {sfPHPView} Decorate content with "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 10 18:49:34 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 10 18:49:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:49:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:49:34 symfony [info] {sfWebDebugLogger} Configuration 1.96 ms (9)
+Mar 10 18:49:34 symfony [info] {sfWebDebugLogger} Factories 35.60 ms (1)
+Mar 10 18:49:34 symfony [info] {sfWebDebugLogger} Action "default/index" 0.12 ms (1)
+Mar 10 18:49:34 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 10.95 ms (1)
+Mar 10 18:49:34 symfony [info] {sfWebResponse} Send content (28305 o)
+Mar 10 18:49:38 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:49:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:49:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:49:38 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:49:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:49:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:49:38 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:49:38 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:49:38 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:49:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:49:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:49:38 symfony [info] {sfWebDebugLogger} Configuration 22.10 ms (10)
+Mar 10 18:49:38 symfony [info] {sfWebDebugLogger} Factories 83.42 ms (1)
+Mar 10 18:49:38 symfony [info] {sfWebDebugLogger} Action "photo/index" 40.42 ms (1)
+Mar 10 18:49:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:49:38 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 15.72 ms (1)
+Mar 10 18:49:38 symfony [info] {sfWebResponse} Send content (30649 o)
+Mar 10 18:49:47 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /photo/new with parameters array (  'module' => 'photo',  'action' => 'new',)
+Mar 10 18:49:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:49:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:49:47 symfony [info] {photoActions} Call "photoActions->executeNew()"
+Mar 10 18:49:47 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/newSuccess.php"
+Mar 10 18:49:47 symfony [info] {sfPartialView} Render "/home/photka/apps/frontend/modules/photo/templates/_form.php"
+Mar 10 18:49:47 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:49:47 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name FROM category c - ()
+Mar 10 18:49:47 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:49:47 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:49:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:49:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:49:47 symfony [info] {sfWebDebugLogger} Configuration 2.18 ms (9)
+Mar 10 18:49:47 symfony [info] {sfWebDebugLogger} Factories 35.98 ms (1)
+Mar 10 18:49:47 symfony [info] {sfWebDebugLogger} Action "photo/new" 35.66 ms (1)
+Mar 10 18:49:47 symfony [info] {sfWebDebugLogger} View "Success" for "photo/new" 66.77 ms (1)
+Mar 10 18:49:47 symfony [info] {sfWebDebugLogger} Partial "photo/_form" 55.10 ms (1)
+Mar 10 18:49:47 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:49:47 symfony [info] {sfWebResponse} Send content (47622 o)
+Mar 10 18:50:28 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /photo/create with parameters array (  'module' => 'photo',  'action' => 'create',)
+Mar 10 18:50:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:50:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:50:28 symfony [info] {photoActions} Call "photoActions->executeCreate()"
+Mar 10 18:50:28 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:50:28 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM category c WHERE c.id = ? - (1)
+Mar 10 18:50:28 symfony [info] {Doctrine_Connection_Statement} execute : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p WHERE (p.token = ?) - ()
+Mar 10 18:50:28 symfony [info] {photoActions} Change template to "CURRENT/new"
+Mar 10 18:50:28 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/newSuccess.php"
+Mar 10 18:50:28 symfony [info] {sfPartialView} Render "/home/photka/apps/frontend/modules/photo/templates/_form.php"
+Mar 10 18:50:28 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name FROM category c - ()
+Mar 10 18:50:28 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:50:28 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:50:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:50:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:50:28 symfony [info] {sfWebDebugLogger} Configuration 2.70 ms (9)
+Mar 10 18:50:28 symfony [info] {sfWebDebugLogger} Factories 37.15 ms (1)
+Mar 10 18:50:28 symfony [info] {sfWebDebugLogger} Action "photo/create" 76.77 ms (1)
+Mar 10 18:50:28 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (4)
+Mar 10 18:50:28 symfony [info] {sfWebDebugLogger} View "Success" for "photo/create" 45.05 ms (1)
+Mar 10 18:50:28 symfony [info] {sfWebDebugLogger} Partial "photo/_form" 31.43 ms (1)
+Mar 10 18:50:28 symfony [info] {sfWebResponse} Send content (53258 o)
+Mar 10 18:50:57 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /photo/create with parameters array (  'module' => 'photo',  'action' => 'create',)
+Mar 10 18:50:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:50:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:50:57 symfony [info] {photoActions} Call "photoActions->executeCreate()"
+Mar 10 18:50:57 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:50:57 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM category c WHERE c.id = ? - (1)
+Mar 10 18:50:57 symfony [info] {Doctrine_Connection_Statement} execute : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p WHERE (p.token = ?) - ()
+Mar 10 18:50:57 symfony [info] {photoActions} Change template to "CURRENT/new"
+Mar 10 18:50:57 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/newSuccess.php"
+Mar 10 18:50:57 symfony [info] {sfPartialView} Render "/home/photka/apps/frontend/modules/photo/templates/_form.php"
+Mar 10 18:50:57 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name FROM category c - ()
+Mar 10 18:50:57 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:50:57 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:50:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:50:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:50:57 symfony [info] {sfWebDebugLogger} Configuration 2.30 ms (9)
+Mar 10 18:50:57 symfony [info] {sfWebDebugLogger} Factories 51.65 ms (1)
+Mar 10 18:50:57 symfony [info] {sfWebDebugLogger} Action "photo/create" 71.14 ms (1)
+Mar 10 18:50:57 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (4)
+Mar 10 18:50:57 symfony [info] {sfWebDebugLogger} View "Success" for "photo/create" 41.95 ms (1)
+Mar 10 18:50:57 symfony [info] {sfWebDebugLogger} Partial "photo/_form" 30.32 ms (1)
+Mar 10 18:50:57 symfony [info] {sfWebResponse} Send content (52969 o)
+Mar 10 18:51:00 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:51:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:51:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:51:00 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:51:00 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:51:00 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:51:00 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:51:00 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:51:00 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:51:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:51:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:51:00 symfony [info] {sfWebDebugLogger} Configuration 2.11 ms (9)
+Mar 10 18:51:00 symfony [info] {sfWebDebugLogger} Factories 34.36 ms (1)
+Mar 10 18:51:00 symfony [info] {sfWebDebugLogger} Action "photo/index" 39.60 ms (1)
+Mar 10 18:51:00 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:51:00 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 11.21 ms (1)
+Mar 10 18:51:00 symfony [info] {sfWebResponse} Send content (30729 o)
+Mar 10 18:51:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /photo/new with parameters array (  'module' => 'photo',  'action' => 'new',)
+Mar 10 18:51:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:51:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:51:20 symfony [info] {photoActions} Call "photoActions->executeNew()"
+Mar 10 18:51:20 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/newSuccess.php"
+Mar 10 18:51:20 symfony [info] {sfPartialView} Render "/home/photka/apps/frontend/modules/photo/templates/_form.php"
+Mar 10 18:51:20 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:51:20 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name FROM category c - ()
+Mar 10 18:51:20 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:51:20 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:51:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:51:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:51:20 symfony [info] {sfWebDebugLogger} Configuration 2.38 ms (9)
+Mar 10 18:51:20 symfony [info] {sfWebDebugLogger} Factories 36.11 ms (1)
+Mar 10 18:51:20 symfony [info] {sfWebDebugLogger} Action "photo/new" 36.92 ms (1)
+Mar 10 18:51:20 symfony [info] {sfWebDebugLogger} View "Success" for "photo/new" 70.92 ms (1)
+Mar 10 18:51:20 symfony [info] {sfWebDebugLogger} Partial "photo/_form" 59.22 ms (1)
+Mar 10 18:51:20 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:51:20 symfony [info] {sfWebResponse} Send content (47622 o)
+Mar 10 18:52:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /photo/create with parameters array (  'module' => 'photo',  'action' => 'create',)
+Mar 10 18:52:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:52:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:52:02 symfony [info] {photoActions} Call "photoActions->executeCreate()"
+Mar 10 18:52:02 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:52:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM category c WHERE c.id = ? - (3)
+Mar 10 18:52:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p WHERE (p.token = ?) - ()
+Mar 10 18:52:02 symfony [info] {photoActions} Change template to "CURRENT/new"
+Mar 10 18:52:02 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/newSuccess.php"
+Mar 10 18:52:02 symfony [info] {sfPartialView} Render "/home/photka/apps/frontend/modules/photo/templates/_form.php"
+Mar 10 18:52:02 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name FROM category c - ()
+Mar 10 18:52:02 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:52:02 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:52:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:52:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:52:02 symfony [info] {sfWebDebugLogger} Configuration 3.61 ms (9)
+Mar 10 18:52:02 symfony [info] {sfWebDebugLogger} Factories 62.47 ms (1)
+Mar 10 18:52:02 symfony [info] {sfWebDebugLogger} Action "photo/create" 73.21 ms (1)
+Mar 10 18:52:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (4)
+Mar 10 18:52:02 symfony [info] {sfWebDebugLogger} View "Success" for "photo/create" 42.36 ms (1)
+Mar 10 18:52:02 symfony [info] {sfWebDebugLogger} Partial "photo/_form" 30.66 ms (1)
+Mar 10 18:52:03 symfony [info] {sfWebResponse} Send content (52928 o)
+Mar 10 18:52:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /photo/create with parameters array (  'module' => 'photo',  'action' => 'create',)
+Mar 10 18:52:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:52:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:52:09 symfony [info] {photoActions} Call "photoActions->executeCreate()"
+Mar 10 18:52:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:52:09 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM category c WHERE c.id = ? - (3)
+Mar 10 18:52:09 symfony [info] {Doctrine_Connection_Statement} execute : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p WHERE (p.token = ?) - (asdfg)
+Mar 10 18:52:09 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO photo (is_public, category_id, name, location, description, token, path, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) - (1, 3, new, poland, simple photo , asdfg, /path/test.jpg, 2007-01-01 00:00:00, 2007-01-01 01:01:00)
+Mar 10 18:52:09 symfony [info] {sfFrontWebController} Redirect to "http://photka.localhost/frontend_dev.php/photo/edit/id/1"
+Mar 10 18:52:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 10 18:52:09 symfony [info] {sfWebResponse} Send header "Location: http://photka.localhost/frontend_dev.php/photo/edit/id/1"
+Mar 10 18:52:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:52:09 symfony [info] {sfWebDebugLogger} Configuration 1.83 ms (8)
+Mar 10 18:52:09 symfony [info] {sfWebDebugLogger} Factories 36.37 ms (1)
+Mar 10 18:52:09 symfony [info] {sfWebDebugLogger} Action "photo/create" 136.36 ms (1)
+Mar 10 18:52:09 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (4)
+Mar 10 18:52:09 symfony [info] {sfWebResponse} Send content (127 o)
+Mar 10 18:52:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /photo/edit/id/1 with parameters array (  'module' => 'photo',  'action' => 'edit',  'id' => '1',)
+Mar 10 18:52:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:52:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:52:09 symfony [info] {photoActions} Call "photoActions->executeEdit()"
+Mar 10 18:52:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:52:09 symfony [info] {Doctrine_Connection_Statement} execute : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p WHERE (p.id = ?) LIMIT 1 - (1)
+Mar 10 18:52:09 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/editSuccess.php"
+Mar 10 18:52:09 symfony [info] {sfPartialView} Render "/home/photka/apps/frontend/modules/photo/templates/_form.php"
+Mar 10 18:52:09 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name FROM category c - ()
+Mar 10 18:52:09 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:52:09 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:52:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:52:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:52:09 symfony [info] {sfWebDebugLogger} Configuration 1.41 ms (9)
+Mar 10 18:52:09 symfony [info] {sfWebDebugLogger} Factories 33.27 ms (1)
+Mar 10 18:52:09 symfony [info] {sfWebDebugLogger} Action "photo/edit" 63.98 ms (1)
+Mar 10 18:52:09 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Mar 10 18:52:09 symfony [info] {sfWebDebugLogger} View "Success" for "photo/edit" 44.25 ms (1)
+Mar 10 18:52:09 symfony [info] {sfWebDebugLogger} Partial "photo/_form" 33.04 ms (1)
+Mar 10 18:52:09 symfony [info] {sfWebResponse} Send content (50973 o)
+Mar 10 18:52:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:52:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:52:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:52:14 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:52:14 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:52:14 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:52:14 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:52:14 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:52:14 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:52:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:52:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:52:14 symfony [info] {sfWebDebugLogger} Configuration 2.73 ms (9)
+Mar 10 18:52:14 symfony [info] {sfWebDebugLogger} Factories 78.11 ms (1)
+Mar 10 18:52:14 symfony [info] {sfWebDebugLogger} Action "photo/index" 37.15 ms (1)
+Mar 10 18:52:14 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:52:14 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 16.82 ms (1)
+Mar 10 18:52:14 symfony [info] {sfWebResponse} Send content (31045 o)
+Mar 10 18:55:27 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:55:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:55:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:55:27 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:55:27 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:55:27 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:55:27 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:55:27 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:55:27 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:55:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:55:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:55:27 symfony [info] {sfWebDebugLogger} Configuration 2.24 ms (9)
+Mar 10 18:55:27 symfony [info] {sfWebDebugLogger} Factories 53.41 ms (1)
+Mar 10 18:55:27 symfony [info] {sfWebDebugLogger} Action "photo/index" 40.38 ms (1)
+Mar 10 18:55:27 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:55:27 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 20.40 ms (1)
+Mar 10 18:55:27 symfony [info] {sfWebResponse} Send content (31164 o)
+Mar 10 18:55:29 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:55:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:55:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:55:29 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:55:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:55:29 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:55:29 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:55:29 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:55:29 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:55:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:55:29 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:55:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:55:29 symfony [info] {sfWebDebugLogger} Configuration 5.70 ms (9)
+Mar 10 18:55:29 symfony [info] {sfWebDebugLogger} Factories 41.91 ms (1)
+Mar 10 18:55:29 symfony [info] {sfWebDebugLogger} Action "photo/index" 57.61 ms (1)
+Mar 10 18:55:29 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:55:29 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 35.15 ms (1)
+Mar 10 18:55:29 symfony [info] {sfWebResponse} Send content (31164 o)
+Mar 10 18:55:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:55:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:55:29 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:55:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:55:29 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:55:29 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:55:29 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:55:29 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:55:29 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:55:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:55:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} Configuration 1.38 ms (9)
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} Factories 88.30 ms (1)
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} Action "photo/index" 82.76 ms (1)
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 19.94 ms (1)
+Mar 10 18:55:30 symfony [info] {sfWebResponse} Send content (31163 o)
+Mar 10 18:55:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:55:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:55:30 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:55:30 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:55:30 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:55:30 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:55:30 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:55:30 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:55:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:55:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} Configuration 1.40 ms (9)
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} Factories 99.74 ms (1)
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} Action "photo/index" 39.65 ms (1)
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 15.36 ms (1)
+Mar 10 18:55:30 symfony [info] {sfWebResponse} Send content (31163 o)
+Mar 10 18:55:30 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:55:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:55:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:55:30 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:55:30 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:55:30 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:55:30 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:55:30 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:55:30 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:55:30 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:55:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:55:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} Configuration 1.47 ms (9)
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} Factories 70.17 ms (1)
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} Action "photo/index" 70.68 ms (1)
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 26.65 ms (1)
+Mar 10 18:55:30 symfony [info] {sfWebResponse} Send content (31163 o)
+Mar 10 18:55:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:55:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:55:30 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:55:30 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:55:30 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:55:30 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:55:30 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:55:30 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:55:30 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:55:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:55:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} Configuration 1.43 ms (9)
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} Factories 163.12 ms (1)
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} Action "photo/index" 57.11 ms (1)
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 13.90 ms (1)
+Mar 10 18:55:30 symfony [info] {sfWebResponse} Send content (31164 o)
+Mar 10 18:55:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:55:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:55:30 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:55:30 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:55:30 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:55:30 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:55:30 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:55:30 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:55:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:55:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} Configuration 1.39 ms (9)
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} Factories 128.88 ms (1)
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} Action "photo/index" 39.92 ms (1)
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:55:30 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 15.65 ms (1)
+Mar 10 18:55:30 symfony [info] {sfWebResponse} Send content (31164 o)
+Mar 10 18:55:34 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:55:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:55:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:55:34 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:55:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:55:34 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:55:34 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:55:34 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:55:34 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:55:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:55:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:55:34 symfony [info] {sfWebDebugLogger} Configuration 2.40 ms (9)
+Mar 10 18:55:34 symfony [info] {sfWebDebugLogger} Factories 37.30 ms (1)
+Mar 10 18:55:34 symfony [info] {sfWebDebugLogger} Action "photo/index" 50.28 ms (1)
+Mar 10 18:55:34 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:55:34 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 15.77 ms (1)
+Mar 10 18:55:34 symfony [info] {sfWebResponse} Send content (31131 o)
+Mar 10 18:57:35 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:57:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:57:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:57:35 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:57:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:57:35 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:57:35 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:57:35 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:57:35 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:57:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:57:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:57:35 symfony [info] {sfWebDebugLogger} Configuration 1.39 ms (9)
+Mar 10 18:57:35 symfony [info] {sfWebDebugLogger} Factories 35.17 ms (1)
+Mar 10 18:57:35 symfony [info] {sfWebDebugLogger} Action "photo/index" 41.16 ms (1)
+Mar 10 18:57:35 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:57:35 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 15.55 ms (1)
+Mar 10 18:57:35 symfony [info] {sfWebResponse} Send content (31252 o)
+Mar 10 18:57:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /bootstrap/css/bootstrap.css with parameters array (  'module' => 'bootstrap',  'action' => 'css',  'bootstrap.css' => true,)
+Mar 10 18:57:36 symfony [info] {sfFrontWebController} Action "bootstrap/css" does not exist
+Mar 10 18:57:36 symfony [err] {sfError404Exception} Action "bootstrap/css" does not exist.
+Mar 10 18:57:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /bootstrap/js/bootstrap.js with parameters array (  'module' => 'bootstrap',  'action' => 'js',  'bootstrap.js' => true,)
+Mar 10 18:57:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 10 18:57:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:57:36 symfony [info] {sfWebDebugLogger} Configuration 0.76 ms (5)
+Mar 10 18:57:36 symfony [info] {sfWebDebugLogger} Factories 62.58 ms (1)
+Mar 10 18:57:36 symfony [info] {sfFrontWebController} Action "bootstrap/js" does not exist
+Mar 10 18:57:36 symfony [err] {sfError404Exception} Action "bootstrap/js" does not exist.
+Mar 10 18:57:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 10 18:57:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:57:36 symfony [info] {sfWebDebugLogger} Configuration 0.76 ms (5)
+Mar 10 18:57:36 symfony [info] {sfWebDebugLogger} Factories 174.11 ms (1)
+Mar 10 18:57:39 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:57:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:57:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:57:39 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:57:39 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:57:39 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:57:39 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:57:39 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:57:39 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:57:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:57:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:57:39 symfony [info] {sfWebDebugLogger} Configuration 2.21 ms (9)
+Mar 10 18:57:39 symfony [info] {sfWebDebugLogger} Factories 53.33 ms (1)
+Mar 10 18:57:39 symfony [info] {sfWebDebugLogger} Action "photo/index" 41.76 ms (1)
+Mar 10 18:57:39 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:57:39 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 19.55 ms (1)
+Mar 10 18:57:39 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:57:39 symfony [info] {sfWebResponse} Send content (31251 o)
+Mar 10 18:57:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:57:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:57:39 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:57:39 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:57:39 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:57:39 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:57:39 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:57:39 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:57:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:57:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:57:39 symfony [info] {sfWebDebugLogger} Configuration 2.36 ms (9)
+Mar 10 18:57:39 symfony [info] {sfWebDebugLogger} Factories 54.81 ms (1)
+Mar 10 18:57:39 symfony [info] {sfWebDebugLogger} Action "photo/index" 54.92 ms (1)
+Mar 10 18:57:39 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:57:39 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 15.93 ms (1)
+Mar 10 18:57:39 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:57:39 symfony [info] {sfWebResponse} Send content (31251 o)
+Mar 10 18:57:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:57:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:57:39 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:57:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:57:40 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:57:40 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:57:40 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:57:40 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:57:40 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:57:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:57:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} Configuration 1.53 ms (9)
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} Factories 53.69 ms (1)
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} Action "photo/index" 72.90 ms (1)
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 30.98 ms (1)
+Mar 10 18:57:40 symfony [info] {sfWebResponse} Send content (31252 o)
+Mar 10 18:57:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:57:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:57:40 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:57:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:57:40 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:57:40 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:57:40 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:57:40 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:57:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:57:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} Configuration 1.35 ms (9)
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} Factories 75.97 ms (1)
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} Action "photo/index" 53.40 ms (1)
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 14.75 ms (1)
+Mar 10 18:57:40 symfony [info] {sfWebResponse} Send content (31251 o)
+Mar 10 18:57:40 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:57:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:57:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:57:40 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:57:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:57:40 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:57:40 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:57:40 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:57:40 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:57:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:57:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} Configuration 1.41 ms (9)
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} Factories 57.29 ms (1)
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} Action "photo/index" 42.80 ms (1)
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 17.63 ms (1)
+Mar 10 18:57:40 symfony [info] {sfWebResponse} Send content (31252 o)
+Mar 10 18:57:40 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:57:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:57:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:57:40 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:57:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:57:40 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:57:40 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:57:40 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:57:40 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:57:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:57:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} Configuration 1.40 ms (9)
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} Factories 35.73 ms (1)
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} Action "photo/index" 39.47 ms (1)
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 15.23 ms (1)
+Mar 10 18:57:40 symfony [info] {sfWebResponse} Send content (31251 o)
+Mar 10 18:57:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /bootstrap/css/bootstrap.css with parameters array (  'module' => 'bootstrap',  'action' => 'css',  'bootstrap.css' => true,)
+Mar 10 18:57:40 symfony [info] {sfFrontWebController} Action "bootstrap/css" does not exist
+Mar 10 18:57:40 symfony [err] {sfError404Exception} Action "bootstrap/css" does not exist.
+Mar 10 18:57:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 10 18:57:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} Configuration 0.84 ms (5)
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} Factories 34.51 ms (1)
+Mar 10 18:57:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /bootstrap/js/bootstrap.js with parameters array (  'module' => 'bootstrap',  'action' => 'js',  'bootstrap.js' => true,)
+Mar 10 18:57:40 symfony [info] {sfFrontWebController} Action "bootstrap/js" does not exist
+Mar 10 18:57:40 symfony [err] {sfError404Exception} Action "bootstrap/js" does not exist.
+Mar 10 18:57:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 10 18:57:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} Configuration 0.84 ms (5)
+Mar 10 18:57:40 symfony [info] {sfWebDebugLogger} Factories 63.74 ms (1)
+Mar 10 18:57:59 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:57:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:57:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:57:59 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:57:59 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:57:59 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:57:59 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:57:59 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:57:59 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:57:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:57:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:57:59 symfony [info] {sfWebDebugLogger} Configuration 113.30 ms (9)
+Mar 10 18:57:59 symfony [info] {sfWebDebugLogger} Factories 96.58 ms (1)
+Mar 10 18:57:59 symfony [info] {sfWebDebugLogger} Action "photo/index" 39.23 ms (1)
+Mar 10 18:57:59 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:57:59 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 17.75 ms (1)
+Mar 10 18:57:59 symfony [info] {sfWebResponse} Send content (31254 o)
+Mar 10 18:57:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /bootstrap/css/bootstrap.css with parameters array (  'module' => 'bootstrap',  'action' => 'css',  'bootstrap.css' => true,)
+Mar 10 18:57:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /bootstrap/js/bootstrap.js with parameters array (  'module' => 'bootstrap',  'action' => 'js',  'bootstrap.js' => true,)
+Mar 10 18:57:59 symfony [info] {sfFrontWebController} Action "bootstrap/css" does not exist
+Mar 10 18:57:59 symfony [err] {sfError404Exception} Action "bootstrap/css" does not exist.
+Mar 10 18:57:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 10 18:57:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:57:59 symfony [info] {sfWebDebugLogger} Configuration 0.83 ms (5)
+Mar 10 18:57:59 symfony [info] {sfWebDebugLogger} Factories 62.75 ms (1)
+Mar 10 18:57:59 symfony [info] {sfFrontWebController} Action "bootstrap/js" does not exist
+Mar 10 18:57:59 symfony [err] {sfError404Exception} Action "bootstrap/js" does not exist.
+Mar 10 18:57:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 10 18:57:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:57:59 symfony [info] {sfWebDebugLogger} Configuration 0.79 ms (5)
+Mar 10 18:57:59 symfony [info] {sfWebDebugLogger} Factories 118.35 ms (1)
+Mar 10 18:58:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:58:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:58:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:58:03 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:58:03 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:58:03 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:58:03 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:58:03 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:58:03 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:58:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:58:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:58:03 symfony [info] {sfWebDebugLogger} Configuration 2.63 ms (9)
+Mar 10 18:58:03 symfony [info] {sfWebDebugLogger} Factories 74.50 ms (1)
+Mar 10 18:58:03 symfony [info] {sfWebDebugLogger} Action "photo/index" 40.97 ms (1)
+Mar 10 18:58:03 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:58:03 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 17.53 ms (1)
+Mar 10 18:58:03 symfony [info] {sfWebResponse} Send content (31219 o)
+Mar 10 18:58:24 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:58:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:58:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:58:24 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:58:24 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:58:24 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:58:24 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:58:24 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:58:24 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:58:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:58:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:58:24 symfony [info] {sfWebDebugLogger} Configuration 1.74 ms (9)
+Mar 10 18:58:24 symfony [info] {sfWebDebugLogger} Factories 36.44 ms (1)
+Mar 10 18:58:24 symfony [info] {sfWebDebugLogger} Action "photo/index" 43.43 ms (1)
+Mar 10 18:58:24 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:58:24 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 17.50 ms (1)
+Mar 10 18:58:24 symfony [info] {sfWebResponse} Send content (31254 o)
+Mar 10 18:58:35 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 18:58:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 18:58:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 18:58:35 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 18:58:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 18:58:35 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 18:58:35 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 18:58:35 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:58:35 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 18:58:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 18:58:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 18:58:35 symfony [info] {sfWebDebugLogger} Configuration 1.64 ms (9)
+Mar 10 18:58:35 symfony [info] {sfWebDebugLogger} Factories 36.35 ms (1)
+Mar 10 18:58:35 symfony [info] {sfWebDebugLogger} Action "photo/index" 40.50 ms (1)
+Mar 10 18:58:35 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 18:58:35 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 18.93 ms (1)
+Mar 10 18:58:35 symfony [info] {sfWebResponse} Send content (31222 o)
+Mar 10 19:01:44 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:01:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:01:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:01:44 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:01:44 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:01:44 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:01:44 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:01:44 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:01:44 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:01:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:01:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:01:44 symfony [info] {sfWebDebugLogger} Configuration 1.80 ms (9)
+Mar 10 19:01:44 symfony [info] {sfWebDebugLogger} Factories 37.91 ms (1)
+Mar 10 19:01:44 symfony [info] {sfWebDebugLogger} Action "photo/index" 43.35 ms (1)
+Mar 10 19:01:44 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:01:44 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 15.66 ms (1)
+Mar 10 19:01:44 symfony [info] {sfWebResponse} Send content (31327 o)
+Mar 10 19:03:46 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:03:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:03:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:03:46 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:03:46 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:03:46 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:03:46 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:03:46 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:03:46 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:03:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:03:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:03:46 symfony [info] {sfWebDebugLogger} Configuration 2.53 ms (9)
+Mar 10 19:03:46 symfony [info] {sfWebDebugLogger} Factories 57.92 ms (1)
+Mar 10 19:03:46 symfony [info] {sfWebDebugLogger} Action "photo/index" 39.44 ms (1)
+Mar 10 19:03:46 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:03:46 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 15.77 ms (1)
+Mar 10 19:03:46 symfony [info] {sfWebResponse} Send content (31097 o)
+Mar 10 19:13:10 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:13:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:13:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:13:10 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:13:10 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:13:10 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:13:10 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:13:10 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:13:10 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:13:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:13:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:13:10 symfony [info] {sfWebDebugLogger} Configuration 1.50 ms (9)
+Mar 10 19:13:10 symfony [info] {sfWebDebugLogger} Factories 36.45 ms (1)
+Mar 10 19:13:10 symfony [info] {sfWebDebugLogger} Action "photo/index" 40.28 ms (1)
+Mar 10 19:13:10 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:13:10 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 19.06 ms (1)
+Mar 10 19:13:11 symfony [info] {sfWebResponse} Send content (31078 o)
+Mar 10 19:13:26 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:13:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:13:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:13:26 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:13:26 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:13:26 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:13:26 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:13:26 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:13:26 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:13:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:13:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:13:26 symfony [info] {sfWebDebugLogger} Configuration 1.52 ms (9)
+Mar 10 19:13:26 symfony [info] {sfWebDebugLogger} Factories 40.58 ms (1)
+Mar 10 19:13:26 symfony [info] {sfWebDebugLogger} Action "photo/index" 58.18 ms (1)
+Mar 10 19:13:26 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:13:26 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 21.47 ms (1)
+Mar 10 19:13:26 symfony [info] {sfWebResponse} Send content (31046 o)
+Mar 10 19:13:56 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:13:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:13:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:13:57 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:13:57 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:13:57 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:13:57 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:13:57 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:13:57 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:13:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:13:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:13:57 symfony [info] {sfWebDebugLogger} Configuration 112.17 ms (9)
+Mar 10 19:13:57 symfony [info] {sfWebDebugLogger} Factories 94.78 ms (1)
+Mar 10 19:13:57 symfony [info] {sfWebDebugLogger} Action "photo/index" 39.94 ms (1)
+Mar 10 19:13:57 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:13:57 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 19.43 ms (1)
+Mar 10 19:13:57 symfony [info] {sfWebResponse} Send content (31080 o)
+Mar 10 19:14:06 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:14:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:14:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:14:06 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:14:06 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:14:06 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:14:06 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:14:06 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:14:06 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:14:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:14:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:14:06 symfony [info] {sfWebDebugLogger} Configuration 2.95 ms (9)
+Mar 10 19:14:06 symfony [info] {sfWebDebugLogger} Factories 58.27 ms (1)
+Mar 10 19:14:06 symfony [info] {sfWebDebugLogger} Action "photo/index" 35.64 ms (1)
+Mar 10 19:14:06 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:14:06 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 14.05 ms (1)
+Mar 10 19:14:06 symfony [info] {sfWebResponse} Send content (30879 o)
+Mar 10 19:14:47 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:14:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:14:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:14:47 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:14:47 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:14:47 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:14:47 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:14:47 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:14:47 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:14:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:14:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:14:47 symfony [info] {sfWebDebugLogger} Configuration 2.33 ms (9)
+Mar 10 19:14:47 symfony [info] {sfWebDebugLogger} Factories 41.60 ms (1)
+Mar 10 19:14:47 symfony [info] {sfWebDebugLogger} Action "photo/index" 38.68 ms (1)
+Mar 10 19:14:47 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:14:47 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 16.90 ms (1)
+Mar 10 19:14:47 symfony [info] {sfWebResponse} Send content (30879 o)
+Mar 10 19:14:47 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:14:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:14:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:14:47 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:14:47 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:14:47 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:14:47 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:14:47 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:14:47 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:14:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:14:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:14:47 symfony [info] {sfWebDebugLogger} Configuration 1.41 ms (9)
+Mar 10 19:14:47 symfony [info] {sfWebDebugLogger} Factories 34.47 ms (1)
+Mar 10 19:14:47 symfony [info] {sfWebDebugLogger} Action "photo/index" 38.87 ms (1)
+Mar 10 19:14:47 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:14:47 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 15.00 ms (1)
+Mar 10 19:14:47 symfony [info] {sfWebResponse} Send content (30880 o)
+Mar 10 19:14:47 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:14:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:14:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:14:47 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:14:48 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:14:48 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:14:48 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:14:48 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:14:48 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:14:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:14:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:14:48 symfony [info] {sfWebDebugLogger} Configuration 1.48 ms (9)
+Mar 10 19:14:48 symfony [info] {sfWebDebugLogger} Factories 32.84 ms (1)
+Mar 10 19:14:48 symfony [info] {sfWebDebugLogger} Action "photo/index" 36.59 ms (1)
+Mar 10 19:14:48 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:14:48 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 14.77 ms (1)
+Mar 10 19:14:48 symfony [info] {sfWebResponse} Send content (30880 o)
+Mar 10 19:14:48 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:14:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:14:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:14:48 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:14:48 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:14:48 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:14:48 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:14:48 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:14:48 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:14:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:14:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:14:48 symfony [info] {sfWebDebugLogger} Configuration 1.42 ms (9)
+Mar 10 19:14:48 symfony [info] {sfWebDebugLogger} Factories 37.37 ms (1)
+Mar 10 19:14:48 symfony [info] {sfWebDebugLogger} Action "photo/index" 34.76 ms (1)
+Mar 10 19:14:48 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:14:48 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 13.20 ms (1)
+Mar 10 19:14:48 symfony [info] {sfWebResponse} Send content (30879 o)
+Mar 10 19:15:39 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:15:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:15:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:15:39 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:15:39 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:15:39 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:15:39 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:15:39 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:15:39 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:15:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:15:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:15:39 symfony [info] {sfWebDebugLogger} Configuration 2.57 ms (9)
+Mar 10 19:15:39 symfony [info] {sfWebDebugLogger} Factories 58.99 ms (1)
+Mar 10 19:15:39 symfony [info] {sfWebDebugLogger} Action "photo/index" 41.30 ms (1)
+Mar 10 19:15:39 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:15:39 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 16.52 ms (1)
+Mar 10 19:15:39 symfony [info] {sfWebResponse} Send content (31077 o)
+Mar 10 19:15:50 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:15:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:15:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:15:50 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:15:50 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:15:50 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:15:50 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:15:50 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:15:50 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:15:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:15:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:15:50 symfony [info] {sfWebDebugLogger} Configuration 2.32 ms (9)
+Mar 10 19:15:50 symfony [info] {sfWebDebugLogger} Factories 40.17 ms (1)
+Mar 10 19:15:50 symfony [info] {sfWebDebugLogger} Action "photo/index" 34.80 ms (1)
+Mar 10 19:15:50 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:15:50 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 14.40 ms (1)
+Mar 10 19:15:51 symfony [info] {sfWebResponse} Send content (30879 o)
+Mar 10 19:15:54 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:15:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:15:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:15:54 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:15:54 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:15:54 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:15:54 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:15:54 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:15:54 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:15:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:15:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:15:54 symfony [info] {sfWebDebugLogger} Configuration 2.45 ms (9)
+Mar 10 19:15:54 symfony [info] {sfWebDebugLogger} Factories 50.06 ms (1)
+Mar 10 19:15:54 symfony [info] {sfWebDebugLogger} Action "photo/index" 35.17 ms (1)
+Mar 10 19:15:54 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:15:54 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 14.85 ms (1)
+Mar 10 19:15:54 symfony [info] {sfWebResponse} Send content (30879 o)
+Mar 10 19:18:13 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:18:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:18:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:18:13 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:18:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:18:13 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:18:13 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:18:13 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:18:13 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:18:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:18:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:18:13 symfony [info] {sfWebDebugLogger} Configuration 1.51 ms (9)
+Mar 10 19:18:13 symfony [info] {sfWebDebugLogger} Factories 34.96 ms (1)
+Mar 10 19:18:13 symfony [info] {sfWebDebugLogger} Action "photo/index" 45.23 ms (1)
+Mar 10 19:18:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:18:13 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 16.78 ms (1)
+Mar 10 19:18:13 symfony [info] {sfWebResponse} Send content (31113 o)
+Mar 10 19:18:54 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:18:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:18:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:18:54 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:18:54 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:18:54 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:18:54 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:18:54 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:18:54 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:18:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:18:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:18:54 symfony [info] {sfWebDebugLogger} Configuration 1.46 ms (9)
+Mar 10 19:18:54 symfony [info] {sfWebDebugLogger} Factories 38.87 ms (1)
+Mar 10 19:18:54 symfony [info] {sfWebDebugLogger} Action "photo/index" 43.79 ms (1)
+Mar 10 19:18:54 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:18:54 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 15.87 ms (1)
+Mar 10 19:18:54 symfony [info] {sfWebResponse} Send content (31130 o)
+Mar 10 19:18:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:18:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:18:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:18:58 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:18:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:18:58 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:18:58 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:18:58 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:18:58 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:18:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:18:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:18:58 symfony [info] {sfWebDebugLogger} Configuration 2.56 ms (9)
+Mar 10 19:18:58 symfony [info] {sfWebDebugLogger} Factories 78.86 ms (1)
+Mar 10 19:18:58 symfony [info] {sfWebDebugLogger} Action "photo/index" 40.39 ms (1)
+Mar 10 19:18:58 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:18:58 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 27.06 ms (1)
+Mar 10 19:18:58 symfony [info] {sfWebResponse} Send content (31130 o)
+Mar 10 19:18:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:18:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:18:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:18:58 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:18:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:18:58 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:18:58 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:18:58 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:18:58 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:18:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:18:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:18:58 symfony [info] {sfWebDebugLogger} Configuration 1.48 ms (9)
+Mar 10 19:18:58 symfony [info] {sfWebDebugLogger} Factories 32.37 ms (1)
+Mar 10 19:18:58 symfony [info] {sfWebDebugLogger} Action "photo/index" 56.77 ms (1)
+Mar 10 19:18:58 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:18:58 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 18.16 ms (1)
+Mar 10 19:18:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:18:58 symfony [info] {sfWebResponse} Send content (31130 o)
+Mar 10 19:18:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:18:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:18:58 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:18:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:18:58 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:18:58 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:18:58 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:18:58 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:18:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:18:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:18:58 symfony [info] {sfWebDebugLogger} Configuration 1.37 ms (9)
+Mar 10 19:18:58 symfony [info] {sfWebDebugLogger} Factories 67.98 ms (1)
+Mar 10 19:18:58 symfony [info] {sfWebDebugLogger} Action "photo/index" 53.78 ms (1)
+Mar 10 19:18:58 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:18:58 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 16.48 ms (1)
+Mar 10 19:18:58 symfony [info] {sfWebResponse} Send content (31129 o)
+Mar 10 19:18:59 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:18:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:18:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:18:59 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:18:59 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:18:59 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:18:59 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:18:59 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:18:59 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:18:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:18:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:18:59 symfony [info] {sfWebDebugLogger} Configuration 5.07 ms (9)
+Mar 10 19:18:59 symfony [info] {sfWebDebugLogger} Factories 52.04 ms (1)
+Mar 10 19:18:59 symfony [info] {sfWebDebugLogger} Action "photo/index" 37.06 ms (1)
+Mar 10 19:18:59 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:18:59 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 21.11 ms (1)
+Mar 10 19:18:59 symfony [info] {sfWebResponse} Send content (31130 o)
+Mar 10 19:18:59 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:18:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:18:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:18:59 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:18:59 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:18:59 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:18:59 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:18:59 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:18:59 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:18:59 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:18:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:18:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:18:59 symfony [info] {sfWebDebugLogger} Configuration 1.95 ms (9)
+Mar 10 19:18:59 symfony [info] {sfWebDebugLogger} Factories 60.07 ms (1)
+Mar 10 19:18:59 symfony [info] {sfWebDebugLogger} Action "photo/index" 62.45 ms (1)
+Mar 10 19:18:59 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:18:59 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 15.02 ms (1)
+Mar 10 19:18:59 symfony [info] {sfWebResponse} Send content (31129 o)
+Mar 10 19:18:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:18:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:18:59 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:18:59 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:18:59 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:18:59 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:18:59 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:18:59 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:18:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:18:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:18:59 symfony [info] {sfWebDebugLogger} Configuration 1.43 ms (9)
+Mar 10 19:18:59 symfony [info] {sfWebDebugLogger} Factories 74.68 ms (1)
+Mar 10 19:18:59 symfony [info] {sfWebDebugLogger} Action "photo/index" 35.57 ms (1)
+Mar 10 19:18:59 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:18:59 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 14.21 ms (1)
+Mar 10 19:18:59 symfony [info] {sfWebResponse} Send content (31129 o)
+Mar 10 19:19:15 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 10 19:19:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 10 19:19:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 10 19:19:15 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 10 19:19:15 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 10 19:19:15 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 10 19:19:15 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 10 19:19:15 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:19:15 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 10 19:19:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 10 19:19:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 10 19:19:15 symfony [info] {sfWebDebugLogger} Configuration 2.60 ms (9)
+Mar 10 19:19:15 symfony [info] {sfWebDebugLogger} Factories 75.20 ms (1)
+Mar 10 19:19:15 symfony [info] {sfWebDebugLogger} Action "photo/index" 38.10 ms (1)
+Mar 10 19:19:15 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 10 19:19:15 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 26.45 ms (1)
+Mar 10 19:19:15 symfony [info] {sfWebResponse} Send content (31140 o)
+Mar 11 14:43:48 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 11 14:43:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 11 14:43:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 11 14:43:49 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 11 14:43:49 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 11 14:43:49 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 11 14:43:50 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 11 14:43:50 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 11 14:43:50 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 11 14:43:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 11 14:43:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 11 14:43:50 symfony [info] {sfWebDebugLogger} Configuration 5.07 ms (9)
+Mar 11 14:43:50 symfony [info] {sfWebDebugLogger} Factories 1047.24 ms (1)
+Mar 11 14:43:50 symfony [info] {sfWebDebugLogger} Action "photo/index" 788.36 ms (1)
+Mar 11 14:43:50 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Mar 11 14:43:50 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 572.86 ms (1)
+Mar 11 14:43:50 symfony [info] {sfWebResponse} Send content (30727 o)
+Mar 11 15:16:09 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 11 15:16:09 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 11 15:16:09 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 11 15:16:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 11 15:16:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 11 15:16:09 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 11 15:16:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 11 15:16:09 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 11 15:16:10 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 11 15:16:10 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 11 15:16:10 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 11 15:16:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 11 15:16:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 11 15:16:10 symfony [info] {sfWebDebugLogger} Configuration 152.97 ms (9)
+Mar 11 15:16:10 symfony [info] {sfWebDebugLogger} Factories 103.78 ms (1)
+Mar 11 15:16:10 symfony [info] {sfWebDebugLogger} Action "photo/index" 43.03 ms (1)
+Mar 11 15:16:10 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 11 15:16:10 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 34.96 ms (1)
+Mar 11 15:16:10 symfony [info] {sfWebResponse} Send content (31266 o)
+Mar 11 15:16:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 11 15:16:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 11 15:16:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /photo/new with parameters array (  'module' => 'photo',  'action' => 'new',)
+Mar 11 15:16:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 11 15:16:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 11 15:16:16 symfony [info] {photoActions} Call "photoActions->executeNew()"
+Mar 11 15:16:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 11 15:16:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 11 15:16:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /photo/new with parameters array (  'module' => 'photo',  'action' => 'new',)
+Mar 11 15:16:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 11 15:16:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 11 15:16:40 symfony [info] {photoActions} Call "photoActions->executeNew()"
+Mar 11 15:16:40 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/newSuccess.php"
+Mar 11 15:16:40 symfony [info] {sfPartialView} Render "/home/photka/apps/frontend/modules/photo/templates/_form.php"
+Mar 11 15:16:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 11 15:16:40 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name FROM category c - ()
+Mar 11 15:16:40 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 11 15:16:40 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 11 15:16:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 11 15:16:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 11 15:16:40 symfony [info] {sfWebDebugLogger} Configuration 130.84 ms (9)
+Mar 11 15:16:40 symfony [info] {sfWebDebugLogger} Factories 98.46 ms (1)
+Mar 11 15:16:40 symfony [info] {sfWebDebugLogger} Action "photo/new" 148.54 ms (1)
+Mar 11 15:16:40 symfony [info] {sfWebDebugLogger} View "Success" for "photo/new" 115.69 ms (1)
+Mar 11 15:16:40 symfony [info] {sfWebDebugLogger} Partial "photo/_form" 79.32 ms (1)
+Mar 11 15:16:40 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 11 15:16:40 symfony [info] {sfWebResponse} Send content (48256 o)
+Mar 11 16:51:08 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 11 16:51:08 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 11 16:51:08 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 11 16:51:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 11 16:51:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 11 16:51:08 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 11 16:51:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 11 16:51:08 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 11 16:51:08 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 11 16:51:08 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 11 16:51:08 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 11 16:51:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 11 16:51:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 11 16:51:08 symfony [info] {sfWebDebugLogger} Configuration 1.88 ms (9)
+Mar 11 16:51:08 symfony [info] {sfWebDebugLogger} Factories 40.97 ms (1)
+Mar 11 16:51:08 symfony [info] {sfWebDebugLogger} Action "photo/index" 41.91 ms (1)
+Mar 11 16:51:08 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 11 16:51:08 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 13.15 ms (1)
+Mar 11 16:51:08 symfony [info] {sfWebResponse} Send content (31230 o)
+Mar 20 20:46:12 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 20:46:12 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 20:46:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Mar 20 20:46:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:46:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:46:12 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Mar 20 20:46:12 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Mar 20 20:46:12 symfony [info] {sfPHPView} Decorate content with "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 20 20:46:12 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 20 20:46:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 20:46:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 20:46:12 symfony [info] {sfWebDebugLogger} Configuration 174.19 ms (9)
+Mar 20 20:46:12 symfony [info] {sfWebDebugLogger} Factories 120.79 ms (1)
+Mar 20 20:46:12 symfony [info] {sfWebDebugLogger} Action "default/index" 0.15 ms (1)
+Mar 20 20:46:12 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 22.36 ms (1)
+Mar 20 20:46:12 symfony [info] {sfWebResponse} Send content (29295 o)
+Mar 20 20:46:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 20:46:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 20:46:16 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 20 20:46:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:46:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:46:16 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 20 20:46:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 20 20:46:16 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 20 20:46:16 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 20 20:46:16 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 20:46:16 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 20:46:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 20:46:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 20:46:16 symfony [info] {sfWebDebugLogger} Configuration 17.86 ms (10)
+Mar 20 20:46:16 symfony [info] {sfWebDebugLogger} Factories 32.20 ms (1)
+Mar 20 20:46:16 symfony [info] {sfWebDebugLogger} Action "photo/index" 32.77 ms (1)
+Mar 20 20:46:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 20 20:46:16 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 39.17 ms (1)
+Mar 20 20:46:16 symfony [info] {sfWebResponse} Send content (31719 o)
+Mar 20 20:54:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 20:54:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 20:54:11 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 20 20:54:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:54:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:54:11 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 20 20:54:11 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 20 20:54:11 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 20 20:54:11 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 20 20:54:11 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 20:54:11 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 20:54:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 20:54:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 20:54:11 symfony [info] {sfWebDebugLogger} Configuration 2.92 ms (9)
+Mar 20 20:54:11 symfony [info] {sfWebDebugLogger} Factories 67.32 ms (1)
+Mar 20 20:54:11 symfony [info] {sfWebDebugLogger} Action "photo/index" 33.53 ms (1)
+Mar 20 20:54:11 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 20 20:54:11 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 9.85 ms (1)
+Mar 20 20:54:11 symfony [info] {sfWebResponse} Send content (31746 o)
+Mar 20 20:54:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 20:54:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 20:54:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 20 20:54:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:54:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:54:14 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 20 20:54:14 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 20 20:54:14 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 20 20:54:14 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 20 20:54:14 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 20:54:14 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 20:54:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 20:54:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 20:54:14 symfony [info] {sfWebDebugLogger} Configuration 1.57 ms (9)
+Mar 20 20:54:14 symfony [info] {sfWebDebugLogger} Factories 32.45 ms (1)
+Mar 20 20:54:14 symfony [info] {sfWebDebugLogger} Action "photo/index" 32.21 ms (1)
+Mar 20 20:54:14 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 20 20:54:14 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 9.82 ms (1)
+Mar 20 20:54:14 symfony [info] {sfWebResponse} Send content (31746 o)
+Mar 20 20:54:15 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 20:54:15 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 20:54:15 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 20 20:54:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:54:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:54:15 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 20 20:54:15 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 20 20:54:15 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 20 20:54:15 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 20 20:54:15 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 20:54:15 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 20:54:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 20:54:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 20:54:15 symfony [info] {sfWebDebugLogger} Configuration 2.52 ms (9)
+Mar 20 20:54:15 symfony [info] {sfWebDebugLogger} Factories 35.13 ms (1)
+Mar 20 20:54:15 symfony [info] {sfWebDebugLogger} Action "photo/index" 33.03 ms (1)
+Mar 20 20:54:15 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 20 20:54:15 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 9.66 ms (1)
+Mar 20 20:54:15 symfony [info] {sfWebResponse} Send content (31746 o)
+Mar 20 20:54:15 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 20:54:15 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 20:54:15 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 20 20:54:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:54:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:54:15 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 20 20:54:15 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 20 20:54:15 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 20 20:54:15 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 20 20:54:15 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 20:54:15 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 20:54:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 20:54:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 20:54:15 symfony [info] {sfWebDebugLogger} Configuration 1.81 ms (9)
+Mar 20 20:54:15 symfony [info] {sfWebDebugLogger} Factories 38.25 ms (1)
+Mar 20 20:54:15 symfony [info] {sfWebDebugLogger} Action "photo/index" 35.55 ms (1)
+Mar 20 20:54:15 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 20 20:54:15 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 9.93 ms (1)
+Mar 20 20:54:15 symfony [info] {sfWebResponse} Send content (31746 o)
+Mar 20 20:54:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 20:54:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 20:54:16 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 20 20:54:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:54:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:54:16 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 20 20:54:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 20 20:54:16 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 20 20:54:16 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 20 20:54:16 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 20:54:16 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 20:54:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 20:54:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 20:54:16 symfony [info] {sfWebDebugLogger} Configuration 1.65 ms (9)
+Mar 20 20:54:16 symfony [info] {sfWebDebugLogger} Factories 32.75 ms (1)
+Mar 20 20:54:16 symfony [info] {sfWebDebugLogger} Action "photo/index" 33.74 ms (1)
+Mar 20 20:54:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 20 20:54:16 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 9.78 ms (1)
+Mar 20 20:54:16 symfony [info] {sfWebResponse} Send content (31746 o)
+Mar 20 20:54:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 20:54:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 20:54:16 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Mar 20 20:54:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:54:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:54:16 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Mar 20 20:54:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 20 20:54:16 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.token AS p__token, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+Mar 20 20:54:16 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+Mar 20 20:54:16 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 20:54:16 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 20:54:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 20:54:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 20:54:16 symfony [info] {sfWebDebugLogger} Configuration 1.86 ms (9)
+Mar 20 20:54:16 symfony [info] {sfWebDebugLogger} Factories 40.70 ms (1)
+Mar 20 20:54:16 symfony [info] {sfWebDebugLogger} Action "photo/index" 41.77 ms (1)
+Mar 20 20:54:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 20 20:54:16 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 11.91 ms (1)
+Mar 20 20:54:16 symfony [info] {sfWebResponse} Send content (31747 o)
+Mar 20 20:54:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 20:54:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 20:54:19 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Mar 20 20:54:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:54:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:54:19 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Mar 20 20:54:19 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Mar 20 20:54:19 symfony [info] {sfPHPView} Decorate content with "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 20 20:54:19 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 20 20:54:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 20:54:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 20:54:19 symfony [info] {sfWebDebugLogger} Configuration 2.52 ms (9)
+Mar 20 20:54:19 symfony [info] {sfWebDebugLogger} Factories 38.88 ms (1)
+Mar 20 20:54:19 symfony [info] {sfWebDebugLogger} Action "default/index" 0.12 ms (1)
+Mar 20 20:54:19 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 9.69 ms (1)
+Mar 20 20:54:19 symfony [info] {sfWebResponse} Send content (29290 o)
+Mar 20 20:55:37 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 20:55:37 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 20:55:37 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Mar 20 20:55:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:55:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:55:37 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Mar 20 20:55:37 symfony [info] {indexActions} Forward to action "default/module"
+Mar 20 20:55:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:55:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:55:37 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+Mar 20 20:55:37 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/moduleSuccess.php"
+Mar 20 20:55:37 symfony [info] {sfPHPView} Decorate content with "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 20 20:55:37 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 20 20:55:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 20:55:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 20:55:37 symfony [info] {sfWebDebugLogger} Configuration 50.06 ms (13)
+Mar 20 20:55:37 symfony [info] {sfWebDebugLogger} Factories 86.96 ms (1)
+Mar 20 20:55:37 symfony [info] {sfWebDebugLogger} Action "index/index" 22.77 ms (1)
+Mar 20 20:55:37 symfony [info] {sfWebDebugLogger} Action "default/module" 0.12 ms (1)
+Mar 20 20:55:37 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 19.10 ms (1)
+Mar 20 20:55:37 symfony [info] {sfWebResponse} Send content (31208 o)
+Mar 20 20:56:10 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 20:56:10 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 20:56:10 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Mar 20 20:56:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:56:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:56:10 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Mar 20 20:56:10 symfony [info] {indexActions} Forward to action "default/module"
+Mar 20 20:56:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:56:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:56:10 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+Mar 20 20:56:10 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/moduleSuccess.php"
+Mar 20 20:56:10 symfony [info] {sfPHPView} Decorate content with "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 20 20:56:10 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 20 20:56:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 20:56:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 20:56:10 symfony [info] {sfWebDebugLogger} Configuration 3.09 ms (12)
+Mar 20 20:56:10 symfony [info] {sfWebDebugLogger} Factories 42.66 ms (1)
+Mar 20 20:56:10 symfony [info] {sfWebDebugLogger} Action "index/index" 15.53 ms (1)
+Mar 20 20:56:10 symfony [info] {sfWebDebugLogger} Action "default/module" 0.12 ms (1)
+Mar 20 20:56:10 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 11.56 ms (1)
+Mar 20 20:56:10 symfony [info] {sfWebResponse} Send content (31206 o)
+Mar 20 20:56:12 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 20:56:12 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 20:56:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Mar 20 20:56:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:56:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:56:12 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Mar 20 20:56:12 symfony [info] {indexActions} Forward to action "default/module"
+Mar 20 20:56:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:56:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:56:12 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+Mar 20 20:56:12 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/moduleSuccess.php"
+Mar 20 20:56:12 symfony [info] {sfPHPView} Decorate content with "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 20 20:56:12 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 20 20:56:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 20:56:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 20:56:12 symfony [info] {sfWebDebugLogger} Configuration 3.38 ms (12)
+Mar 20 20:56:12 symfony [info] {sfWebDebugLogger} Factories 54.24 ms (1)
+Mar 20 20:56:12 symfony [info] {sfWebDebugLogger} Action "index/index" 14.61 ms (1)
+Mar 20 20:56:12 symfony [info] {sfWebDebugLogger} Action "default/module" 0.12 ms (1)
+Mar 20 20:56:12 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 10.59 ms (1)
+Mar 20 20:56:12 symfony [info] {sfWebResponse} Send content (31205 o)
+Mar 20 20:56:12 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 20:56:12 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 20:56:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Mar 20 20:56:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:56:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:56:12 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Mar 20 20:56:12 symfony [info] {indexActions} Forward to action "default/module"
+Mar 20 20:56:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:56:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:56:12 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+Mar 20 20:56:12 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/moduleSuccess.php"
+Mar 20 20:56:12 symfony [info] {sfPHPView} Decorate content with "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 20 20:56:12 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 20 20:56:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 20:56:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 20:56:12 symfony [info] {sfWebDebugLogger} Configuration 2.03 ms (12)
+Mar 20 20:56:12 symfony [info] {sfWebDebugLogger} Factories 36.48 ms (1)
+Mar 20 20:56:12 symfony [info] {sfWebDebugLogger} Action "index/index" 14.72 ms (1)
+Mar 20 20:56:12 symfony [info] {sfWebDebugLogger} Action "default/module" 0.12 ms (1)
+Mar 20 20:56:12 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 10.97 ms (1)
+Mar 20 20:56:12 symfony [info] {sfWebResponse} Send content (31206 o)
+Mar 20 20:56:12 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 20:56:12 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 20:56:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Mar 20 20:56:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:56:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:56:12 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Mar 20 20:56:12 symfony [info] {indexActions} Forward to action "default/module"
+Mar 20 20:56:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:56:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:56:12 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+Mar 20 20:56:12 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/moduleSuccess.php"
+Mar 20 20:56:12 symfony [info] {sfPHPView} Decorate content with "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 20 20:56:12 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 20 20:56:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 20:56:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 20:56:12 symfony [info] {sfWebDebugLogger} Configuration 2.07 ms (12)
+Mar 20 20:56:12 symfony [info] {sfWebDebugLogger} Factories 38.31 ms (1)
+Mar 20 20:56:12 symfony [info] {sfWebDebugLogger} Action "index/index" 15.35 ms (1)
+Mar 20 20:56:12 symfony [info] {sfWebDebugLogger} Action "default/module" 0.12 ms (1)
+Mar 20 20:56:12 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 11.45 ms (1)
+Mar 20 20:56:12 symfony [info] {sfWebResponse} Send content (31207 o)
+Mar 20 20:56:12 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 20:56:12 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 20:56:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Mar 20 20:56:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:56:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:56:12 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Mar 20 20:56:12 symfony [info] {indexActions} Forward to action "default/module"
+Mar 20 20:56:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:56:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:56:12 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+Mar 20 20:56:12 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/moduleSuccess.php"
+Mar 20 20:56:12 symfony [info] {sfPHPView} Decorate content with "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 20 20:56:12 symfony [info] {sfPHPView} Render "/home/photka/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 20 20:56:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 20:56:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 20:56:12 symfony [info] {sfWebDebugLogger} Configuration 2.07 ms (12)
+Mar 20 20:56:12 symfony [info] {sfWebDebugLogger} Factories 32.30 ms (1)
+Mar 20 20:56:12 symfony [info] {sfWebDebugLogger} Action "index/index" 21.30 ms (1)
+Mar 20 20:56:12 symfony [info] {sfWebDebugLogger} Action "default/module" 0.12 ms (1)
+Mar 20 20:56:12 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 17.74 ms (1)
+Mar 20 20:56:12 symfony [info] {sfWebResponse} Send content (31207 o)
+Mar 20 20:56:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 20:56:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 20:56:38 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Mar 20 20:56:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:56:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:56:38 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Mar 20 20:56:38 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Mar 20 20:56:38 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 20:56:38 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 20:56:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 20:56:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 20:56:38 symfony [info] {sfWebDebugLogger} Configuration 12.67 ms (10)
+Mar 20 20:56:38 symfony [info] {sfWebDebugLogger} Factories 54.15 ms (1)
+Mar 20 20:56:38 symfony [info] {sfWebDebugLogger} Action "index/index" 0.13 ms (1)
+Mar 20 20:56:38 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 19.82 ms (1)
+Mar 20 20:56:38 symfony [info] {sfWebResponse} Send content (27556 o)
+Mar 20 20:58:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 20:58:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 20:58:23 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Mar 20 20:58:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:58:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:58:23 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Mar 20 20:58:23 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Mar 20 20:58:23 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 20:58:23 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 20:58:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 20:58:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 20:58:23 symfony [info] {sfWebDebugLogger} Configuration 2.80 ms (9)
+Mar 20 20:58:23 symfony [info] {sfWebDebugLogger} Factories 36.73 ms (1)
+Mar 20 20:58:23 symfony [info] {sfWebDebugLogger} Action "index/index" 0.12 ms (1)
+Mar 20 20:58:23 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 8.96 ms (1)
+Mar 20 20:58:23 symfony [info] {sfWebResponse} Send content (27552 o)
+Mar 20 20:59:58 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 20:59:58 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 20:59:58 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Mar 20 20:59:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 20:59:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 20:59:58 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Mar 20 20:59:58 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Mar 20 20:59:58 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 20:59:58 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 20:59:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 20:59:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 20:59:58 symfony [info] {sfWebDebugLogger} Configuration 2.03 ms (9)
+Mar 20 20:59:58 symfony [info] {sfWebDebugLogger} Factories 31.76 ms (1)
+Mar 20 20:59:58 symfony [info] {sfWebDebugLogger} Action "index/index" 0.12 ms (1)
+Mar 20 20:59:58 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 9.05 ms (1)
+Mar 20 20:59:58 symfony [info] {sfWebResponse} Send content (27574 o)
+Mar 20 21:06:50 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 21:06:50 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 21:06:50 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Mar 20 21:06:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 21:06:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 21:06:50 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Mar 20 21:06:50 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Mar 20 21:06:50 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 21:06:50 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 21:06:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 21:06:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 21:06:50 symfony [info] {sfWebDebugLogger} Configuration 2.76 ms (9)
+Mar 20 21:06:50 symfony [info] {sfWebDebugLogger} Factories 83.50 ms (1)
+Mar 20 21:06:50 symfony [info] {sfWebDebugLogger} Action "index/index" 0.12 ms (1)
+Mar 20 21:06:50 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 9.03 ms (1)
+Mar 20 21:06:50 symfony [info] {sfWebResponse} Send content (27913 o)
+Mar 20 21:07:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 21:07:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 21:07:23 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Mar 20 21:07:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 21:07:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 21:07:23 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Mar 20 21:07:23 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Mar 20 21:07:23 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 21:07:23 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 21:07:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 21:07:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 21:07:23 symfony [info] {sfWebDebugLogger} Configuration 3.04 ms (9)
+Mar 20 21:07:23 symfony [info] {sfWebDebugLogger} Factories 77.54 ms (1)
+Mar 20 21:07:23 symfony [info] {sfWebDebugLogger} Action "index/index" 0.12 ms (1)
+Mar 20 21:07:23 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 10.24 ms (1)
+Mar 20 21:07:23 symfony [info] {sfWebResponse} Send content (27918 o)
+Mar 20 21:07:25 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 21:07:25 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 21:07:25 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Mar 20 21:07:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 21:07:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 21:07:25 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Mar 20 21:07:25 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Mar 20 21:07:25 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 21:07:25 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 21:07:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 21:07:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 21:07:25 symfony [info] {sfWebDebugLogger} Configuration 2.98 ms (9)
+Mar 20 21:07:25 symfony [info] {sfWebDebugLogger} Factories 80.13 ms (1)
+Mar 20 21:07:25 symfony [info] {sfWebDebugLogger} Action "index/index" 0.12 ms (1)
+Mar 20 21:07:25 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 24.43 ms (1)
+Mar 20 21:07:25 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 21:07:25 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 21:07:25 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Mar 20 21:07:25 symfony [info] {sfWebResponse} Send content (27919 o)
+Mar 20 21:07:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 21:07:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 21:07:25 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Mar 20 21:07:25 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Mar 20 21:07:25 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 21:07:25 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 21:07:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 21:07:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 21:07:25 symfony [info] {sfWebDebugLogger} Configuration 1.53 ms (9)
+Mar 20 21:07:25 symfony [info] {sfWebDebugLogger} Factories 45.93 ms (1)
+Mar 20 21:07:25 symfony [info] {sfWebDebugLogger} Action "index/index" 0.12 ms (1)
+Mar 20 21:07:25 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 10.61 ms (1)
+Mar 20 21:07:25 symfony [info] {sfWebResponse} Send content (27919 o)
+Mar 20 21:08:20 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 21:08:20 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 21:08:20 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Mar 20 21:08:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 21:08:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 21:08:21 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Mar 20 21:08:21 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Mar 20 21:08:21 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 21:08:21 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 21:08:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 21:08:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 21:08:21 symfony [info] {sfWebDebugLogger} Configuration 2.81 ms (9)
+Mar 20 21:08:21 symfony [info] {sfWebDebugLogger} Factories 68.86 ms (1)
+Mar 20 21:08:21 symfony [info] {sfWebDebugLogger} Action "index/index" 0.12 ms (1)
+Mar 20 21:08:21 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 9.82 ms (1)
+Mar 20 21:08:21 symfony [info] {sfWebResponse} Send content (27925 o)
+Mar 20 21:09:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Mar 20 21:09:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Mar 20 21:09:14 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Mar 20 21:09:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 21:09:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 21:09:14 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Mar 20 21:09:14 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Mar 20 21:09:14 symfony [info] {sfPHPView} Decorate content with "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 21:09:14 symfony [info] {sfPHPView} Render "/home/photka/apps/frontend/templates/layout.php"
+Mar 20 21:09:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 20 21:09:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 21:09:14 symfony [info] {sfWebDebugLogger} Configuration 2.58 ms (9)
+Mar 20 21:09:14 symfony [info] {sfWebDebugLogger} Factories 48.56 ms (1)
+Mar 20 21:09:14 symfony [info] {sfWebDebugLogger} Action "index/index" 0.12 ms (1)
+Mar 20 21:09:14 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 9.00 ms (1)
+Mar 20 21:09:14 symfony [info] {sfWebResponse} Send content (28003 o)

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.9.2" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>sfThemeGeneratorPlugin</name>
+ <channel>pear.symfony-project.com</channel>
+ <summary>bshaffer</summary>
+ <description>bshaffer</description>
+ <lead>
+  <name>bshaffer</name>
+  <user>bshaffer</user>
+  <email>bshafs@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-04-13</date>
+ <time>02:31:58</time>
+ <version>
+  <release>1.0.1</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.symfony-project.org/license">MIT license</license>
+ <notes>
+-
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="781943e59d60db9d0bd4a3bb4ae44618" name="config/sfThemeGeneratorPluginConfiguration.class.php" role="data"/>
+   <file md5sum="00a775c38e91a42e27d2423e2d0a01c6" name="lib/command/sfThemeCommandManager.class.php" role="data"/>
+   <file md5sum="ed37c1c57e513978ab78ad6723df4836" name="lib/config/sfAdminThemeConfiguration.class.php" role="data"/>
+   <file md5sum="b7df449e5edacc7a81aca7f6afca3f22" name="lib/config/sfDefaultThemeConfiguration.class.php" role="data"/>
+   <file md5sum="2fb59b13862eb660f6f23a0feeea12ad" name="lib/config/sfThemeConfiguration.class.php" role="data"/>
+   <file md5sum="ebd76e1e6e7ffc65bd285291ef790226" name="lib/generator/sfOldAndBustedGeneratorConfiguration.class.php" role="data"/>
+   <file md5sum="ca0374cb4a61941a970b69ef9d7ab34c" name="lib/generator/sfThemeGenerator.class.php" role="data"/>
+   <file md5sum="1c9b1af4c5410fe10e9ed853221038f6" name="lib/generator/sfThemeGeneratorConfiguration.class.php" role="data"/>
+   <file md5sum="7bb019939eb3e57199d947971c6fae51" name="lib/task/sfThemeBaseTask.class.php" role="data"/>
+   <file md5sum="67566a1fc597d17d113fa98ea3875916" name="lib/task/sfThemeCopyCacheTask.class.php" role="data"/>
+   <file md5sum="417e5e0c4d549c0aa02f8461dcea07ac" name="lib/task/sfThemeGenerateTask.class.php" role="data"/>
+   <file md5sum="3b00045bee14798ecbe8f806e0f29ee8" name="lib/test/sfTestFunctionalTheme.class.php" role="data"/>
+   <file md5sum="72b7aa884ea401edec515b514b3a0f70" name="lib/test/sfThemeGenerateLimeTest.class.php" role="data"/>
+   <file md5sum="e54ac8bad61dd8141354678ce0ee5b62" name="lib/test/sfThemeGenerateTaskCleanup.class.php" role="data"/>
+   <file md5sum="18f8e4f4b76437486e7efe1eb798372e" name="lib/util/sfThemeTokenParser.class.php" role="data"/>
+   <file md5sum="c59ec4a958dde3c429d2515a15d80f88" name=".gitignore" role="data"/>
+   <file md5sum="2fe86daaab4fb56bc1afde1018ad9468" name="LICENSE" role="data"/>
+   <file md5sum="5fefd87236d72fe34eeb926da447339c" name="README" role="data"/>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.4</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.1</min>
+   </pearinstaller>
+   
+  </required>
+ </dependencies>
+ <phprelease/>
+ <changelog/>
+</package>
