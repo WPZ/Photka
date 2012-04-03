@@ -30,6 +30,12 @@ all:
     # Output escaping settings
     escaping_strategy:      true
     escaping_method:        ESC_SPECIALCHARS
-    enabled_modules:      [default, sfGuardGroup, sfGuardUser, sfGuardPermission]
+    enabled_modules:      [default, sfGuardGroup, sfGuardUser, sfGuardPermission, sfGuardAuth]
     # Enable the database manager
     use_database:           true
+    
+    login_module:           sfGuardAuth
+    login_action:           signin
+        
+    secure_module:          sfGuardAuth
+    secure_action:          secure

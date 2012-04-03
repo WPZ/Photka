@@ -1,3 +1,4 @@
-/cache
-/log
-/nbproject/private/*
+photka/cache
+photka/config/databases.yml
+photka/log
+photka/nbproject/private/*
