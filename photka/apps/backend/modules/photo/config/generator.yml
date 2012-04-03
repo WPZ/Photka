@@ -15,7 +15,7 @@ generator:
       actions: ~
       fields:  ~
       list:    
-        display: [name, category_id, description, location, path, is_public]
+        display: [name, category, description, location, path, is_public]
       filter:  
         display: [name, category_id, description, is_public]
       form:    

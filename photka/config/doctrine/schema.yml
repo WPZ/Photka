@@ -9,7 +9,6 @@ Photo:
     name:         { type: string(255) }
     location:     { type: string(255), notnull: true }
     description:  { type: string(4000), notnull: true }
-    token:        { type: string(255), notnull: true, unique: true }
     is_public:    { type: boolean, notnull: true, default: 0 }
     path:        { type: string(255), notnull: true }
   relations:

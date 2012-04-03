@@ -9,7 +9,6 @@
  * @property string $name
  * @property string $location
  * @property string $description
- * @property string $token
  * @property boolean $is_public
  * @property string $path
  * @property Category $Category
@@ -18,7 +17,6 @@
  * @method string   getName()        Returns the current record's "name" value
  * @method string   getLocation()    Returns the current record's "location" value
  * @method string   getDescription() Returns the current record's "description" value
- * @method string   getToken()       Returns the current record's "token" value
  * @method boolean  getIsPublic()    Returns the current record's "is_public" value
  * @method string   getPath()        Returns the current record's "path" value
  * @method Category getCategory()    Returns the current record's "Category" value
@@ -26,7 +24,6 @@
  * @method Photo    setName()        Sets the current record's "name" value
  * @method Photo    setLocation()    Sets the current record's "location" value
  * @method Photo    setDescription() Sets the current record's "description" value
- * @method Photo    setToken()       Sets the current record's "token" value
  * @method Photo    setIsPublic()    Sets the current record's "is_public" value
  * @method Photo    setPath()        Sets the current record's "path" value
  * @method Photo    setCategory()    Sets the current record's "Category" value
@@ -58,12 +55,6 @@ abstract class BasePhoto extends sfDoctrineRecord
              'type' => 'string',
              'notnull' => true,
              'length' => 4000,
-             ));
-        $this->hasColumn('token', 'string', 255, array(
-             'type' => 'string',
-             'notnull' => true,
-             'unique' => true,
-             'length' => 255,
              ));
         $this->hasColumn('is_public', 'boolean', null, array(
              'type' => 'boolean',

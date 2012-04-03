@@ -20,7 +20,6 @@ abstract class BasePhotoForm extends BaseFormDoctrine
       'name'        => new sfWidgetFormInputText(),
       'location'    => new sfWidgetFormInputText(),
       'description' => new sfWidgetFormTextarea(),
-      'token'       => new sfWidgetFormInputText(),
       'is_public'   => new sfWidgetFormInputCheckbox(),
       'path'        => new sfWidgetFormInputText(),
       'created_at'  => new sfWidgetFormDateTime(),
@@ -33,16 +32,11 @@ abstract class BasePhotoForm extends BaseFormDoctrine
       'name'        => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'location'    => new sfValidatorString(array('max_length' => 255)),
       'description' => new sfValidatorString(array('max_length' => 4000)),
-      'token'       => new sfValidatorString(array('max_length' => 255)),
       'is_public'   => new sfValidatorBoolean(array('required' => false)),
       'path'        => new sfValidatorString(array('max_length' => 255)),
       'created_at'  => new sfValidatorDateTime(),
       'updated_at'  => new sfValidatorDateTime(),
     ));
-
-    $this->validatorSchema->setPostValidator(
-      new sfValidatorDoctrineUnique(array('model' => 'Photo', 'column' => array('token')))
-    );
 
     $this->widgetSchema->setNameFormat('photo[%s]');
 

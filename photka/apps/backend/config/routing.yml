@@ -39,7 +39,7 @@ photo:
 
 homepage:
   url:   /
-  param: { module: user, action: index }
+  param: { module: photo, action: index }
 
 # generic rules
 # please, remove them by adding more specific rules
