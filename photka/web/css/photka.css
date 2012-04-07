@@ -1,0 +1,19 @@
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.sidebar-nav {
+  padding: 9px 0;
+}
+
+#btn-register {
+  margin: 8px 0 0 4px !important;
+  display: block;
+}
+
+
+
+#login-bar {
+  margin-top: 4px;
+}

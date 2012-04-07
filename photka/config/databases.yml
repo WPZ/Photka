@@ -6,5 +6,5 @@ all:
     class: sfDoctrineDatabase
     param:
       dsn:      mysql:host=localhost;dbname=photka
-      username: photka  
-      password: photka
+      username: wpz 
+      password: photka007
