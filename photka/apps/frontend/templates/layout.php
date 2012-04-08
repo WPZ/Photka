@@ -102,7 +102,15 @@
     -->
 
       <div class="container">   
+        
         <?php echo $sf_content ?>
+        
+        <hr> 
+   
+        <footer> 
+          <p>Photka, Uniwersytet Jagielloński 2012</p> 
+        </footer> 
+        
       </div>
       
     </body>

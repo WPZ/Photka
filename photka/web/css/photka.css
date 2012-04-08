@@ -1,5 +1,5 @@
 body {
-  padding-top: 60px;
+  padding-top: 75px;
   padding-bottom: 40px;
 }
 
@@ -45,4 +45,32 @@ body {
   height: 28px;
   width: 30px;
   margin-top: 0px;
+}
+
+.hero-unit {
+  background-image:url('../img/hero_bg.jpg');
+  position: relative;
+  height: 408px;
+}
+
+.hero-unit, .hero-unit h1, .hero-unit h2 {
+  color: #fff;
+  text-shadow: 0px 0px 2px #000,
+               0px 0px 4px #000,
+               0px 0px 8px #000,
+               0px 0px 12px #000,
+               0px 0px 20px #000,
+               0px 0px 30px #000,
+               0px 0px 50px #000,
+               0px 0px 80px #000; 
+}
+
+.hero-unit p {
+  position: absolute;
+  padding-bottom: 60px;
+  bottom: 0;
+}
+
+.container > hr {
+  margin-top: 35px;
 }
