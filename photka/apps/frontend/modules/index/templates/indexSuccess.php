@@ -1,1 +1,1 @@
-<h1>tu być indexs</h1>
+<h1>Strona główna</h1>

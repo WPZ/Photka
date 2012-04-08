@@ -6,7 +6,7 @@ default:
     content-type: text/html
 
   metas:
-    #title:        symfony project
+    title:        Photka
     #description:  symfony project
     #keywords:     symfony, project
     #language:     en
@@ -14,7 +14,7 @@ default:
 
   stylesheets:    [bootstrap.css, photka.css, bootstrap-responsive.css]
 
-  javascripts:    []
+  javascripts:    [jquery-1.7.1.min.js, bootstrap.min.js]
 
   has_layout:     true
   layout:         layout

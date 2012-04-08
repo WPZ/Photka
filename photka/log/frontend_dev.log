@@ -1600,3 +1600,115 @@ Apr 08 00:17:26 symfony [info] {sfWebDebugLogger} Factories 22.97 ms (1)
 Apr 08 00:17:26 symfony [info] {sfWebDebugLogger} Action "index/index" 0.08 ms (1)
 Apr 08 00:17:26 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 5.87 ms (1)
 Apr 08 00:17:26 symfony [info] {sfWebResponse} Send content (28842 o)
+Apr 08 01:52:46 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 08 01:52:46 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 08 01:52:46 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Apr 08 01:52:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 08 01:52:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 08 01:52:46 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Apr 08 01:52:46 symfony [info] {sfPHPView} Render "/home/ciembor/Photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Apr 08 01:52:46 symfony [info] {sfPHPView} Decorate content with "/home/ciembor/Photka/photka/apps/frontend/templates/layout.php"
+Apr 08 01:52:46 symfony [info] {sfPHPView} Render "/home/ciembor/Photka/photka/apps/frontend/templates/layout.php"
+Apr 08 01:52:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 08 01:52:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 08 01:52:46 symfony [info] {sfWebDebugLogger} Configuration 8.46 ms (10)
+Apr 08 01:52:46 symfony [info] {sfWebDebugLogger} Factories 20.99 ms (1)
+Apr 08 01:52:46 symfony [info] {sfWebDebugLogger} Action "index/index" 0.08 ms (1)
+Apr 08 01:52:46 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 15.68 ms (1)
+Apr 08 01:52:46 symfony [info] {sfWebResponse} Send content (30121 o)
+Apr 08 01:58:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 08 01:58:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 08 01:58:23 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Apr 08 01:58:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 08 01:58:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 08 01:58:23 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Apr 08 01:58:23 symfony [info] {sfPHPView} Render "/home/ciembor/Photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Apr 08 01:58:23 symfony [info] {sfPHPView} Decorate content with "/home/ciembor/Photka/photka/apps/frontend/templates/layout.php"
+Apr 08 01:58:23 symfony [info] {sfPHPView} Render "/home/ciembor/Photka/photka/apps/frontend/templates/layout.php"
+Apr 08 01:58:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 08 01:58:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 08 01:58:23 symfony [info] {sfWebDebugLogger} Configuration 1.05 ms (9)
+Apr 08 01:58:23 symfony [info] {sfWebDebugLogger} Factories 20.07 ms (1)
+Apr 08 01:58:23 symfony [info] {sfWebDebugLogger} Action "index/index" 0.08 ms (1)
+Apr 08 01:58:23 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 5.90 ms (1)
+Apr 08 01:58:23 symfony [info] {sfWebResponse} Send content (30117 o)
+Apr 08 01:58:25 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 08 01:58:25 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 08 01:58:25 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Apr 08 01:58:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 08 01:58:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 08 01:58:25 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Apr 08 01:58:25 symfony [info] {sfPHPView} Render "/home/ciembor/Photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Apr 08 01:58:25 symfony [info] {sfPHPView} Decorate content with "/home/ciembor/Photka/photka/apps/frontend/templates/layout.php"
+Apr 08 01:58:25 symfony [info] {sfPHPView} Render "/home/ciembor/Photka/photka/apps/frontend/templates/layout.php"
+Apr 08 01:58:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 08 01:58:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 08 01:58:25 symfony [info] {sfWebDebugLogger} Configuration 1.17 ms (9)
+Apr 08 01:58:25 symfony [info] {sfWebDebugLogger} Factories 20.73 ms (1)
+Apr 08 01:58:25 symfony [info] {sfWebDebugLogger} Action "index/index" 0.08 ms (1)
+Apr 08 01:58:25 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 5.96 ms (1)
+Apr 08 01:58:25 symfony [info] {sfWebResponse} Send content (30117 o)
+Apr 08 01:58:26 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 08 01:58:26 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 08 01:58:26 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Apr 08 01:58:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 08 01:58:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 08 01:58:26 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Apr 08 01:58:26 symfony [info] {sfPHPView} Render "/home/ciembor/Photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Apr 08 01:58:26 symfony [info] {sfPHPView} Decorate content with "/home/ciembor/Photka/photka/apps/frontend/templates/layout.php"
+Apr 08 01:58:26 symfony [info] {sfPHPView} Render "/home/ciembor/Photka/photka/apps/frontend/templates/layout.php"
+Apr 08 01:58:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 08 01:58:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 08 01:58:26 symfony [info] {sfWebDebugLogger} Configuration 1.26 ms (9)
+Apr 08 01:58:26 symfony [info] {sfWebDebugLogger} Factories 19.79 ms (1)
+Apr 08 01:58:26 symfony [info] {sfWebDebugLogger} Action "index/index" 0.09 ms (1)
+Apr 08 01:58:26 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 5.94 ms (1)
+Apr 08 01:58:26 symfony [info] {sfWebResponse} Send content (30117 o)
+Apr 08 01:58:28 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 08 01:58:28 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 08 01:58:28 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Apr 08 01:58:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 08 01:58:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 08 01:58:28 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Apr 08 01:58:28 symfony [info] {sfPHPView} Render "/home/ciembor/Photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Apr 08 01:58:28 symfony [info] {sfPHPView} Decorate content with "/home/ciembor/Photka/photka/apps/frontend/templates/layout.php"
+Apr 08 01:58:28 symfony [info] {sfPHPView} Render "/home/ciembor/Photka/photka/apps/frontend/templates/layout.php"
+Apr 08 01:58:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 08 01:58:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 08 01:58:28 symfony [info] {sfWebDebugLogger} Configuration 1.70 ms (9)
+Apr 08 01:58:28 symfony [info] {sfWebDebugLogger} Factories 29.80 ms (1)
+Apr 08 01:58:28 symfony [info] {sfWebDebugLogger} Action "index/index" 0.19 ms (1)
+Apr 08 01:58:28 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 8.82 ms (1)
+Apr 08 01:58:28 symfony [info] {sfWebResponse} Send content (30117 o)
+Apr 08 01:58:29 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 08 01:58:29 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 08 01:58:29 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Apr 08 01:58:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 08 01:58:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 08 01:58:29 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Apr 08 01:58:29 symfony [info] {sfPHPView} Render "/home/ciembor/Photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Apr 08 01:58:29 symfony [info] {sfPHPView} Decorate content with "/home/ciembor/Photka/photka/apps/frontend/templates/layout.php"
+Apr 08 01:58:29 symfony [info] {sfPHPView} Render "/home/ciembor/Photka/photka/apps/frontend/templates/layout.php"
+Apr 08 01:58:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 08 01:58:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 08 01:58:29 symfony [info] {sfWebDebugLogger} Configuration 1.37 ms (9)
+Apr 08 01:58:29 symfony [info] {sfWebDebugLogger} Factories 22.25 ms (1)
+Apr 08 01:58:29 symfony [info] {sfWebDebugLogger} Action "index/index" 0.13 ms (1)
+Apr 08 01:58:29 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 8.79 ms (1)
+Apr 08 01:58:29 symfony [info] {sfWebResponse} Send content (30117 o)
+Apr 08 01:58:31 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 08 01:58:31 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 08 01:58:31 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Apr 08 01:58:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 08 01:58:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 08 01:58:31 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Apr 08 01:58:31 symfony [info] {sfPHPView} Render "/home/ciembor/Photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Apr 08 01:58:31 symfony [info] {sfPHPView} Decorate content with "/home/ciembor/Photka/photka/apps/frontend/templates/layout.php"
+Apr 08 01:58:31 symfony [info] {sfPHPView} Render "/home/ciembor/Photka/photka/apps/frontend/templates/layout.php"
+Apr 08 01:58:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 08 01:58:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 08 01:58:31 symfony [info] {sfWebDebugLogger} Configuration 1.68 ms (9)
+Apr 08 01:58:31 symfony [info] {sfWebDebugLogger} Factories 29.65 ms (1)
+Apr 08 01:58:31 symfony [info] {sfWebDebugLogger} Action "index/index" 0.13 ms (1)
+Apr 08 01:58:31 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 8.41 ms (1)
+Apr 08 01:58:31 symfony [info] {sfWebResponse} Send content (30117 o)

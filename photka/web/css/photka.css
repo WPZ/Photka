@@ -7,13 +7,42 @@ body {
   padding: 9px 0;
 }
 
-#btn-register {
-  margin: 8px 0 0 4px !important;
-  display: block;
+#panel-right {
+  width: 420px;
+  margin-top: 1px;
 }
 
+#search-bar {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  float: right;
+}
 
+.modal {
+  width: 400px;
+  margin-left: -200px;
+}
 
-#login-bar {
-  margin-top: 4px;
+.modal form {
+  margin: 0px;
+}
+
+.modal form p {
+  margin: 0;
+  padding: 0;
+}
+
+.modal form p input {
+  margin: 6px 6px 6px 0px;
+}
+
+.modal .help-inline {
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+.input-append button.add-on {
+  height: 28px;
+  width: 30px;
+  margin-top: 0px;
 }
