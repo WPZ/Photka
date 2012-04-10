@@ -34,5 +34,6 @@ all:
 
     # Enable the database manager
     use_database:           true
+    i18n:                   on
     
-    enabled_modules:      [default, sfGuardAuth]
+    enabled_modules:      [default, sfGuardAuth, sfApply]

@@ -18,7 +18,8 @@
           <h3>Logowanie</h3>
         </div>
         <div class="modal-body">
-          <form>
+            <?php  include_component('sfApply', 'login') ?>
+<!--          <form>
             <p class="control-group">
               <input type="text" placeholder="login" class="input-medium"/> 
               <span class="help-inline"></span>
@@ -27,7 +28,7 @@
               <input type="password" placeholder="hasło" class="input-medium"/>
               <span class="help-inline">błędne hasło</span>
             </p>
-          </form>
+          </form>-->
         </div>
         <div class="modal-footer">
           <a href="#" class="btn btn-warning">zaloguj</a>
@@ -41,7 +42,7 @@
         </div>
         <div class="modal-body">
           <form>
-            <p class="control-group">
+<!--            <p class="control-group">
               <input type="text" placeholder="login" class="input-medium"/> 
               <span class="help-inline">maksimum 12 znaków</span>
             </p>
@@ -52,7 +53,7 @@
             <p class="control-group error">
               <input type="password" placeholder="powtórz hasło" class="input-medium"/> 
               <span class="help-inline">hasła muszą być zgodne</span>
-            </p>
+            </p>-->
           </form>
         </div>
         <div class="modal-footer">

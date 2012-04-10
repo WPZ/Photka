@@ -1,0 +1,33 @@
+Photo:
+  Photo_1:
+    Category: Category_2
+    name: japonce
+    location: japan
+    description: film
+    is_public: true
+    path: /uploads/images/photos/wallpaper-967977.jpg
+    created_at: '2012-04-03 22:52:09'
+    updated_at: '2012-04-03 22:52:09'
+  Photo_2:
+    Category: Category_2
+    name: dragon
+    location: 'pulpit :P'
+    description: 'brak opisu'
+    is_public: true
+    path: /uploads/images/photos/t_03.jpg
+    created_at: '2012-04-03 22:53:49'
+    updated_at: '2012-04-03 22:53:50'
+  Photo_3:
+    Category: Category_1
+    name: test
+    location: poland
+    description: test
+    is_public: true
+    path: /uploads/images/photos/mmcqt.jpg
+    created_at: '2012-04-03 22:59:50'
+    updated_at: '2012-04-03 22:59:50'
+Category:
+  Category_2:
+    name: rysunki
+  Category_1:
+    name: zdjecia

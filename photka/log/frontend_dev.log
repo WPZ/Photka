@@ -1712,3 +1712,434 @@ Apr 08 01:58:31 symfony [info] {sfWebDebugLogger} Factories 29.65 ms (1)
 Apr 08 01:58:31 symfony [info] {sfWebDebugLogger} Action "index/index" 0.13 ms (1)
 Apr 08 01:58:31 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 8.41 ms (1)
 Apr 08 01:58:31 symfony [info] {sfWebResponse} Send content (30117 o)
+Apr 10 22:17:04 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 10 22:17:04 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 10 22:17:04 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Apr 10 22:17:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 10 22:17:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 10 22:17:04 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Apr 10 22:17:04 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Apr 10 22:17:04 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 10 22:17:04 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 10 22:17:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 10 22:17:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 10 22:17:04 symfony [info] {sfWebDebugLogger} Configuration 136.54 ms (9)
+Apr 10 22:17:04 symfony [info] {sfWebDebugLogger} Factories 95.81 ms (1)
+Apr 10 22:17:04 symfony [info] {sfWebDebugLogger} Action "index/index" 0.12 ms (1)
+Apr 10 22:17:04 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 14.35 ms (1)
+Apr 10 22:17:04 symfony [info] {sfWebResponse} Send content (31888 o)
+Apr 10 23:30:57 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 10 23:30:57 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 10 23:30:57 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+kwi 10 23:30:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+kwi 10 23:30:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+kwi 10 23:30:57 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+kwi 10 23:30:57 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+kwi 10 23:30:57 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+kwi 10 23:30:57 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+kwi 10 23:30:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+kwi 10 23:30:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+kwi 10 23:30:57 symfony [info] {sfWebDebugLogger} Configuration 106.98 ms (10)
+kwi 10 23:30:57 symfony [info] {sfWebDebugLogger} Factories 139.90 ms (1)
+kwi 10 23:30:57 symfony [info] {sfWebDebugLogger} Action "index/index" 0.13 ms (1)
+kwi 10 23:30:57 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 15.16 ms (1)
+kwi 10 23:30:57 symfony [info] {sfWebResponse} Send content (32615 o)
+Apr 10 23:37:53 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 10 23:37:53 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 10 23:37:53 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+kwi 10 23:37:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+kwi 10 23:37:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+kwi 10 23:37:55 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+kwi 10 23:37:55 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+kwi 10 23:37:55 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+kwi 10 23:37:55 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+kwi 10 23:37:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+kwi 10 23:37:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+kwi 10 23:37:55 symfony [info] {sfWebDebugLogger} Configuration 2.44 ms (9)
+kwi 10 23:37:55 symfony [info] {sfWebDebugLogger} Factories 2306.74 ms (1)
+kwi 10 23:37:55 symfony [info] {sfWebDebugLogger} Action "index/index" 0.12 ms (1)
+kwi 10 23:37:55 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 723.38 ms (1)
+kwi 10 23:37:55 symfony [info] {sfWebResponse} Send content (32583 o)
+Apr 10 23:42:32 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 10 23:42:32 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 10 23:42:32 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+kwi 10 23:42:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+kwi 10 23:42:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+kwi 10 23:42:32 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+kwi 10 23:42:32 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+kwi 10 23:42:32 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+kwi 10 23:42:32 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+kwi 10 23:42:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+kwi 10 23:42:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+kwi 10 23:42:32 symfony [info] {sfWebDebugLogger} Configuration 2.17 ms (9)
+kwi 10 23:42:32 symfony [info] {sfWebDebugLogger} Factories 43.60 ms (1)
+kwi 10 23:42:32 symfony [info] {sfWebDebugLogger} Action "index/index" 0.13 ms (1)
+kwi 10 23:42:32 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 12.30 ms (1)
+kwi 10 23:42:32 symfony [info] {sfWebResponse} Send content (32636 o)
+Apr 10 23:42:57 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 10 23:42:57 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 10 23:42:57 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+kwi 10 23:42:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+kwi 10 23:42:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+kwi 10 23:42:58 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+kwi 10 23:42:58 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+kwi 10 23:42:58 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+kwi 10 23:42:58 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+kwi 10 23:42:58 symfony [info] {main} Call "sfApply->executeLogin()"
+kwi 10 23:42:58 symfony [info] {sfPartialView} Render "/home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/_login.php"
+kwi 10 23:42:58 symfony [info] {sfPartialView} Render "/home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/_logoutPrompt.php"
+kwi 10 23:42:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+kwi 10 23:42:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+kwi 10 23:42:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+kwi 10 23:42:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+kwi 10 23:42:58 symfony [info] {sfWebDebugLogger} Configuration 56.23 ms (12)
+kwi 10 23:42:58 symfony [info] {sfWebDebugLogger} Factories 43.87 ms (1)
+kwi 10 23:42:58 symfony [info] {sfWebDebugLogger} Action "index/index" 0.13 ms (1)
+kwi 10 23:42:58 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 383.97 ms (1)
+kwi 10 23:42:58 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 0.10 ms (1)
+kwi 10 23:42:58 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 201.53 ms (1)
+kwi 10 23:42:58 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 192.31 ms (1)
+kwi 10 23:42:58 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+kwi 10 23:42:58 symfony [info] {sfWebResponse} Send content (39903 o)
+Apr 10 23:43:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 10 23:43:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 10 23:43:06 symfony [info] {sfPatternRouting} Match route "sf_guard_signout" (/guard/logout) for /guard/logout with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signout',)
+kwi 10 23:43:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+kwi 10 23:43:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+kwi 10 23:43:06 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignout()"
+kwi 10 23:43:06 symfony [info] {myUser} User is not authenticated
+kwi 10 23:43:06 symfony [info] {sfFrontWebController} Redirect to "http://photka.localhost/frontend_dev.php"
+kwi 10 23:43:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+kwi 10 23:43:06 symfony [info] {sfWebResponse} Send header "Location: http://photka.localhost/frontend_dev.php"
+kwi 10 23:43:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+kwi 10 23:43:06 symfony [info] {sfWebResponse} Send cookie "sfRemember": ""
+kwi 10 23:43:06 symfony [info] {sfWebDebugLogger} Configuration 34.14 ms (9)
+kwi 10 23:43:06 symfony [info] {sfWebDebugLogger} Factories 41.36 ms (1)
+kwi 10 23:43:06 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signout" 1.48 ms (1)
+kwi 10 23:43:06 symfony [info] {sfWebResponse} Send content (111 o)
+Apr 10 23:43:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 10 23:43:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 10 23:43:06 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+kwi 10 23:43:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+kwi 10 23:43:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+kwi 10 23:43:06 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+kwi 10 23:43:06 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+kwi 10 23:43:06 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+kwi 10 23:43:06 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+kwi 10 23:43:06 symfony [info] {main} Call "sfApply->executeLogin()"
+kwi 10 23:43:06 symfony [info] {sfPartialView} Render "/home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/_login.php"
+kwi 10 23:43:06 symfony [info] {sfPartialView} Render "/home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/_loginPrompt.php"
+kwi 10 23:43:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+kwi 10 23:43:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+kwi 10 23:43:06 symfony [info] {sfWebDebugLogger} Configuration 2.40 ms (11)
+kwi 10 23:43:06 symfony [info] {sfWebDebugLogger} Factories 52.58 ms (1)
+kwi 10 23:43:06 symfony [info] {sfWebDebugLogger} Action "index/index" 0.16 ms (1)
+kwi 10 23:43:06 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 369.04 ms (1)
+kwi 10 23:43:06 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 336.34 ms (1)
+kwi 10 23:43:06 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 14.43 ms (1)
+kwi 10 23:43:06 symfony [info] {sfWebDebugLogger} Partial "sfApply/_loginPrompt" 12.51 ms (1)
+kwi 10 23:43:06 symfony [info] {sfWebResponse} Send content (38901 o)
+Apr 10 23:43:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 10 23:43:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 10 23:43:17 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/guard/login) for /guard/login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+kwi 10 23:43:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+kwi 10 23:43:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+kwi 10 23:43:17 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+kwi 10 23:43:17 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+kwi 10 23:43:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.username = ? AND s.is_active = ?) - (admin, 1)
+kwi 10 23:43:17 symfony [info] {myUser} User is authenticated
+kwi 10 23:43:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.name AS s__name, s.description AS s__description, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s2.user_id AS s2__user_id, s2.permission_id AS s2__permission_id, s2.created_at AS s2__created_at, s2.updated_at AS s2__updated_at FROM sf_guard_permission s LEFT JOIN sf_guard_user_permission s2 ON s.id = s2.permission_id WHERE (s2.user_id IN (?)) - (1)
+kwi 10 23:43:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.name AS s__name, s.description AS s__description, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s2.user_id AS s2__user_id, s2.group_id AS s2__group_id, s2.created_at AS s2__created_at, s2.updated_at AS s2__updated_at FROM sf_guard_group s LEFT JOIN sf_guard_user_group s2 ON s.id = s2.group_id WHERE (s2.user_id IN (?)) - (1)
+kwi 10 23:43:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.name AS s__name, s.description AS s__description, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s2.group_id AS s2__group_id, s2.permission_id AS s2__permission_id, s2.created_at AS s2__created_at, s2.updated_at AS s2__updated_at FROM sf_guard_permission s LEFT JOIN sf_guard_group_permission s2 ON s.id = s2.permission_id WHERE (s2.group_id IN (?)) - (1)
+kwi 10 23:43:17 symfony [info] {myUser} Add credential(s) "admin"
+kwi 10 23:43:17 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE sf_guard_user SET last_login = ? WHERE id = ? - (2012-04-10 23:43:17, 1)
+kwi 10 23:43:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.id = ?) - (1)
+kwi 10 23:43:17 symfony [info] {sfFrontWebController} Redirect to "http://photka.localhost/frontend_dev.php"
+kwi 10 23:43:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+kwi 10 23:43:17 symfony [info] {sfWebResponse} Send header "Location: http://photka.localhost/frontend_dev.php"
+kwi 10 23:43:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+kwi 10 23:43:17 symfony [info] {sfWebDebugLogger} Configuration 1.56 ms (8)
+kwi 10 23:43:17 symfony [info] {sfWebDebugLogger} Factories 40.96 ms (1)
+kwi 10 23:43:17 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 445.70 ms (1)
+kwi 10 23:43:17 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.09 ms (7)
+kwi 10 23:43:17 symfony [info] {sfWebResponse} Send content (111 o)
+Apr 10 23:43:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 10 23:43:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 10 23:43:17 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+kwi 10 23:43:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+kwi 10 23:43:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+kwi 10 23:43:17 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+kwi 10 23:43:17 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+kwi 10 23:43:17 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+kwi 10 23:43:17 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+kwi 10 23:43:17 symfony [info] {main} Call "sfApply->executeLogin()"
+kwi 10 23:43:17 symfony [info] {sfPartialView} Render "/home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/_login.php"
+kwi 10 23:43:17 symfony [info] {sfPartialView} Render "/home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/_logoutPrompt.php"
+kwi 10 23:43:17 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+kwi 10 23:43:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+kwi 10 23:43:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+kwi 10 23:43:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+kwi 10 23:43:17 symfony [info] {sfWebDebugLogger} Configuration 3.33 ms (11)
+kwi 10 23:43:17 symfony [info] {sfWebDebugLogger} Factories 92.88 ms (1)
+kwi 10 23:43:17 symfony [info] {sfWebDebugLogger} Action "index/index" 0.13 ms (1)
+kwi 10 23:43:17 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 61.12 ms (1)
+kwi 10 23:43:17 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 0.04 ms (1)
+kwi 10 23:43:17 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 47.13 ms (1)
+kwi 10 23:43:17 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 45.75 ms (1)
+kwi 10 23:43:17 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+kwi 10 23:43:17 symfony [info] {sfWebResponse} Send content (39834 o)
+Apr 10 23:43:48 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 10 23:43:48 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 10 23:43:48 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+kwi 10 23:43:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+kwi 10 23:43:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+kwi 10 23:43:48 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+kwi 10 23:43:48 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+kwi 10 23:43:48 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+kwi 10 23:43:48 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+kwi 10 23:43:48 symfony [info] {main} Call "sfApply->executeLogin()"
+kwi 10 23:43:48 symfony [info] {sfPartialView} Render "/home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/_login.php"
+kwi 10 23:43:48 symfony [info] {sfPartialView} Render "/home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/_logoutPrompt.php"
+kwi 10 23:43:48 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+kwi 10 23:43:48 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+kwi 10 23:43:48 symfony [err] {sfConfigurationException} The component does not exist: "sfApply", "apply".
+kwi 10 23:43:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+kwi 10 23:43:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+kwi 10 23:43:49 symfony [info] {sfWebDebugLogger} Configuration 2.84 ms (12)
+kwi 10 23:43:49 symfony [info] {sfWebDebugLogger} Factories 43.32 ms (1)
+kwi 10 23:43:49 symfony [info] {sfWebDebugLogger} Action "index/index" 0.13 ms (1)
+kwi 10 23:43:49 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 136.24 ms (1)
+kwi 10 23:43:49 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 0.04 ms (1)
+kwi 10 23:43:49 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 50.58 ms (1)
+kwi 10 23:43:49 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 49.18 ms (1)
+kwi 10 23:43:49 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Apr 10 23:44:08 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 10 23:44:08 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 10 23:44:08 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+kwi 10 23:44:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+kwi 10 23:44:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+kwi 10 23:44:08 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+kwi 10 23:44:08 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+kwi 10 23:44:08 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+kwi 10 23:44:08 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+kwi 10 23:44:08 symfony [info] {main} Call "sfApply->executeLogin()"
+kwi 10 23:44:08 symfony [info] {sfPartialView} Render "/home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/_login.php"
+kwi 10 23:44:08 symfony [info] {sfPartialView} Render "/home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/_logoutPrompt.php"
+kwi 10 23:44:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+kwi 10 23:44:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+kwi 10 23:44:08 symfony [err] {sfConfigurationException} The component does not exist: "sfApply", "register".
+kwi 10 23:44:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+kwi 10 23:44:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+kwi 10 23:44:08 symfony [info] {sfWebDebugLogger} Configuration 3.51 ms (12)
+kwi 10 23:44:08 symfony [info] {sfWebDebugLogger} Factories 67.89 ms (1)
+kwi 10 23:44:08 symfony [info] {sfWebDebugLogger} Action "index/index" 0.13 ms (1)
+kwi 10 23:44:08 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 105.86 ms (1)
+kwi 10 23:44:08 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 0.04 ms (1)
+kwi 10 23:44:08 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 47.70 ms (1)
+kwi 10 23:44:08 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 46.25 ms (1)
+kwi 10 23:44:08 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Apr 11 00:11:46 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 11 00:11:46 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 11 00:11:46 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Apr 11 00:11:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 00:11:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 00:11:46 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Apr 11 00:11:46 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Apr 11 00:11:46 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 11 00:11:46 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 11 00:11:46 symfony [info] {main} Call "sfApply->executeLogin()"
+Apr 11 00:11:46 symfony [info] {sfPartialView} Render "/home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/_login.php"
+Apr 11 00:11:46 symfony [info] {sfPartialView} Render "/home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/_loginPrompt.php"
+Apr 11 00:11:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 11 00:11:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 00:11:46 symfony [info] {sfWebDebugLogger} Configuration 2.51 ms (11)
+Apr 11 00:11:46 symfony [info] {sfWebDebugLogger} Factories 38.85 ms (1)
+Apr 11 00:11:46 symfony [info] {sfWebDebugLogger} Action "index/index" 0.15 ms (1)
+Apr 11 00:11:46 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 27.83 ms (1)
+Apr 11 00:11:46 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 7.95 ms (1)
+Apr 11 00:11:46 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 5.88 ms (1)
+Apr 11 00:11:46 symfony [info] {sfWebDebugLogger} Partial "sfApply/_loginPrompt" 4.27 ms (1)
+Apr 11 00:11:46 symfony [info] {sfWebResponse} Send content (38457 o)
+Apr 11 00:12:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 11 00:12:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 11 00:12:16 symfony [info] {sfPatternRouting} Match route "apply" (/apply) for /apply with parameters array (  'module' => 'sfApply',  'action' => 'apply',)
+Apr 11 00:12:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 00:12:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 00:12:16 symfony [info] {sfApplyActions} Call "sfApplyActions->executeApply()"
+Apr 11 00:12:16 symfony [info] {sfPHPView} Render "/home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/applySuccess.php"
+Apr 11 00:12:16 symfony [info] {main} Set slot "sf_apply_login"
+Apr 11 00:12:16 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 11 00:12:16 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 11 00:12:16 symfony [info] {main} Call "sfApply->executeLogin()"
+Apr 11 00:12:16 symfony [info] {sfPartialView} Render "/home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/_login.php"
+Apr 11 00:12:16 symfony [info] {main} Get slot "sf_apply_login"
+Apr 11 00:12:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 11 00:12:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 00:12:16 symfony [info] {sfWebDebugLogger} Configuration 49.95 ms (12)
+Apr 11 00:12:16 symfony [info] {sfWebDebugLogger} Factories 42.80 ms (1)
+Apr 11 00:12:16 symfony [info] {sfWebDebugLogger} Action "sfApply/apply" 112.39 ms (1)
+Apr 11 00:12:16 symfony [info] {sfWebDebugLogger} View "Success" for "sfApply/apply" 70.00 ms (1)
+Apr 11 00:12:16 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 3.67 ms (1)
+Apr 11 00:12:16 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 1.43 ms (1)
+Apr 11 00:12:16 symfony [info] {sfWebResponse} Send content (39338 o)
+Apr 11 00:12:50 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 11 00:12:50 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 11 00:12:50 symfony [info] {sfPatternRouting} Match route "apply" (/apply) for /apply with parameters array (  'module' => 'sfApply',  'action' => 'apply',)
+Apr 11 00:12:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 00:12:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 00:12:50 symfony [info] {sfApplyActions} Call "sfApplyActions->executeApply()"
+Apr 11 00:12:50 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 11 00:12:50 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.username = ?) - (test)
+Apr 11 00:12:50 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.user_id AS s__user_id, s.email AS s__email, s.fullname AS s__fullname, s.validate AS s__validate FROM sf_guard_user_profile s WHERE (s.email = ?) - (hojnyyy@gmail.com)
+Apr 11 00:12:50 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO sf_guard_user (algorithm, is_active, is_super_admin, username, salt, password) VALUES (?, ?, ?, ?, ?, ?) - (sha1, 0, 0, test, 6e5fc1a33b3f1d726e17892ccef64a52, 8aebffb8aef57beaed60ac48638a48e8508e9c81)
+Apr 11 00:12:50 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO sf_guard_user_profile (email, fullname, user_id, validate) VALUES (?, ?, ?, ?) - (hojnyyy@gmail.com, test test, 2, n4f9606c88b14fa6d)
+Apr 11 00:12:50 symfony [err] {Doctrine_Connection_Exception} Couldn't get last insert identifier.
+Apr 11 00:12:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Apr 11 00:12:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 00:12:51 symfony [info] {sfWebDebugLogger} Configuration 2.97 ms (8)
+Apr 11 00:12:51 symfony [info] {sfWebDebugLogger} Factories 95.04 ms (1)
+Apr 11 00:12:51 symfony [info] {sfWebDebugLogger} Action "sfApply/apply" 349.46 ms (1)
+Apr 11 00:12:51 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (5)
+Apr 11 00:13:01 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 11 00:13:01 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 11 00:13:01 symfony [info] {sfPatternRouting} Match route "apply" (/apply) for /apply with parameters array (  'module' => 'sfApply',  'action' => 'apply',)
+Apr 11 00:13:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 00:13:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 00:13:01 symfony [info] {sfApplyActions} Call "sfApplyActions->executeApply()"
+Apr 11 00:13:01 symfony [info] {sfPHPView} Render "/home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/applySuccess.php"
+Apr 11 00:13:01 symfony [info] {main} Set slot "sf_apply_login"
+Apr 11 00:13:01 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 11 00:13:01 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 11 00:13:01 symfony [info] {main} Call "sfApply->executeLogin()"
+Apr 11 00:13:01 symfony [info] {sfPartialView} Render "/home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/_login.php"
+Apr 11 00:13:01 symfony [info] {main} Get slot "sf_apply_login"
+Apr 11 00:13:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 11 00:13:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 00:13:01 symfony [info] {sfWebDebugLogger} Configuration 2.54 ms (11)
+Apr 11 00:13:01 symfony [info] {sfWebDebugLogger} Factories 44.10 ms (1)
+Apr 11 00:13:01 symfony [info] {sfWebDebugLogger} Action "sfApply/apply" 33.39 ms (1)
+Apr 11 00:13:01 symfony [info] {sfWebDebugLogger} View "Success" for "sfApply/apply" 24.02 ms (1)
+Apr 11 00:13:01 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 2.87 ms (1)
+Apr 11 00:13:01 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 1.03 ms (1)
+Apr 11 00:13:01 symfony [info] {sfWebResponse} Send content (39335 o)
+Apr 11 00:13:44 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 11 00:13:44 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 11 00:13:44 symfony [info] {sfPatternRouting} Match route "apply" (/apply) for /apply with parameters array (  'module' => 'sfApply',  'action' => 'apply',)
+Apr 11 00:13:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 00:13:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 00:13:44 symfony [info] {sfApplyActions} Call "sfApplyActions->executeApply()"
+Apr 11 00:13:44 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 11 00:13:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.username = ?) - (test)
+Apr 11 00:13:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.user_id AS s__user_id, s.email AS s__email, s.fullname AS s__fullname, s.validate AS s__validate FROM sf_guard_user_profile s WHERE (s.email = ?) - (hojnyyy@gmail.com)
+Apr 11 00:13:44 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO sf_guard_user (algorithm, is_active, is_super_admin, username, salt, password) VALUES (?, ?, ?, ?, ?, ?) - (sha1, 0, 0, test, fe4fe9128746e52d0042cc39b0befea5, e589f99592ce0b551a1ccd61484c03d9ea87b188)
+Apr 11 00:13:44 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO sf_guard_user_profile (email, fullname, user_id, validate) VALUES (?, ?, ?, ?) - (hojnyyy@gmail.com, tester testowy, 3, nfbb5690ebdccbdcd)
+Apr 11 00:13:44 symfony [err] {Doctrine_Connection_Exception} Couldn't get last insert identifier.
+Apr 11 00:13:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Apr 11 00:13:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 00:13:44 symfony [info] {sfWebDebugLogger} Configuration 2.62 ms (8)
+Apr 11 00:13:44 symfony [info] {sfWebDebugLogger} Factories 53.30 ms (1)
+Apr 11 00:13:44 symfony [info] {sfWebDebugLogger} Action "sfApply/apply" 240.27 ms (1)
+Apr 11 00:13:44 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (5)
+Apr 11 00:22:36 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 11 00:22:36 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 11 00:22:36 symfony [info] {sfPatternRouting} Match route "apply" (/apply) for /apply with parameters array (  'module' => 'sfApply',  'action' => 'apply',)
+Apr 11 00:22:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 00:22:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 00:22:36 symfony [info] {sfApplyActions} Call "sfApplyActions->executeApply()"
+Apr 11 00:22:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 11 00:22:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.username = ?) - (test)
+Apr 11 00:22:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.user_id AS s__user_id, s.email AS s__email, s.fullname AS s__fullname, s.validate AS s__validate FROM sf_guard_user_profile s WHERE (s.email = ?) - (hojnyyy@gmail.com)
+Apr 11 00:22:37 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO sf_guard_user (algorithm, is_active, is_super_admin, username, salt, password) VALUES (?, ?, ?, ?, ?, ?) - (sha1, 0, 0, test, e3ab2140bd2867d38578b396a14c363c, 552826dfbb04a1ff372fc80bfdd44b7b0e964649)
+Apr 11 00:22:37 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO sf_guard_user_profile (email, fullname, user_id, validate) VALUES (?, ?, ?, ?) - (hojnyyy@gmail.com, tester testowy, 4, nc6da69668cbcd67b)
+Apr 11 00:22:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/lib/BasesfApplyActions.class.php on line 350 (include_once(Zend/Loader/Autoloader.php): failed to open stream: No such file or directory)
+Apr 11 00:22:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/lib/BasesfApplyActions.class.php on line 350 (include_once(): Failed opening 'Zend/Loader/Autoloader.php' for inclusion (include_path='/home/photka/photka/lib/vendor:.:/usr/share/php:/usr/share/pear'))
+Apr 11 00:26:30 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 11 00:26:30 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 11 00:26:30 symfony [info] {sfPatternRouting} Match route "apply" (/apply) for /apply with parameters array (  'module' => 'sfApply',  'action' => 'apply',)
+Apr 11 00:26:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 00:26:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 00:26:30 symfony [info] {sfApplyActions} Call "sfApplyActions->executeApply()"
+Apr 11 00:26:30 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 11 00:26:30 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.username = ?) - (test)
+Apr 11 00:26:31 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.user_id AS s__user_id, s.email AS s__email, s.fullname AS s__fullname, s.validate AS s__validate FROM sf_guard_user_profile s WHERE (s.email = ?) - (hojnyyy@gmail.com)
+Apr 11 00:26:31 symfony [info] {sfPHPView} Render "/home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/applySuccess.php"
+Apr 11 00:26:31 symfony [info] {main} Set slot "sf_apply_login"
+Apr 11 00:26:31 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 11 00:26:31 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 11 00:26:31 symfony [info] {main} Call "sfApply->executeLogin()"
+Apr 11 00:26:31 symfony [info] {sfPartialView} Render "/home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/_login.php"
+Apr 11 00:26:31 symfony [info] {main} Get slot "sf_apply_login"
+Apr 11 00:26:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 11 00:26:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 00:26:31 symfony [info] {sfWebDebugLogger} Configuration 2.01 ms (11)
+Apr 11 00:26:31 symfony [info] {sfWebDebugLogger} Factories 39.99 ms (1)
+Apr 11 00:26:31 symfony [info] {sfWebDebugLogger} Action "sfApply/apply" 69.17 ms (1)
+Apr 11 00:26:31 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (3)
+Apr 11 00:26:31 symfony [info] {sfWebDebugLogger} View "Success" for "sfApply/apply" 24.24 ms (1)
+Apr 11 00:26:31 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 2.81 ms (1)
+Apr 11 00:26:31 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 1.06 ms (1)
+Apr 11 00:26:31 symfony [info] {sfWebResponse} Send content (46255 o)
+Apr 11 00:27:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 11 00:27:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 11 00:27:06 symfony [info] {sfPatternRouting} Match route "apply" (/apply) for /apply with parameters array (  'module' => 'sfApply',  'action' => 'apply',)
+Apr 11 00:27:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 00:27:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 00:27:06 symfony [info] {sfApplyActions} Call "sfApplyActions->executeApply()"
+Apr 11 00:27:06 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 11 00:27:06 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.username = ?) - (test)
+Apr 11 00:27:06 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.user_id AS s__user_id, s.email AS s__email, s.fullname AS s__fullname, s.validate AS s__validate FROM sf_guard_user_profile s WHERE (s.email = ?) - (hojnyyy@gmail.com)
+Apr 11 00:27:06 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO sf_guard_user (algorithm, is_active, is_super_admin, username, salt, password) VALUES (?, ?, ?, ?, ?, ?) - (sha1, 0, 0, test, 3f8ab777afb0a2cb806ee856c518bc2b, 76158f9295c887229bdc07a3bb101708973dda3a)
+Apr 11 00:27:06 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO sf_guard_user_profile (email, fullname, user_id, validate) VALUES (?, ?, ?, ?) - (hojnyyy@gmail.com, tester testowy, 5, n2ee3d91c5f046208)
+Apr 11 00:27:06 symfony [warning] {sfWebDebugLogger}  Warning at /home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/lib/BasesfApplyActions.class.php on line 350 (include_once(Zend/Loader/Autoloader.php): failed to open stream: No such file or directory)
+Apr 11 00:27:06 symfony [warning] {sfWebDebugLogger}  Warning at /home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/lib/BasesfApplyActions.class.php on line 350 (include_once(): Failed opening 'Zend/Loader/Autoloader.php' for inclusion (include_path='/home/photka/photka/lib/vendor:.:/usr/share/php:/usr/share/pear'))
+Apr 11 00:29:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 11 00:29:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 11 00:29:23 symfony [info] {sfPatternRouting} Match route "apply" (/apply) for /apply with parameters array (  'module' => 'sfApply',  'action' => 'apply',)
+Apr 11 00:29:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 00:29:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 00:29:23 symfony [info] {sfApplyActions} Call "sfApplyActions->executeApply()"
+Apr 11 00:29:23 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 11 00:29:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.username = ?) - (test)
+Apr 11 00:29:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.user_id AS s__user_id, s.email AS s__email, s.fullname AS s__fullname, s.validate AS s__validate FROM sf_guard_user_profile s WHERE (s.email = ?) - (hojnyyy@gmail.com)
+Apr 11 00:29:23 symfony [info] {sfPHPView} Render "/home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/applySuccess.php"
+Apr 11 00:29:23 symfony [info] {main} Set slot "sf_apply_login"
+Apr 11 00:29:23 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 11 00:29:23 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 11 00:29:23 symfony [info] {main} Call "sfApply->executeLogin()"
+Apr 11 00:29:23 symfony [info] {sfPartialView} Render "/home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/_login.php"
+Apr 11 00:29:23 symfony [info] {main} Get slot "sf_apply_login"
+Apr 11 00:29:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 11 00:29:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 00:29:23 symfony [info] {sfWebDebugLogger} Configuration 2.46 ms (11)
+Apr 11 00:29:23 symfony [info] {sfWebDebugLogger} Factories 43.13 ms (1)
+Apr 11 00:29:23 symfony [info] {sfWebDebugLogger} Action "sfApply/apply" 76.07 ms (1)
+Apr 11 00:29:23 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (3)
+Apr 11 00:29:23 symfony [info] {sfWebDebugLogger} View "Success" for "sfApply/apply" 24.70 ms (1)
+Apr 11 00:29:23 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 2.85 ms (1)
+Apr 11 00:29:23 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 1.00 ms (1)
+Apr 11 00:29:23 symfony [info] {sfWebResponse} Send content (46255 o)
+Apr 11 00:29:48 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 11 00:29:48 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 11 00:29:48 symfony [info] {sfPatternRouting} Match route "apply" (/apply) for /apply with parameters array (  'module' => 'sfApply',  'action' => 'apply',)
+Apr 11 00:29:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 00:29:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 00:29:48 symfony [info] {sfApplyActions} Call "sfApplyActions->executeApply()"
+Apr 11 00:29:48 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 11 00:29:48 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.username = ?) - (test)
+Apr 11 00:29:48 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.user_id AS s__user_id, s.email AS s__email, s.fullname AS s__fullname, s.validate AS s__validate FROM sf_guard_user_profile s WHERE (s.email = ?) - (hojnyyy@gmail.com)
+Apr 11 00:29:48 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO sf_guard_user (algorithm, is_active, is_super_admin, username, salt, password) VALUES (?, ?, ?, ?, ?, ?) - (sha1, 0, 0, test, 28270565ae39163b3d6dd1247cda23bb, 3f6abb9d2e26d1df7ce737b8d21b80869080deb2)
+Apr 11 00:29:48 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO sf_guard_user_profile (email, fullname, user_id, validate) VALUES (?, ?, ?, ?) - (hojnyyy@gmail.com, tester testowy, 6, ne11696094c49ff7a)
+Apr 11 00:29:48 symfony [warning] {sfWebDebugLogger}  Warning at /home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/lib/BasesfApplyActions.class.php on line 350 (include_once(Zend/Loader/Autoloader.php): failed to open stream: No such file or directory)
+Apr 11 00:29:48 symfony [warning] {sfWebDebugLogger}  Warning at /home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/lib/BasesfApplyActions.class.php on line 350 (include_once(): Failed opening 'Zend/Loader/Autoloader.php' for inclusion (include_path='/home/photka/photka/lib/vendor:.:/usr/share/php:/usr/share/pear'))
+Apr 11 00:35:03 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 11 00:35:03 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 11 00:35:03 symfony [info] {sfPatternRouting} Match route "apply" (/apply) for /apply with parameters array (  'module' => 'sfApply',  'action' => 'apply',)
+Apr 11 00:35:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 00:35:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 00:35:03 symfony [info] {sfApplyActions} Call "sfApplyActions->executeApply()"
+Apr 11 00:35:03 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 11 00:35:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.username = ?) - (test)
+Apr 11 00:35:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.user_id AS s__user_id, s.email AS s__email, s.fullname AS s__fullname, s.validate AS s__validate FROM sf_guard_user_profile s WHERE (s.email = ?) - (hojnyyy@gmail.com)
+Apr 11 00:35:03 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO sf_guard_user (algorithm, is_active, is_super_admin, username, salt, password) VALUES (?, ?, ?, ?, ?, ?) - (sha1, 0, 0, test, 6f8b712b29197977f21501927798fec1, 48d11976f5259e3d6f81556a92432e5b1d5440c9)
+Apr 11 00:35:03 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO sf_guard_user_profile (email, fullname, user_id, validate) VALUES (?, ?, ?, ?) - (hojnyyy@gmail.com, tester testowy, 7, nb098e7b72d65eb41)
+Apr 11 00:35:03 symfony [err] {sfWebDebugLogger}  Error at /home/photka/photka/lib/vendor/Zend/Mail/Transport/Smtp.php on line 118 (Argument 2 passed to Zend_Mail_Transport_Smtp::__construct() must be an array, null given, called in /home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/lib/BasesfApplyActions.class.php on line 336 and defined)

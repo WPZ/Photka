@@ -1,6 +1,30 @@
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
+apply:
+  url:  /apply
+  param: { module: sfApply, action: apply }
+
+reset:
+  url: /reset
+  param: { module: sfApply, action: reset }
+
+resetRequest:
+  url: /reset-request
+  param: { module: sfApply, action: resetRequest }
+
+validate:
+  url: /confirm/:validate
+  param: { module: sfApply, action: confirm }
+
+settings:
+  url: /settings
+  param: { module: sfApply, action: settings }
+
+sf_guard_password:
+  url: /reset-request
+  param: { module: sfApply, action: resetRequest }
+  
 # default rules
 homepage:
   url:   /
