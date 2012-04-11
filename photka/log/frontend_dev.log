@@ -2143,3 +2143,25 @@ Apr 11 00:35:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT 
 Apr 11 00:35:03 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO sf_guard_user (algorithm, is_active, is_super_admin, username, salt, password) VALUES (?, ?, ?, ?, ?, ?) - (sha1, 0, 0, test, 6f8b712b29197977f21501927798fec1, 48d11976f5259e3d6f81556a92432e5b1d5440c9)
 Apr 11 00:35:03 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO sf_guard_user_profile (email, fullname, user_id, validate) VALUES (?, ?, ?, ?) - (hojnyyy@gmail.com, tester testowy, 7, nb098e7b72d65eb41)
 Apr 11 00:35:03 symfony [err] {sfWebDebugLogger}  Error at /home/photka/photka/lib/vendor/Zend/Mail/Transport/Smtp.php on line 118 (Argument 2 passed to Zend_Mail_Transport_Smtp::__construct() must be an array, null given, called in /home/photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/lib/BasesfApplyActions.class.php on line 336 and defined)
+Apr 11 04:59:39 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 11 04:59:39 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 11 04:59:39 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Apr 11 04:59:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 04:59:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 04:59:39 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Apr 11 04:59:39 symfony [info] {sfPHPView} Render "/home/wpz/Photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Apr 11 04:59:39 symfony [info] {sfPHPView} Decorate content with "/home/wpz/Photka/photka/apps/frontend/templates/layout.php"
+Apr 11 04:59:39 symfony [info] {sfPHPView} Render "/home/wpz/Photka/photka/apps/frontend/templates/layout.php"
+Apr 11 04:59:39 symfony [info] {main} Call "sfApply->executeLogin()"
+Apr 11 04:59:39 symfony [info] {sfPartialView} Render "/home/wpz/Photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/_login.php"
+Apr 11 04:59:39 symfony [info] {sfPartialView} Render "/home/wpz/Photka/photka/plugins/sfDoctrineApplyPlugin/modules/sfApply/templates/_loginPrompt.php"
+Apr 11 04:59:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 11 04:59:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 04:59:39 symfony [info] {sfWebDebugLogger} Configuration 109.74 ms (11)
+Apr 11 04:59:39 symfony [info] {sfWebDebugLogger} Factories 81.53 ms (1)
+Apr 11 04:59:39 symfony [info] {sfWebDebugLogger} Action "index/index" 0.13 ms (1)
+Apr 11 04:59:39 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 43.18 ms (1)
+Apr 11 04:59:39 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 4.51 ms (1)
+Apr 11 04:59:39 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 3.25 ms (1)
+Apr 11 04:59:39 symfony [info] {sfWebDebugLogger} Partial "sfApply/_loginPrompt" 2.42 ms (1)
+Apr 11 04:59:39 symfony [info] {sfWebResponse} Send content (39446 o)
