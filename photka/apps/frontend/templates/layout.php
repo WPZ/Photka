@@ -9,6 +9,14 @@
         <?php use_javascript('jquery-1.7.1.min.js'); ?>
         <?php use_javascript('bootstrap.min.js'); ?>
         <?php include_javascripts() ?>
+        <script type="text/javascript">
+            $(function () {
+                var form = $('#sf_guard_signin');
+                $('#login').click(function(){
+                    form.submit();
+                })
+            })
+        </script>    
     </head>
     <body>
         
@@ -17,22 +25,12 @@
           <a class="close" data-dismiss="modal">×</a>
           <h3>Logowanie</h3>
         </div>
-        <div class="modal-body">
-            <?php  include_component('sfApply', 'login') ?>
-<!--          <form>
-            <p class="control-group">
-              <input type="text" placeholder="login" class="input-medium"/> 
-              <span class="help-inline"></span>
-            </p>
-            <p class="control-group error">
-              <input type="password" placeholder="hasło" class="input-medium"/>
-              <span class="help-inline">błędne hasło</span>
-            </p>
-          </form>-->
+       <div class="modal-body">
+            <?php  include_component('sfApply', 'login'); ?>
         </div>
         <div class="modal-footer">
-          <a href="#" class="btn btn-warning">zaloguj</a>
-        </div>
+          <a href="#" id="login" class="btn btn-warning">zaloguj</a>
+      </div>
       </div>
         
       <div class="modal hide" id="rejestracja">
@@ -69,13 +67,13 @@
               <span class="icon-bar"></span> 
               <span class="icon-bar"></span> 
             </a> 
-            <a class="brand" href="#">Photka</a> 
+            <a class="brand" href="<?php echo url_for('homepage') ;?>">Photka</a> 
             <div class="nav-collapse"> 
               <ul class="nav"> 
                 <li class="active"><a href="./index.php">Strona główna</a></li> 
               </ul>
               <div id="panel-right" class="pull-right">
-                  <a id="btn-register" class="btn btn-info" data-toggle="modal" href="#rejestracja">zarejestruj</a>
+                  <a id="btn-register" class="btn btn-info" href="<?php echo url_for('sfApply/apply'); ?>">zarejestruj</a>
                   <a id="btn-login" class="btn btn-warning" data-toggle="modal" href="#logowanie">zaloguj</a>
                   <form id="search-bar" class="form-horizontal">
                     <div class='input-append'>

@@ -34,8 +34,8 @@ abstract class BasesfGuardUserForm extends BaseFormDoctrine
       'id'               => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
       'first_name'       => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'last_name'        => new sfValidatorString(array('max_length' => 255, 'required' => false)),
-      'email_address'    => new sfValidatorString(array('max_length' => 255)),
-      'username'         => new sfValidatorString(array('max_length' => 128)),
+      'email_address'    => new sfValidatorString(array('max_length' => 255, 'required' => false)),
+      'username'         => new sfValidatorString(array('max_length' => 128, 'required' => false)),
       'algorithm'        => new sfValidatorString(array('max_length' => 128, 'required' => false)),
       'salt'             => new sfValidatorString(array('max_length' => 128, 'required' => false)),
       'password'         => new sfValidatorString(array('max_length' => 128, 'required' => false)),
@@ -45,13 +45,6 @@ abstract class BasesfGuardUserForm extends BaseFormDoctrine
       'groups_list'      => new sfValidatorDoctrineChoice(array('multiple' => true, 'model' => 'sfGuardGroup', 'required' => false)),
       'permissions_list' => new sfValidatorDoctrineChoice(array('multiple' => true, 'model' => 'sfGuardPermission', 'required' => false)),
     ));
-
-    $this->validatorSchema->setPostValidator(
-      new sfValidatorAnd(array(
-        new sfValidatorDoctrineUnique(array('model' => 'sfGuardUser', 'column' => array('email_address'))),
-        new sfValidatorDoctrineUnique(array('model' => 'sfGuardUser', 'column' => array('username'))),
-      ))
-    );
 
     $this->widgetSchema->setNameFormat('sf_guard_user[%s]');
 

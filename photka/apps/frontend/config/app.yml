@@ -4,7 +4,13 @@
 # default values
 all:
   sfApplyPlugin:
-    mail_transport_class: Zend_Mail_Transport_Smtp
+    mail_transport_class: Zend_Mail_Transport_Sendmail
     from:
       email: "no-reply@photka.com"
       fullname: "photka.com"
+#sfApplyPlugin:
+#    sfApplyApplyForm_class: myApplyFormClass
+#    mail_transport_class: Zend_Mail_Transport_Sendmail
+#    from:
+#      email: "no-reply@interplay.pl"
+#      fullname: "interplay.pl"

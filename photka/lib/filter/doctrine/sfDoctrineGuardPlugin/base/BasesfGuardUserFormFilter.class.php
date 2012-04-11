@@ -15,8 +15,8 @@ abstract class BasesfGuardUserFormFilter extends BaseFormFilterDoctrine
     $this->setWidgets(array(
       'first_name'       => new sfWidgetFormFilterInput(),
       'last_name'        => new sfWidgetFormFilterInput(),
-      'email_address'    => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'username'         => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'email_address'    => new sfWidgetFormFilterInput(),
+      'username'         => new sfWidgetFormFilterInput(),
       'algorithm'        => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'salt'             => new sfWidgetFormFilterInput(),
       'password'         => new sfWidgetFormFilterInput(),
