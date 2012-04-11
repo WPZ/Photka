@@ -2,3 +2,4 @@ photka/cache
 photka/config/databases.yml
 photka/log
 photka/nbproject/private/*
+photka/nbproject/private/private.xml
