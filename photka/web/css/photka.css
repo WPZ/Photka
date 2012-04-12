@@ -13,8 +13,7 @@ body {
 }
 
 #search-bar {
-  margin-top: 5px;
-  margin-bottom: 0px;
+  margin: 5px 0 0 20px;
   float: right;
 }
 
@@ -73,4 +72,22 @@ body {
 
 .container > hr {
   margin-top: 35px;
+}
+
+#panel-right > .btn, #panel-right > .btn-group {
+  float: right;
+}
+
+#btn-login {
+  margin-right: 6px;
+}
+
+#panel-right .dropdown-toggle {
+  height: 28px;
+  padding-bottom: 8px;
+}
+
+#panel-right ul {
+  margin-top: 5px;
+  z-index: -1;
 }

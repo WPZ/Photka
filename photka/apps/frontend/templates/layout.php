@@ -73,8 +73,6 @@
                 <li class="active"><a href="./index.php">Strona główna</a></li> 
               </ul>
               <div id="panel-right" class="pull-right">
-                  <a id="btn-register" class="btn btn-info" href="<?php echo url_for('sfApply/apply'); ?>">zarejestruj</a>
-                  <a id="btn-login" class="btn btn-warning" data-toggle="modal" href="#logowanie">zaloguj</a>
                   <form id="search-bar" class="form-horizontal">
                     <div class='input-append'>
                       <input placeholder="wpisz szukaną frazę" />
@@ -83,6 +81,20 @@
                       </button>
                     </div>
                   </form>
+                  <?php if ($sf_user->isAuthenticated()): ?>
+                    <div class="btn-group">
+                      <button id="btn-user" class="btn btn-success"><?php echo($sf_user->getUsername()); ?></button>
+                      <button class="btn dropdown-toggle btn-success" data-toggle="dropdown">
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="<?php echo url_for('guard/logout');?>">wyloguj</a></li>
+                      </ul>
+                    </div>
+                  <?php else: ?>
+                    <a id="btn-register" class="btn btn-info" href="<?php echo url_for('sfApply/apply'); ?>">zarejestruj</a>
+                    <a id="btn-login" class="btn btn-warning" data-toggle="modal" href="#logowanie">zaloguj</a>
+                  <?php endif ?>
               </div>
           <!--    <p class="navbar-text pull-right">zalogowany jako: <a href="#">username</a></p> -->
             </div>
