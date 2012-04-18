@@ -30,6 +30,10 @@ homepage:
   url:   /
   param: { module: index, action: index }
 
+photo_search:
+  url:   /search
+  param: { module: photo, action: search }
+
 # generic rules
 # please, remove them by adding more specific rules
 default_index:

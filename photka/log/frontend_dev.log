@@ -4977,3 +4977,96 @@ kwi 11 22:21:50 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 49.53
 kwi 11 22:21:50 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 47.93 ms (1)
 kwi 11 22:21:50 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
 kwi 11 22:21:50 symfony [info] {sfWebResponse} Send content (39477 o)
+Apr 18 16:52:31 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 18 16:52:31 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+kwi 18 16:52:31 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "//frontend_dev.php" (/).
+kwi 18 16:52:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+kwi 18 16:52:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+kwi 18 16:52:31 symfony [info] {sfWebDebugLogger} Configuration 41.75 ms (6)
+kwi 18 16:52:31 symfony [info] {sfWebDebugLogger} Factories 139.11 ms (1)
+Apr 18 16:52:34 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 18 16:52:34 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+kwi 18 16:52:34 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "//frontend_dev.php" (/).
+kwi 18 16:52:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+kwi 18 16:52:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+kwi 18 16:52:34 symfony [info] {sfWebDebugLogger} Configuration 0.60 ms (5)
+kwi 18 16:52:34 symfony [info] {sfWebDebugLogger} Factories 5.27 ms (1)
+Apr 18 16:53:00 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 18 16:53:00 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 18 16:53:00 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /user with parameters array (  'module' => 'user',  'action' => 'index',)
+kwi 18 16:53:00 symfony [info] {sfFrontWebController} Action "user/index" does not exist
+kwi 18 16:53:00 symfony [err] {sfError404Exception} Action "user/index" does not exist.
+kwi 18 16:53:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+kwi 18 16:53:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+kwi 18 16:53:00 symfony [info] {sfWebDebugLogger} Configuration 0.62 ms (5)
+kwi 18 16:53:00 symfony [info] {sfWebDebugLogger} Factories 9.38 ms (1)
+Apr 18 16:53:07 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 18 16:53:07 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 18 16:53:07 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /phpot with parameters array (  'module' => 'phpot',  'action' => 'index',)
+kwi 18 16:53:07 symfony [info] {sfFrontWebController} Action "phpot/index" does not exist
+kwi 18 16:53:07 symfony [err] {sfError404Exception} Action "phpot/index" does not exist.
+kwi 18 16:53:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+kwi 18 16:53:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+kwi 18 16:53:07 symfony [info] {sfWebDebugLogger} Configuration 0.82 ms (5)
+kwi 18 16:53:07 symfony [info] {sfWebDebugLogger} Factories 5.79 ms (1)
+Apr 18 16:53:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 18 16:53:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 18 16:53:11 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+kwi 18 16:53:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+kwi 18 16:53:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+kwi 18 16:53:11 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+kwi 18 16:53:11 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+kwi 18 16:53:11 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+kwi 18 16:53:11 symfony [info] {sfPHPView} Render "/home/mw5044/workspace/Photka/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+kwi 18 16:53:11 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "token" on "Photo"
+kwi 18 16:53:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+kwi 18 16:53:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+kwi 18 16:53:11 symfony [info] {sfWebDebugLogger} Configuration 17.16 ms (10)
+kwi 18 16:53:11 symfony [info] {sfWebDebugLogger} Factories 5.65 ms (1)
+kwi 18 16:53:11 symfony [info] {sfWebDebugLogger} Action "photo/index" 37.64 ms (1)
+kwi 18 16:53:11 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+kwi 18 16:53:11 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 66.82 ms (1)
+Apr 18 16:53:20 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 18 16:53:20 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 18 16:53:20 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /index with parameters array (  'module' => 'index',  'action' => 'index',)
+kwi 18 16:53:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+kwi 18 16:53:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+kwi 18 16:53:20 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+kwi 18 16:53:20 symfony [info] {sfPHPView} Render "/home/mw5044/workspace/Photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+kwi 18 16:53:20 symfony [info] {sfPHPView} Decorate content with "/home/mw5044/workspace/Photka/photka/apps/frontend/templates/layout.php"
+kwi 18 16:53:20 symfony [info] {sfPHPView} Render "/home/mw5044/workspace/Photka/photka/apps/frontend/templates/layout.php"
+kwi 18 16:53:20 symfony [info] {main} Call "sfApply->executeLogin()"
+kwi 18 16:53:20 symfony [info] {sfPartialView} Render "/home/mw5044/workspace/Photka/photka/apps/frontend/modules/sfApply/templates/_login.php"
+kwi 18 16:53:20 symfony [info] {sfPartialView} Render "/home/mw5044/workspace/Photka/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+kwi 18 16:53:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+kwi 18 16:53:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+kwi 18 16:53:20 symfony [info] {sfWebDebugLogger} Configuration 9.50 ms (12)
+kwi 18 16:53:20 symfony [info] {sfWebDebugLogger} Factories 5.95 ms (1)
+kwi 18 16:53:20 symfony [info] {sfWebDebugLogger} Action "index/index" 0.07 ms (1)
+kwi 18 16:53:20 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 26.33 ms (1)
+kwi 18 16:53:20 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 1.62 ms (1)
+kwi 18 16:53:20 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 1.35 ms (1)
+kwi 18 16:53:20 symfony [info] {sfWebDebugLogger} Partial "sfApply/_loginPrompt" 0.68 ms (1)
+kwi 18 16:53:20 symfony [info] {sfWebResponse} Send content (39331 o)
+Apr 18 16:53:55 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 18 16:53:55 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 18 16:53:55 symfony [info] {sfPatternRouting} Match route "photo_search" (/search) for /search with parameters array (  'module' => 'photo',  'action' => 'search',)
+kwi 18 16:53:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+kwi 18 16:53:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+kwi 18 16:53:55 symfony [info] {photoActions} Call "photoActions->executeSearch()"
+kwi 18 16:53:55 symfony [info] {photoActions} Forward to action "photo/index"
+kwi 18 16:53:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+kwi 18 16:53:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+kwi 18 16:53:55 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+kwi 18 16:53:55 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+kwi 18 16:53:55 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.category_id AS p__category_id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p - ()
+kwi 18 16:53:55 symfony [info] {sfPHPView} Render "/home/mw5044/workspace/Photka/photka/apps/frontend/modules/photo/templates/indexSuccess.php"
+kwi 18 16:53:55 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "token" on "Photo"
+kwi 18 16:53:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+kwi 18 16:53:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+kwi 18 16:53:55 symfony [info] {sfWebDebugLogger} Configuration 1.41 ms (12)
+kwi 18 16:53:55 symfony [info] {sfWebDebugLogger} Factories 6.65 ms (1)
+kwi 18 16:53:55 symfony [info] {sfWebDebugLogger} Action "photo/search" 42.97 ms (1)
+kwi 18 16:53:55 symfony [info] {sfWebDebugLogger} Action "photo/index" 6.67 ms (1)
+kwi 18 16:53:55 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+kwi 18 16:53:55 symfony [info] {sfWebDebugLogger} View "Success" for "photo/index" 35.26 ms (1)
