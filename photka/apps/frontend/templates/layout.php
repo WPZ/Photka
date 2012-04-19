@@ -73,10 +73,10 @@
                 <li class="active"><a href="./index.php">Strona główna</a></li> 
               </ul>
               <div id="panel-right" class="pull-right">
-                  <form id="search-bar" class="form-horizontal">
-                    <div class='input-append'>
-                      <input placeholder="wpisz szukaną frazę" />
-                      <button class='btn add-on'>
+                  <form id="search-bar" class="form-horizontal" action="<?php echo url_for('photo_search') ?>" method="get">
+                    <div class='input-append'> 
+                      <input placeholder="wpisz szukaną frazę" type="text" name="query" value="<?php echo $sf_request->getParameter('query') ?>" id="search_keywords" />
+                      <button class='btn add-on' value="search" >
                         <i class="icon-search"></i>
                       </button>
                     </div>
@@ -123,6 +123,6 @@
         </footer> 
         
       </div>
-      
+
     </body>
 </html>

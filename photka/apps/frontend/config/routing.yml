@@ -32,7 +32,7 @@ homepage:
 
 photo_search:
   url:   /search
-  param: { module: photo, action: search }
+  param: { module: index, action: search }
 
 # generic rules
 # please, remove them by adding more specific rules

@@ -19,4 +19,11 @@ class indexActions extends sfActions
   {
     // @TODO 
   }
+  
+  public function executeSearch(sfWebRequest $request)
+  {
+    $this->forwardUnless($query = $request->getParameter('query'), 'photo', 'index');
+ 
+    $this->jobs = Doctrine_Core::getTable('Photo') ->getForLuceneQuery($query);
+  }
 }
