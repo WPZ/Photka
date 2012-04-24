@@ -23,7 +23,10 @@ class indexActions extends sfActions
   public function executeSearch(sfWebRequest $request)
   {
     $this->forwardUnless($query = $request->getParameter('query'), 'photo', 'index');
- 
-    $this->jobs = Doctrine_Core::getTable('Photo') ->getForLuceneQuery($query);
+
+//    $this->photos = Doctrine_Core::getTable('Photo')->getForLuceneQuery($query);
+    $this->photos = Doctrine_Core::getTable('Photo')->createQuery()->where('name LIKE ?', "%$query%")->fetchArray();
+
+    $this->query = $query;
   }
 }
