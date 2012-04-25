@@ -12,4 +12,6 @@
  */
 class Photo extends BasePhoto
 {
+
+
 }
