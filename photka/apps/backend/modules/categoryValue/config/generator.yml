@@ -1,0 +1,24 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           CategoryValue
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          category_value
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:    
+        display: [value, category, is_published]
+      filter:  
+        display: [value, category_id, is_published]
+      form:    
+        display: [value, category_id, is_published]
+      edit:    ~
+      new:     ~

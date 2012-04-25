@@ -1,5 +1,7 @@
 CREATE TABLE category (id BIGINT AUTO_INCREMENT, name VARCHAR(255) NOT NULL UNIQUE, PRIMARY KEY(id)) ENGINE = INNODB;
-CREATE TABLE photo (id BIGINT AUTO_INCREMENT, category_id BIGINT NOT NULL, name VARCHAR(255), location VARCHAR(255) NOT NULL, description TEXT NOT NULL, is_public TINYINT(1) DEFAULT '0' NOT NULL, path VARCHAR(255) NOT NULL, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, INDEX category_id_idx (category_id), PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE category_value (id BIGINT AUTO_INCREMENT, value VARCHAR(255) NOT NULL, category_id BIGINT NOT NULL, is_published TINYINT(1) DEFAULT '1' NOT NULL, INDEX category_id_idx (category_id), PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE photo (id BIGINT AUTO_INCREMENT, name VARCHAR(255), location VARCHAR(255) NOT NULL, description TEXT NOT NULL, is_public TINYINT(1) DEFAULT '0' NOT NULL, path VARCHAR(255) NOT NULL, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE photo_category_value (photo_id BIGINT, category_value_id BIGINT, PRIMARY KEY(photo_id, category_value_id)) ENGINE = INNODB;
 CREATE TABLE sf_guard_forgot_password (id BIGINT AUTO_INCREMENT, user_id BIGINT NOT NULL, unique_key VARCHAR(255), expires_at DATETIME NOT NULL, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, INDEX user_id_idx (user_id), PRIMARY KEY(id)) ENGINE = INNODB;
 CREATE TABLE sf_guard_group (id BIGINT AUTO_INCREMENT, name VARCHAR(255) UNIQUE, description TEXT, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, PRIMARY KEY(id)) ENGINE = INNODB;
 CREATE TABLE sf_guard_group_permission (group_id BIGINT, permission_id BIGINT, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, PRIMARY KEY(group_id, permission_id)) ENGINE = INNODB;
@@ -9,7 +11,9 @@ CREATE TABLE sf_guard_user (id BIGINT AUTO_INCREMENT, first_name VARCHAR(255), l
 CREATE TABLE sf_guard_user_group (user_id BIGINT, group_id BIGINT, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, PRIMARY KEY(user_id, group_id)) ENGINE = INNODB;
 CREATE TABLE sf_guard_user_permission (user_id BIGINT, permission_id BIGINT, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, PRIMARY KEY(user_id, permission_id)) ENGINE = INNODB;
 CREATE TABLE sf_guard_user_profile (id bigint(20), user_id bigint(20) NOT NULL, email VARCHAR(80), fullname VARCHAR(80), validate VARCHAR(17), INDEX user_id_idx (user_id), PRIMARY KEY(id)) ENGINE = INNODB;
-ALTER TABLE photo ADD CONSTRAINT photo_category_id_category_id FOREIGN KEY (category_id) REFERENCES category(id) ON DELETE CASCADE;
+ALTER TABLE category_value ADD CONSTRAINT category_value_category_id_category_id FOREIGN KEY (category_id) REFERENCES category(id) ON DELETE CASCADE;
+ALTER TABLE photo_category_value ADD CONSTRAINT photo_category_value_photo_id_photo_id FOREIGN KEY (photo_id) REFERENCES photo(id);
+ALTER TABLE photo_category_value ADD CONSTRAINT photo_category_value_category_value_id_category_value_id FOREIGN KEY (category_value_id) REFERENCES category_value(id);
 ALTER TABLE sf_guard_forgot_password ADD CONSTRAINT sf_guard_forgot_password_user_id_sf_guard_user_id FOREIGN KEY (user_id) REFERENCES sf_guard_user(id) ON DELETE CASCADE;
 ALTER TABLE sf_guard_group_permission ADD CONSTRAINT sf_guard_group_permission_permission_id_sf_guard_permission_id FOREIGN KEY (permission_id) REFERENCES sf_guard_permission(id) ON DELETE CASCADE;
 ALTER TABLE sf_guard_group_permission ADD CONSTRAINT sf_guard_group_permission_group_id_sf_guard_group_id FOREIGN KEY (group_id) REFERENCES sf_guard_group(id) ON DELETE CASCADE;

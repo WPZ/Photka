@@ -12,6 +12,7 @@ class ProjectConfiguration extends sfProjectConfiguration
     $this->enablePlugins(array('sfDoctrinePlugin',
                                'sfDoctrineGuardPlugin',
                                'sfDoctrineApplyPlugin',
+                               'sfDoctrineChoiceChainPlugin',
                                'sfThemeGeneratorPlugin',
                                'sfHadoriThemePlugin'));
   }

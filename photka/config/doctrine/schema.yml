@@ -29,16 +29,41 @@ sfGuardUserProfile:
 Category:
   columns:
     name: { type: string(255), notnull: true, unique: true }
- 
+    
+CategoryValue:
+  columns:
+    value: { type: string(255), notnull: true }
+    category_id: { type: integer(100), notnull: true }
+    is_published: { type: boolean, notnull: true, default: true}
+  relations:
+    Category: { onDelete: CASCADE, local: category_id, foreign: id, foreignAlias: CategoryValues }
+  
+PhotoCategoryValue:
+  columns:
+    photo_id: { type: integer, primary: true }
+    category_value_id: { type: integer, primary: true }
+  relations:
+    Photo:
+      local: photo_id
+      foreign: id
+      foreignAlias: PhotoCategoryValues
+    CategoryValue:
+      local: category_value_id
+      foreign: id
+      foreignAlias: PhotoCategoryValues
+      
 Photo:
   actAs: { Timestampable: ~ }
   columns:
-    category_id:  { type: integer, notnull: true }
     name:         { type: string(255) }
     location:     { type: string(255), notnull: true }
     description:  { type: string(4000), notnull: true }
     is_public:    { type: boolean, notnull: true, default: 0 }
     path:        { type: string(255), notnull: true }
   relations:
-    Category: { onDelete: CASCADE, local: category_id, foreign: id, foreignAlias: Photos   } 
- 
+    CategoryValues: 
+      class: CategoryValue
+      foreignAlias: Photos
+      refClass: PhotoCategoryValue
+      local: photo_id
+      foreign: category_value_id

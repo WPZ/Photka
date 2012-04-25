@@ -4977,3 +4977,229 @@ kwi 11 22:21:50 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 49.53
 kwi 11 22:21:50 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 47.93 ms (1)
 kwi 11 22:21:50 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
 kwi 11 22:21:50 symfony [info] {sfWebResponse} Send content (39477 o)
+Apr 14 17:35:49 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 14 17:35:49 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 14 17:35:49 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Apr 14 17:35:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 14 17:35:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 14 17:35:49 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Apr 14 17:35:49 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Apr 14 17:35:49 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 14 17:35:49 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 14 17:35:49 symfony [info] {main} Call "sfApply->executeLogin()"
+Apr 14 17:35:49 symfony [info] {sfPartialView} Render "/home/photka/photka/apps/frontend/modules/sfApply/templates/_login.php"
+Apr 14 17:35:50 symfony [info] {sfPartialView} Render "/home/photka/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+Apr 14 17:35:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 14 17:35:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 14 17:35:50 symfony [info] {sfWebDebugLogger} Configuration 1611.91 ms (11)
+Apr 14 17:35:50 symfony [info] {sfWebDebugLogger} Factories 1341.15 ms (1)
+Apr 14 17:35:50 symfony [info] {sfWebDebugLogger} Action "index/index" 0.31 ms (1)
+Apr 14 17:35:50 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 398.56 ms (1)
+Apr 14 17:35:50 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 86.41 ms (1)
+Apr 14 17:35:50 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 49.41 ms (1)
+Apr 14 17:35:50 symfony [info] {sfWebDebugLogger} Partial "sfApply/_loginPrompt" 23.40 ms (1)
+Apr 14 17:35:50 symfony [info] {sfWebResponse} Send content (38448 o)
+Apr 15 13:34:29 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 15 13:34:29 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 15 13:34:29 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Apr 15 13:34:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 15 13:34:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 15 13:34:32 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Apr 15 13:34:32 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Apr 15 13:34:32 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 15 13:34:33 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 15 13:34:33 symfony [info] {main} Call "sfApply->executeLogin()"
+Apr 15 13:34:33 symfony [info] {sfPartialView} Render "/home/photka/photka/apps/frontend/modules/sfApply/templates/_login.php"
+Apr 15 13:34:33 symfony [info] {sfPartialView} Render "/home/photka/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+Apr 15 13:34:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 15 13:34:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 15 13:34:34 symfony [info] {sfWebDebugLogger} Configuration 36.24 ms (11)
+Apr 15 13:34:34 symfony [info] {sfWebDebugLogger} Factories 3362.59 ms (1)
+Apr 15 13:34:34 symfony [info] {sfWebDebugLogger} Action "index/index" 0.39 ms (1)
+Apr 15 13:34:34 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 1922.68 ms (1)
+Apr 15 13:34:34 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 416.18 ms (1)
+Apr 15 13:34:34 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 151.44 ms (1)
+Apr 15 13:34:34 symfony [info] {sfWebDebugLogger} Partial "sfApply/_loginPrompt" 134.00 ms (1)
+Apr 15 13:34:34 symfony [info] {sfWebResponse} Send content (38449 o)
+Apr 15 14:17:37 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 15 14:17:37 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 15 14:17:37 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Apr 15 14:17:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 15 14:17:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 15 14:17:38 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Apr 15 14:17:38 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Apr 15 14:17:38 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 15 14:17:38 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 15 14:17:38 symfony [info] {main} Call "sfApply->executeLogin()"
+Apr 15 14:17:39 symfony [info] {sfPartialView} Render "/home/photka/photka/apps/frontend/modules/sfApply/templates/_login.php"
+Apr 15 14:17:39 symfony [info] {sfPartialView} Render "/home/photka/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+Apr 15 14:17:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 15 14:17:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 15 14:17:39 symfony [info] {sfWebDebugLogger} Configuration 34.81 ms (11)
+Apr 15 14:17:39 symfony [info] {sfWebDebugLogger} Factories 1241.59 ms (1)
+Apr 15 14:17:39 symfony [info] {sfWebDebugLogger} Action "index/index" 0.13 ms (1)
+Apr 15 14:17:39 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 496.81 ms (1)
+Apr 15 14:17:39 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 138.37 ms (1)
+Apr 15 14:17:39 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 29.38 ms (1)
+Apr 15 14:17:39 symfony [info] {sfWebDebugLogger} Partial "sfApply/_loginPrompt" 11.83 ms (1)
+Apr 15 14:17:39 symfony [info] {sfWebResponse} Send content (38446 o)
+Apr 15 23:54:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 15 23:54:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 15 23:54:19 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Apr 15 23:54:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 15 23:54:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 15 23:54:20 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Apr 15 23:54:20 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Apr 15 23:54:20 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 15 23:54:20 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 15 23:54:20 symfony [info] {main} Call "sfApply->executeLogin()"
+Apr 15 23:54:20 symfony [info] {sfPartialView} Render "/home/photka/photka/apps/frontend/modules/sfApply/templates/_login.php"
+Apr 15 23:54:20 symfony [info] {sfPartialView} Render "/home/photka/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+Apr 15 23:54:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 15 23:54:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 15 23:54:20 symfony [info] {sfWebDebugLogger} Configuration 42.95 ms (11)
+Apr 15 23:54:20 symfony [info] {sfWebDebugLogger} Factories 1107.40 ms (1)
+Apr 15 23:54:20 symfony [info] {sfWebDebugLogger} Action "index/index" 0.41 ms (1)
+Apr 15 23:54:20 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 541.91 ms (1)
+Apr 15 23:54:20 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 149.88 ms (1)
+Apr 15 23:54:20 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 40.54 ms (1)
+Apr 15 23:54:20 symfony [info] {sfWebDebugLogger} Partial "sfApply/_loginPrompt" 23.81 ms (1)
+Apr 15 23:54:20 symfony [info] {sfWebResponse} Send content (38446 o)
+Apr 16 18:38:55 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 16 18:38:55 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 16 18:38:55 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Apr 16 18:38:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 16 18:38:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 16 18:38:56 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Apr 16 18:38:56 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Apr 16 18:38:56 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 16 18:38:56 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 16 18:38:56 symfony [info] {main} Call "sfApply->executeLogin()"
+Apr 16 18:38:56 symfony [info] {sfPartialView} Render "/home/photka/photka/apps/frontend/modules/sfApply/templates/_login.php"
+Apr 16 18:38:56 symfony [info] {sfPartialView} Render "/home/photka/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+Apr 16 18:38:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 16 18:38:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 16 18:38:56 symfony [info] {sfWebDebugLogger} Configuration 2.76 ms (11)
+Apr 16 18:38:56 symfony [info] {sfWebDebugLogger} Factories 103.98 ms (1)
+Apr 16 18:38:56 symfony [info] {sfWebDebugLogger} Action "index/index" 0.12 ms (1)
+Apr 16 18:38:56 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 131.22 ms (1)
+Apr 16 18:38:56 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 44.05 ms (1)
+Apr 16 18:38:56 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 4.69 ms (1)
+Apr 16 18:38:56 symfony [info] {sfWebDebugLogger} Partial "sfApply/_loginPrompt" 3.09 ms (1)
+Apr 16 18:38:56 symfony [info] {sfWebResponse} Send content (38441 o)
+Apr 18 18:04:12 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 18 18:04:12 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 18 18:04:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Apr 18 18:04:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 18 18:04:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 18 18:04:14 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Apr 18 18:04:14 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Apr 18 18:04:14 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 18 18:04:14 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 18 18:04:15 symfony [info] {main} Call "sfApply->executeLogin()"
+Apr 18 18:04:15 symfony [info] {sfPartialView} Render "/home/photka/photka/apps/frontend/modules/sfApply/templates/_login.php"
+Apr 18 18:04:15 symfony [info] {sfPartialView} Render "/home/photka/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+Apr 18 18:04:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 18 18:04:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 18 18:04:16 symfony [info] {sfWebDebugLogger} Configuration 113.90 ms (11)
+Apr 18 18:04:16 symfony [info] {sfWebDebugLogger} Factories 1863.34 ms (1)
+Apr 18 18:04:16 symfony [info] {sfWebDebugLogger} Action "index/index" 0.33 ms (1)
+Apr 18 18:04:16 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 2139.57 ms (1)
+Apr 18 18:04:16 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 367.66 ms (1)
+Apr 18 18:04:16 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 700.12 ms (1)
+Apr 18 18:04:16 symfony [info] {sfWebDebugLogger} Partial "sfApply/_loginPrompt" 677.36 ms (1)
+Apr 18 18:04:16 symfony [info] {sfWebResponse} Send content (38452 o)
+Apr 23 22:32:57 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 23 22:32:57 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 23 22:32:57 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Apr 23 22:32:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 23 22:32:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 23 22:32:59 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Apr 23 22:32:59 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Apr 23 22:33:00 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 23 22:33:00 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 23 22:33:00 symfony [info] {main} Call "sfApply->executeLogin()"
+Apr 23 22:33:00 symfony [info] {sfPartialView} Render "/home/photka/photka/apps/frontend/modules/sfApply/templates/_login.php"
+Apr 23 22:33:00 symfony [info] {sfPartialView} Render "/home/photka/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+Apr 23 22:33:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 23 22:33:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 23 22:33:00 symfony [info] {sfWebDebugLogger} Configuration 57.29 ms (12)
+Apr 23 22:33:00 symfony [info] {sfWebDebugLogger} Factories 2006.97 ms (1)
+Apr 23 22:33:00 symfony [info] {sfWebDebugLogger} Action "index/index" 0.31 ms (1)
+Apr 23 22:33:00 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 999.50 ms (1)
+Apr 23 22:33:00 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 406.71 ms (1)
+Apr 23 22:33:00 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 139.55 ms (1)
+Apr 23 22:33:00 symfony [info] {sfWebDebugLogger} Partial "sfApply/_loginPrompt" 78.91 ms (1)
+Apr 23 22:33:00 symfony [info] {sfWebResponse} Send content (38537 o)
+Apr 23 23:21:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 23 23:21:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 23 23:21:16 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+kwi 23 23:21:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+kwi 23 23:21:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+kwi 23 23:21:16 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+kwi 23 23:21:16 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+kwi 23 23:21:16 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+kwi 23 23:21:16 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+kwi 23 23:21:16 symfony [info] {main} Call "sfApply->executeLogin()"
+kwi 23 23:21:16 symfony [info] {sfPartialView} Render "/home/photka/photka/apps/frontend/modules/sfApply/templates/_login.php"
+kwi 23 23:21:16 symfony [info] {sfPartialView} Render "/home/photka/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+kwi 23 23:21:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+kwi 23 23:21:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+kwi 23 23:21:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+kwi 23 23:21:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+kwi 23 23:21:16 symfony [info] {sfWebDebugLogger} Configuration 2.04 ms (11)
+kwi 23 23:21:16 symfony [info] {sfWebDebugLogger} Factories 93.13 ms (1)
+kwi 23 23:21:16 symfony [info] {sfWebDebugLogger} Action "index/index" 0.15 ms (1)
+kwi 23 23:21:16 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 112.86 ms (1)
+kwi 23 23:21:16 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 0.04 ms (1)
+kwi 23 23:21:16 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 89.28 ms (1)
+kwi 23 23:21:16 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 87.70 ms (1)
+kwi 23 23:21:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+kwi 23 23:21:16 symfony [info] {sfWebResponse} Send content (39801 o)
+Apr 25 19:01:42 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 25 19:01:42 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 25 19:01:42 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Apr 25 19:01:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 25 19:01:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 25 19:01:42 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Apr 25 19:01:42 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Apr 25 19:01:43 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 25 19:01:43 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+Apr 25 19:01:43 symfony [info] {main} Call "sfApply->executeLogin()"
+Apr 25 19:01:43 symfony [info] {sfPartialView} Render "/home/photka/photka/apps/frontend/modules/sfApply/templates/_login.php"
+Apr 25 19:01:43 symfony [info] {sfPartialView} Render "/home/photka/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+Apr 25 19:01:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 25 19:01:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 25 19:01:43 symfony [info] {sfWebDebugLogger} Configuration 5.63 ms (11)
+Apr 25 19:01:43 symfony [info] {sfWebDebugLogger} Factories 1063.12 ms (1)
+Apr 25 19:01:43 symfony [info] {sfWebDebugLogger} Action "index/index" 0.32 ms (1)
+Apr 25 19:01:43 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 975.57 ms (1)
+Apr 25 19:01:43 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 331.07 ms (1)
+Apr 25 19:01:43 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 104.21 ms (1)
+Apr 25 19:01:43 symfony [info] {sfWebDebugLogger} Partial "sfApply/_loginPrompt" 57.46 ms (1)
+Apr 25 19:01:43 symfony [info] {sfWebResponse} Send content (38537 o)
+Apr 25 20:50:27 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Apr 25 20:50:27 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Apr 25 20:50:27 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+kwi 25 20:50:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+kwi 25 20:50:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+kwi 25 20:50:27 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+kwi 25 20:50:27 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+kwi 25 20:50:27 symfony [info] {sfPHPView} Decorate content with "/home/photka/photka/apps/frontend/templates/layout.php"
+kwi 25 20:50:27 symfony [info] {sfPHPView} Render "/home/photka/photka/apps/frontend/templates/layout.php"
+kwi 25 20:50:27 symfony [info] {main} Call "sfApply->executeLogin()"
+kwi 25 20:50:27 symfony [info] {sfPartialView} Render "/home/photka/photka/apps/frontend/modules/sfApply/templates/_login.php"
+kwi 25 20:50:27 symfony [info] {sfPartialView} Render "/home/photka/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+kwi 25 20:50:27 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+kwi 25 20:50:27 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+kwi 25 20:50:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+kwi 25 20:50:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+kwi 25 20:50:27 symfony [info] {sfWebDebugLogger} Configuration 2.25 ms (11)
+kwi 25 20:50:27 symfony [info] {sfWebDebugLogger} Factories 39.19 ms (1)
+kwi 25 20:50:27 symfony [info] {sfWebDebugLogger} Action "index/index" 0.15 ms (1)
+kwi 25 20:50:27 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 87.85 ms (1)
+kwi 25 20:50:27 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 0.04 ms (1)
+kwi 25 20:50:27 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 73.89 ms (1)
+kwi 25 20:50:27 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 72.58 ms (1)
+kwi 25 20:50:27 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+kwi 25 20:50:27 symfony [info] {sfWebResponse} Send content (40097 o)

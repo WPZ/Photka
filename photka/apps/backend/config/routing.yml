@@ -1,3 +1,12 @@
+category_value:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                CategoryValue
+    module:               categoryValue
+    prefix_path:          /categoryValue
+    column:               id
+    with_wildcard_routes: true
+
 sf_guard_signin:
   url:   /login
   param: { module: sfGuardAuth, action: signin }

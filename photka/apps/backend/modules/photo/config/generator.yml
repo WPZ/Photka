@@ -15,10 +15,10 @@ generator:
       actions: ~
       fields:  ~
       list:    
-        display: [name, category, description, location, path, is_public]
+        display: [name, description, location, path, is_public]
       filter:  
-        display: [name, category_id, description, is_public]
+        display: [name, description, location, is_public]
       form:    
-        display: [name, category_id, description, location, path, is_public]
+        display: [name, description, category_values_list, location, path, is_public]
       edit:    ~
       new:     ~

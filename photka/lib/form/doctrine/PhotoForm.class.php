@@ -28,6 +28,16 @@ class PhotoForm extends BasePhotoForm
                     'mime_types' => 'web_images',
                     'validated_file_class' => 'MainPhotoValidatedFile'
                 ));
+       
+        
+        $this->widgetSchema['category_values_list'] = new sfWidgetFormDoctrineChoice(
+                array('multiple' => true, 'model' => 'CategoryValue', 'method' => 'getValue' ));
+//        
+//        $this->validatorSchema['category_values_list'] = new sfValidatorChoiceChain(array(
+//                    'chain' => array('Category', 'CategoryValues')
+//                ));
+
+        
     }
 
     public function save($con = null) {
