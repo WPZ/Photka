@@ -40,6 +40,7 @@
         </div>
         <div class="modal-body">
           <form>
+            <?php include_component('sfApply', 'login'); ?>
 <!--            <p class="control-group">
               <input type="text" placeholder="login" class="input-medium"/> 
               <span class="help-inline">maksimum 12 znaków</span>
@@ -119,6 +120,7 @@
         <hr> 
    
         <footer> 
+          
           <p>Photka, Uniwersytet Jagielloński 2012</p> 
         </footer> 
         

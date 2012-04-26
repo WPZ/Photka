@@ -91,3 +91,43 @@ body {
   margin-top: 5px;
   z-index: -1;
 }
+
+.sf_apply_apply label {
+  display: inline-block;
+  width: 130px;
+}
+
+.sf_apply_apply ul {
+  list-style: none;
+}
+
+.sf_apply_apply {
+  width: 410px;
+  padding-bottom: 40px;
+  text-align:center;
+  margin:0 auto;
+}
+
+.sf_apply_apply {
+  text-align: left;
+}
+
+.sf_apply_apply h2 {
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+.sf_apply_submit_row input {
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.sf_apply_apply .error_list {
+  margin-left: 0px;
+  color: red;
+}
+
+.modal form {
+  margin-left: 70px;
+}
