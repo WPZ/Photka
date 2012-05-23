@@ -5203,3 +5203,562 @@ kwi 25 20:50:27 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 73.89
 kwi 25 20:50:27 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 72.58 ms (1)
 kwi 25 20:50:27 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
 kwi 25 20:50:27 symfony [info] {sfWebResponse} Send content (40097 o)
+May 24 00:20:49 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+May 24 00:20:49 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+May 24 00:20:49 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+maj 24 00:20:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+maj 24 00:20:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+maj 24 00:20:49 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+maj 24 00:20:49 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+maj 24 00:20:49 symfony [info] {sfPHPView} Decorate content with "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:20:49 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:20:49 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:20:49 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:20:49 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+maj 24 00:20:49 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:20:49 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:20:49 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+maj 24 00:20:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+maj 24 00:20:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+maj 24 00:20:49 symfony [info] {sfWebDebugLogger} Configuration 43.74 ms (14)
+maj 24 00:20:49 symfony [info] {sfWebDebugLogger} Factories 55.44 ms (1)
+maj 24 00:20:49 symfony [info] {sfWebDebugLogger} Action "index/index" 0.06 ms (1)
+maj 24 00:20:49 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 10.27 ms (1)
+maj 24 00:20:49 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 1.71 ms (2)
+maj 24 00:20:49 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 2.03 ms (2)
+maj 24 00:20:49 symfony [info] {sfWebDebugLogger} Partial "sfApply/_loginPrompt" 1.14 ms (2)
+maj 24 00:20:49 symfony [info] {sfWebResponse} Send content (45078 o)
+May 24 00:20:54 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+May 24 00:20:54 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+May 24 00:20:54 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/guard/login) for /guard/login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+maj 24 00:20:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+maj 24 00:20:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+maj 24 00:20:54 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+maj 24 00:20:54 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+maj 24 00:20:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.username = ? AND s.is_active = ?) - (admin, 1)
+maj 24 00:20:54 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+maj 24 00:20:54 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+maj 24 00:20:54 symfony [info] {sfPHPView} Decorate content with "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:20:54 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:20:54 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:20:54 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:20:54 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+maj 24 00:20:54 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:20:54 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:20:54 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+maj 24 00:20:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+maj 24 00:20:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+maj 24 00:20:54 symfony [info] {sfWebDebugLogger} Configuration 7.35 ms (14)
+maj 24 00:20:54 symfony [info] {sfWebDebugLogger} Factories 5.83 ms (1)
+maj 24 00:20:54 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 7.49 ms (1)
+maj 24 00:20:54 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+maj 24 00:20:54 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 9.95 ms (1)
+maj 24 00:20:54 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 1.43 ms (1)
+maj 24 00:20:54 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 1.12 ms (2)
+maj 24 00:20:54 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 1.62 ms (2)
+maj 24 00:20:54 symfony [info] {sfWebDebugLogger} Partial "sfApply/_loginPrompt" 0.89 ms (2)
+maj 24 00:20:54 symfony [info] {sfWebResponse} Send content (54353 o)
+May 24 00:21:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+May 24 00:21:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+May 24 00:21:06 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/guard/login) for /guard/login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+maj 24 00:21:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+maj 24 00:21:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+maj 24 00:21:06 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+maj 24 00:21:06 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+maj 24 00:21:06 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.username = ? AND s.is_active = ?) - (admin, 1)
+maj 24 00:21:06 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+maj 24 00:21:06 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+maj 24 00:21:06 symfony [info] {sfPHPView} Decorate content with "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:21:06 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:21:06 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:21:06 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:21:06 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+maj 24 00:21:06 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:21:06 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:21:06 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+maj 24 00:21:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+maj 24 00:21:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+maj 24 00:21:06 symfony [info] {sfWebDebugLogger} Configuration 1.47 ms (13)
+maj 24 00:21:06 symfony [info] {sfWebDebugLogger} Factories 6.27 ms (1)
+maj 24 00:21:06 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 13.36 ms (1)
+maj 24 00:21:06 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+maj 24 00:21:06 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 9.46 ms (1)
+maj 24 00:21:06 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 1.51 ms (1)
+maj 24 00:21:06 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 1.19 ms (2)
+maj 24 00:21:06 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 1.84 ms (2)
+maj 24 00:21:06 symfony [info] {sfWebDebugLogger} Partial "sfApply/_loginPrompt" 0.95 ms (2)
+maj 24 00:21:06 symfony [info] {sfWebResponse} Send content (54365 o)
+May 24 00:23:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+May 24 00:23:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+May 24 00:23:14 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+maj 24 00:23:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+maj 24 00:23:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+maj 24 00:23:14 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+maj 24 00:23:14 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+maj 24 00:23:14 symfony [info] {sfPHPView} Decorate content with "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:23:14 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:23:14 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:23:14 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:23:14 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+maj 24 00:23:14 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:23:14 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:23:14 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+maj 24 00:23:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+maj 24 00:23:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+maj 24 00:23:14 symfony [info] {sfWebDebugLogger} Configuration 1.54 ms (13)
+maj 24 00:23:14 symfony [info] {sfWebDebugLogger} Factories 4.28 ms (1)
+maj 24 00:23:14 symfony [info] {sfWebDebugLogger} Action "index/index" 0.05 ms (1)
+maj 24 00:23:14 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 7.38 ms (1)
+maj 24 00:23:14 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 1.79 ms (2)
+maj 24 00:23:14 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 1.84 ms (2)
+maj 24 00:23:14 symfony [info] {sfWebDebugLogger} Partial "sfApply/_loginPrompt" 1.03 ms (2)
+maj 24 00:23:14 symfony [info] {sfWebResponse} Send content (45074 o)
+May 24 00:23:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+May 24 00:23:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+May 24 00:23:17 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/guard/login) for /guard/login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+maj 24 00:23:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+maj 24 00:23:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+maj 24 00:23:17 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+maj 24 00:23:17 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+maj 24 00:23:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.username = ? AND s.is_active = ?) - (admin, 1)
+maj 24 00:23:17 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+maj 24 00:23:17 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+maj 24 00:23:17 symfony [info] {sfPHPView} Decorate content with "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:23:17 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:23:17 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:23:17 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:23:17 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+maj 24 00:23:17 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:23:17 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:23:17 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+maj 24 00:23:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+maj 24 00:23:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+maj 24 00:23:17 symfony [info] {sfWebDebugLogger} Configuration 1.59 ms (13)
+maj 24 00:23:17 symfony [info] {sfWebDebugLogger} Factories 4.21 ms (1)
+maj 24 00:23:17 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 9.03 ms (1)
+maj 24 00:23:17 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+maj 24 00:23:17 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 8.09 ms (1)
+maj 24 00:23:17 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 1.32 ms (1)
+maj 24 00:23:17 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 1.11 ms (2)
+maj 24 00:23:17 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 1.59 ms (2)
+maj 24 00:23:17 symfony [info] {sfWebDebugLogger} Partial "sfApply/_loginPrompt" 0.88 ms (2)
+maj 24 00:23:17 symfony [info] {sfWebResponse} Send content (54352 o)
+May 24 00:23:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+May 24 00:23:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+May 24 00:23:23 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/guard/login) for /guard/login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+maj 24 00:23:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+maj 24 00:23:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+maj 24 00:23:23 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+maj 24 00:23:23 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+maj 24 00:23:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.username = ? AND s.is_active = ?) - (admin, 1)
+maj 24 00:23:23 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+maj 24 00:23:23 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+maj 24 00:23:23 symfony [info] {sfPHPView} Decorate content with "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:23:23 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:23:23 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:23:23 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:23:23 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+maj 24 00:23:23 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:23:23 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:23:23 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+maj 24 00:23:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+maj 24 00:23:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+maj 24 00:23:23 symfony [info] {sfWebDebugLogger} Configuration 1.77 ms (13)
+maj 24 00:23:23 symfony [info] {sfWebDebugLogger} Factories 6.12 ms (1)
+maj 24 00:23:23 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 11.13 ms (1)
+maj 24 00:23:23 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+maj 24 00:23:23 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 14.23 ms (1)
+maj 24 00:23:23 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 2.41 ms (1)
+maj 24 00:23:23 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 1.95 ms (2)
+maj 24 00:23:23 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 2.68 ms (2)
+maj 24 00:23:23 symfony [info] {sfWebDebugLogger} Partial "sfApply/_loginPrompt" 1.49 ms (2)
+maj 24 00:23:23 symfony [info] {sfWebResponse} Send content (54366 o)
+May 24 00:33:42 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+May 24 00:33:42 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+May 24 00:33:42 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+maj 24 00:33:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+maj 24 00:33:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+maj 24 00:33:42 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+maj 24 00:33:42 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+maj 24 00:33:42 symfony [info] {sfPHPView} Decorate content with "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:33:42 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:33:42 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:33:42 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:33:42 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+maj 24 00:33:42 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:33:42 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:33:42 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+maj 24 00:33:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+maj 24 00:33:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+maj 24 00:33:42 symfony [info] {sfWebDebugLogger} Configuration 1.24 ms (13)
+maj 24 00:33:42 symfony [info] {sfWebDebugLogger} Factories 6.89 ms (1)
+maj 24 00:33:42 symfony [info] {sfWebDebugLogger} Action "index/index" 0.07 ms (1)
+maj 24 00:33:42 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 8.86 ms (1)
+maj 24 00:33:42 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 2.17 ms (2)
+maj 24 00:33:42 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 2.02 ms (2)
+maj 24 00:33:42 symfony [info] {sfWebDebugLogger} Partial "sfApply/_loginPrompt" 1.16 ms (2)
+maj 24 00:33:42 symfony [info] {sfWebResponse} Send content (45367 o)
+May 24 00:33:46 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+May 24 00:33:46 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+May 24 00:33:46 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/guard/login) for /guard/login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+maj 24 00:33:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+maj 24 00:33:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+maj 24 00:33:46 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+maj 24 00:33:46 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+maj 24 00:33:46 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.username = ? AND s.is_active = ?) - (admin, 1)
+maj 24 00:33:46 symfony [info] {myUser} User is authenticated
+maj 24 00:33:46 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.name AS s__name, s.description AS s__description, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s2.user_id AS s2__user_id, s2.permission_id AS s2__permission_id, s2.created_at AS s2__created_at, s2.updated_at AS s2__updated_at FROM sf_guard_permission s LEFT JOIN sf_guard_user_permission s2 ON s.id = s2.permission_id WHERE (s2.user_id IN (?)) - (1)
+maj 24 00:33:46 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.name AS s__name, s.description AS s__description, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s2.user_id AS s2__user_id, s2.group_id AS s2__group_id, s2.created_at AS s2__created_at, s2.updated_at AS s2__updated_at FROM sf_guard_group s LEFT JOIN sf_guard_user_group s2 ON s.id = s2.group_id WHERE (s2.user_id IN (?)) - (1)
+maj 24 00:33:46 symfony [info] {myUser} Add credential(s) ""
+maj 24 00:33:46 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE sf_guard_user SET last_login = ? WHERE id = ? - (2012-05-24 00:33:46, 1)
+maj 24 00:33:47 symfony [info] {sfFrontWebController} Redirect to "http://photka.localhost/backend_dev.php/categoryValue"
+maj 24 00:33:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+maj 24 00:33:47 symfony [info] {sfWebResponse} Send header "Location: http://photka.localhost/backend_dev.php/categoryValue"
+maj 24 00:33:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+maj 24 00:33:47 symfony [info] {sfWebDebugLogger} Configuration 1.77 ms (8)
+maj 24 00:33:47 symfony [info] {sfWebDebugLogger} Factories 11.87 ms (1)
+maj 24 00:33:47 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 196.83 ms (1)
+maj 24 00:33:47 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (5)
+maj 24 00:33:47 symfony [info] {sfWebResponse} Send content (124 o)
+May 24 00:34:04 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+May 24 00:34:04 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+May 24 00:34:04 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+maj 24 00:34:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+maj 24 00:34:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+maj 24 00:34:04 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+maj 24 00:34:04 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+maj 24 00:34:04 symfony [info] {sfPHPView} Decorate content with "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:34:04 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:34:04 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:34:04 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:34:04 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:34:04 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+maj 24 00:34:04 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+maj 24 00:34:04 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:34:04 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:34:04 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:34:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+maj 24 00:34:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+maj 24 00:34:04 symfony [info] {sfWebDebugLogger} Configuration 1.45 ms (13)
+maj 24 00:34:04 symfony [info] {sfWebDebugLogger} Factories 9.06 ms (1)
+maj 24 00:34:04 symfony [info] {sfWebDebugLogger} Action "index/index" 0.06 ms (1)
+maj 24 00:34:04 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 16.16 ms (1)
+maj 24 00:34:04 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 0.04 ms (2)
+maj 24 00:34:04 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 11.70 ms (2)
+maj 24 00:34:04 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 10.88 ms (2)
+maj 24 00:34:04 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+maj 24 00:34:04 symfony [info] {sfWebResponse} Send content (42482 o)
+May 24 00:34:12 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+May 24 00:34:12 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+May 24 00:34:12 symfony [info] {sfPatternRouting} Match route "photo_search" (/search) for /search with parameters array (  'module' => 'index',  'action' => 'search',)
+maj 24 00:34:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+maj 24 00:34:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+maj 24 00:34:12 symfony [info] {indexActions} Call "indexActions->executeSearch()"
+maj 24 00:34:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+maj 24 00:34:12 symfony [info] {Doctrine_Connection_Statement} execute : SELECT p.id AS p__id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p WHERE (p.name LIKE ?) - (%las%)
+maj 24 00:34:12 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/modules/index/templates/searchSuccess.php"
+maj 24 00:34:12 symfony [info] {sfPHPView} Decorate content with "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:34:12 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:34:12 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:34:12 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:34:12 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:34:12 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+maj 24 00:34:12 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:34:12 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:34:12 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:34:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+maj 24 00:34:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+maj 24 00:34:12 symfony [info] {sfWebDebugLogger} Configuration 1.83 ms (13)
+maj 24 00:34:12 symfony [info] {sfWebDebugLogger} Factories 6.36 ms (1)
+maj 24 00:34:12 symfony [info] {sfWebDebugLogger} Action "index/search" 8.58 ms (1)
+maj 24 00:34:12 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+maj 24 00:34:12 symfony [info] {sfWebDebugLogger} View "Success" for "index/search" 14.06 ms (1)
+maj 24 00:34:12 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 0.05 ms (2)
+maj 24 00:34:12 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 7.53 ms (2)
+maj 24 00:34:12 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 6.45 ms (2)
+maj 24 00:34:12 symfony [info] {sfWebResponse} Send content (44705 o)
+May 24 00:34:33 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+May 24 00:34:33 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+May 24 00:34:33 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+maj 24 00:34:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+maj 24 00:34:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+maj 24 00:34:33 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+maj 24 00:34:33 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+maj 24 00:34:33 symfony [info] {sfPHPView} Decorate content with "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:34:33 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:34:33 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:34:33 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:34:33 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:34:33 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+maj 24 00:34:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+maj 24 00:34:33 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:34:33 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:34:33 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:34:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+maj 24 00:34:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+maj 24 00:34:33 symfony [info] {sfWebDebugLogger} Configuration 2.42 ms (13)
+maj 24 00:34:33 symfony [info] {sfWebDebugLogger} Factories 6.73 ms (1)
+maj 24 00:34:33 symfony [info] {sfWebDebugLogger} Action "index/index" 0.05 ms (1)
+maj 24 00:34:33 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 19.71 ms (1)
+maj 24 00:34:33 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 0.11 ms (2)
+maj 24 00:34:33 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 13.34 ms (2)
+maj 24 00:34:33 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 11.80 ms (2)
+maj 24 00:34:33 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+maj 24 00:34:33 symfony [info] {sfWebResponse} Send content (42636 o)
+May 24 00:34:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+May 24 00:34:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+May 24 00:34:38 symfony [info] {sfPatternRouting} Match route "photo_search" (/search) for /search with parameters array (  'module' => 'index',  'action' => 'search',)
+maj 24 00:34:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+maj 24 00:34:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+maj 24 00:34:38 symfony [info] {indexActions} Call "indexActions->executeSearch()"
+maj 24 00:34:38 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/modules/index/templates/searchSuccess.php"
+maj 24 00:34:38 symfony [info] {sfPHPView} Decorate content with "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:34:38 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:34:38 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:34:38 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:34:38 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:34:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+maj 24 00:34:38 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+maj 24 00:34:38 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:34:38 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:34:38 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:34:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+maj 24 00:34:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+maj 24 00:34:38 symfony [info] {sfWebDebugLogger} Configuration 2.64 ms (13)
+maj 24 00:34:38 symfony [info] {sfWebDebugLogger} Factories 10.87 ms (1)
+maj 24 00:34:38 symfony [info] {sfWebDebugLogger} Action "index/search" 0.06 ms (1)
+maj 24 00:34:38 symfony [info] {sfWebDebugLogger} View "Success" for "index/search" 22.04 ms (1)
+maj 24 00:34:38 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 0.07 ms (2)
+maj 24 00:34:38 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 16.74 ms (2)
+maj 24 00:34:38 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 15.23 ms (2)
+maj 24 00:34:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+maj 24 00:34:38 symfony [info] {sfWebResponse} Send content (42596 o)
+May 24 00:34:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+May 24 00:34:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+May 24 00:34:40 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+maj 24 00:34:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+maj 24 00:34:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+maj 24 00:34:40 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+maj 24 00:34:40 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+maj 24 00:34:40 symfony [info] {sfPHPView} Decorate content with "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:34:40 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:34:40 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:34:40 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:34:40 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:34:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+maj 24 00:34:40 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+maj 24 00:34:40 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:34:40 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:34:40 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:34:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+maj 24 00:34:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+maj 24 00:34:40 symfony [info] {sfWebDebugLogger} Configuration 1.75 ms (13)
+maj 24 00:34:40 symfony [info] {sfWebDebugLogger} Factories 4.02 ms (1)
+maj 24 00:34:40 symfony [info] {sfWebDebugLogger} Action "index/index" 0.05 ms (1)
+maj 24 00:34:40 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 11.11 ms (1)
+maj 24 00:34:40 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 0.04 ms (2)
+maj 24 00:34:40 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 7.18 ms (2)
+maj 24 00:34:40 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 6.43 ms (2)
+maj 24 00:34:40 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+maj 24 00:34:40 symfony [info] {sfWebResponse} Send content (42634 o)
+May 24 00:43:18 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+May 24 00:43:18 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+May 24 00:43:18 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+maj 24 00:43:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+maj 24 00:43:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+maj 24 00:43:18 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+maj 24 00:43:18 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+maj 24 00:43:18 symfony [info] {sfPHPView} Decorate content with "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:43:18 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:43:18 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:43:18 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:43:18 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:43:18 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+maj 24 00:43:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+maj 24 00:43:18 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:43:18 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:43:18 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:43:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+maj 24 00:43:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+maj 24 00:43:18 symfony [info] {sfWebDebugLogger} Configuration 1.60 ms (13)
+maj 24 00:43:18 symfony [info] {sfWebDebugLogger} Factories 4.27 ms (1)
+maj 24 00:43:18 symfony [info] {sfWebDebugLogger} Action "index/index" 0.05 ms (1)
+maj 24 00:43:18 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 32.05 ms (1)
+maj 24 00:43:18 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 0.07 ms (2)
+maj 24 00:43:18 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 15.73 ms (2)
+maj 24 00:43:18 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 14.02 ms (2)
+maj 24 00:43:18 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+maj 24 00:43:18 symfony [info] {sfWebResponse} Send content (42629 o)
+May 24 00:43:22 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+May 24 00:43:22 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+May 24 00:43:22 symfony [info] {sfPatternRouting} Match route "photo_search" (/search) for /search with parameters array (  'module' => 'index',  'action' => 'search',)
+maj 24 00:43:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+maj 24 00:43:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+maj 24 00:43:22 symfony [info] {indexActions} Call "indexActions->executeSearch()"
+maj 24 00:43:22 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+maj 24 00:43:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT p.id AS p__id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p WHERE (p.name LIKE ?) - (%gory%)
+maj 24 00:43:22 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/modules/index/templates/searchSuccess.php"
+maj 24 00:43:22 symfony [info] {sfPHPView} Decorate content with "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:43:22 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:43:22 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:43:22 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:43:22 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:43:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+maj 24 00:43:22 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:43:22 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:43:22 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:43:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+maj 24 00:43:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+maj 24 00:43:22 symfony [info] {sfWebDebugLogger} Configuration 2.23 ms (13)
+maj 24 00:43:22 symfony [info] {sfWebDebugLogger} Factories 7.46 ms (1)
+maj 24 00:43:22 symfony [info] {sfWebDebugLogger} Action "index/search" 5.43 ms (1)
+maj 24 00:43:22 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+maj 24 00:43:22 symfony [info] {sfWebDebugLogger} View "Success" for "index/search" 9.04 ms (1)
+maj 24 00:43:22 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 0.04 ms (2)
+maj 24 00:43:22 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 5.05 ms (2)
+maj 24 00:43:22 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 4.30 ms (2)
+maj 24 00:43:22 symfony [info] {sfWebResponse} Send content (45149 o)
+May 24 00:43:29 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+May 24 00:43:29 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+May 24 00:43:29 symfony [info] {sfPatternRouting} Match route "photo_search" (/search) for /search with parameters array (  'module' => 'index',  'action' => 'search',)
+maj 24 00:43:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+maj 24 00:43:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+maj 24 00:43:29 symfony [info] {indexActions} Call "indexActions->executeSearch()"
+maj 24 00:43:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+maj 24 00:43:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT p.id AS p__id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p WHERE (p.name LIKE ?) - (%las%)
+maj 24 00:43:29 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/modules/index/templates/searchSuccess.php"
+maj 24 00:43:29 symfony [info] {sfPHPView} Decorate content with "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:43:29 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:43:29 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:43:29 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:43:29 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:43:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+maj 24 00:43:29 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:43:29 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:43:29 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:43:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+maj 24 00:43:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+maj 24 00:43:29 symfony [info] {sfWebDebugLogger} Configuration 1.76 ms (13)
+maj 24 00:43:29 symfony [info] {sfWebDebugLogger} Factories 4.08 ms (1)
+maj 24 00:43:29 symfony [info] {sfWebDebugLogger} Action "index/search" 10.81 ms (1)
+maj 24 00:43:29 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+maj 24 00:43:29 symfony [info] {sfWebDebugLogger} View "Success" for "index/search" 19.24 ms (1)
+maj 24 00:43:29 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 0.09 ms (2)
+maj 24 00:43:29 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 11.64 ms (2)
+maj 24 00:43:29 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 9.87 ms (2)
+maj 24 00:43:29 symfony [info] {sfWebResponse} Send content (45128 o)
+May 24 00:43:43 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+May 24 00:43:43 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+May 24 00:43:43 symfony [info] {sfPatternRouting} Match route "photo_search" (/search) for /search with parameters array (  'module' => 'index',  'action' => 'search',)
+maj 24 00:43:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+maj 24 00:43:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+maj 24 00:43:43 symfony [info] {indexActions} Call "indexActions->executeSearch()"
+maj 24 00:43:43 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+maj 24 00:43:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT p.id AS p__id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p WHERE (p.name LIKE ?) - (%pust%)
+maj 24 00:43:43 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/modules/index/templates/searchSuccess.php"
+maj 24 00:43:43 symfony [info] {sfPHPView} Decorate content with "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:43:43 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:43:43 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:43:43 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:43:43 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:43:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+maj 24 00:43:43 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:43:43 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:43:43 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:43:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+maj 24 00:43:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+maj 24 00:43:43 symfony [info] {sfWebDebugLogger} Configuration 3.01 ms (13)
+maj 24 00:43:43 symfony [info] {sfWebDebugLogger} Factories 12.21 ms (1)
+maj 24 00:43:43 symfony [info] {sfWebDebugLogger} Action "index/search" 7.30 ms (1)
+maj 24 00:43:43 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+maj 24 00:43:43 symfony [info] {sfWebDebugLogger} View "Success" for "index/search" 21.30 ms (1)
+maj 24 00:43:43 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 0.08 ms (2)
+maj 24 00:43:43 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 10.20 ms (2)
+maj 24 00:43:43 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 8.12 ms (2)
+maj 24 00:43:43 symfony [info] {sfWebResponse} Send content (45021 o)
+May 24 00:43:59 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+May 24 00:43:59 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+May 24 00:43:59 symfony [info] {sfPatternRouting} Match route "photo_search" (/search) for /search with parameters array (  'module' => 'index',  'action' => 'search',)
+maj 24 00:43:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+maj 24 00:43:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+maj 24 00:43:59 symfony [info] {indexActions} Call "indexActions->executeSearch()"
+maj 24 00:43:59 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+maj 24 00:43:59 symfony [info] {Doctrine_Connection_Statement} execute : SELECT p.id AS p__id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p WHERE (p.name LIKE ?) - (%las%)
+maj 24 00:43:59 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/modules/index/templates/searchSuccess.php"
+maj 24 00:43:59 symfony [info] {sfPHPView} Decorate content with "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:43:59 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:43:59 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:43:59 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:43:59 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:43:59 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+maj 24 00:43:59 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:43:59 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:43:59 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:43:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+maj 24 00:43:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+maj 24 00:43:59 symfony [info] {sfWebDebugLogger} Configuration 1.43 ms (13)
+maj 24 00:43:59 symfony [info] {sfWebDebugLogger} Factories 6.42 ms (1)
+maj 24 00:43:59 symfony [info] {sfWebDebugLogger} Action "index/search" 7.60 ms (1)
+maj 24 00:43:59 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (3)
+maj 24 00:43:59 symfony [info] {sfWebDebugLogger} View "Success" for "index/search" 10.21 ms (1)
+maj 24 00:43:59 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 0.03 ms (2)
+maj 24 00:43:59 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 5.51 ms (2)
+maj 24 00:43:59 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 4.72 ms (2)
+maj 24 00:43:59 symfony [info] {sfWebResponse} Send content (45127 o)
+May 24 00:44:00 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+May 24 00:44:00 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+May 24 00:44:00 symfony [info] {sfPatternRouting} Match route "photo_search" (/search) for /search with parameters array (  'module' => 'index',  'action' => 'search',)
+maj 24 00:44:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+maj 24 00:44:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+maj 24 00:44:00 symfony [info] {indexActions} Call "indexActions->executeSearch()"
+maj 24 00:44:00 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+maj 24 00:44:00 symfony [info] {Doctrine_Connection_Statement} execute : SELECT p.id AS p__id, p.name AS p__name, p.location AS p__location, p.description AS p__description, p.is_public AS p__is_public, p.path AS p__path, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM photo p WHERE (p.name LIKE ?) - (%gory%)
+maj 24 00:44:00 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/modules/index/templates/searchSuccess.php"
+maj 24 00:44:00 symfony [info] {sfPHPView} Decorate content with "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:44:00 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:44:00 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:44:00 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:44:00 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:44:00 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+maj 24 00:44:00 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:44:00 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:44:00 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:44:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+maj 24 00:44:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+maj 24 00:44:00 symfony [info] {sfWebDebugLogger} Configuration 2.87 ms (13)
+maj 24 00:44:00 symfony [info] {sfWebDebugLogger} Factories 12.33 ms (1)
+maj 24 00:44:00 symfony [info] {sfWebDebugLogger} Action "index/search" 7.43 ms (1)
+maj 24 00:44:00 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (3)
+maj 24 00:44:00 symfony [info] {sfWebDebugLogger} View "Success" for "index/search" 19.10 ms (1)
+maj 24 00:44:00 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 0.07 ms (2)
+maj 24 00:44:00 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 8.74 ms (2)
+maj 24 00:44:00 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 6.94 ms (2)
+maj 24 00:44:00 symfony [info] {sfWebResponse} Send content (45151 o)
+May 24 00:44:10 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+May 24 00:44:10 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+May 24 00:44:10 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+maj 24 00:44:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+maj 24 00:44:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+maj 24 00:44:10 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+maj 24 00:44:10 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+maj 24 00:44:10 symfony [info] {sfPHPView} Decorate content with "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:44:10 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+maj 24 00:44:10 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:44:10 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:44:10 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:44:11 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+maj 24 00:44:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+maj 24 00:44:11 symfony [info] {main} Call "sfApply->executeLogin()"
+maj 24 00:44:11 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+maj 24 00:44:11 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_logoutPrompt.php"
+maj 24 00:44:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+maj 24 00:44:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+maj 24 00:44:11 symfony [info] {sfWebDebugLogger} Configuration 2.00 ms (13)
+maj 24 00:44:11 symfony [info] {sfWebDebugLogger} Factories 3.94 ms (1)
+maj 24 00:44:11 symfony [info] {sfWebDebugLogger} Action "index/index" 0.05 ms (1)
+maj 24 00:44:11 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 18.37 ms (1)
+maj 24 00:44:11 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 0.07 ms (2)
+maj 24 00:44:11 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 13.21 ms (2)
+maj 24 00:44:11 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 11.68 ms (2)
+maj 24 00:44:11 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+maj 24 00:44:11 symfony [info] {sfWebResponse} Send content (42785 o)

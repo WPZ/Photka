@@ -21,42 +21,6 @@ Category:
     name: ludzie
   Category_1:
     name: pogoda
-sfGuardUserGroup:
-  sfGuardUserGroup_1_1:
-    User: sfGuardUser_1
-    Group: sfGuardGroup_1
-    created_at: '2012-04-23 23:13:30'
-    updated_at: '2012-04-23 23:13:30'
-sfGuardGroupPermission:
-  sfGuardGroupPermission_1_1:
-    Group: sfGuardGroup_1
-    Permission: sfGuardPermission_1
-    created_at: '2012-04-23 23:13:30'
-    updated_at: '2012-04-23 23:13:30'
-sfGuardPermission:
-  sfGuardPermission_1:
-    name: admin
-    description: 'Administrator permission'
-    created_at: '2012-04-23 23:13:30'
-    updated_at: '2012-04-23 23:13:30'
-sfGuardGroup:
-  sfGuardGroup_1:
-    name: admin
-    description: 'Administrator group'
-    created_at: '2012-04-23 23:13:30'
-    updated_at: '2012-04-23 23:13:30'
-sfGuardUser:
-  sfGuardUser_1:
-    first_name: John
-    last_name: Doe
-    email_address: john.doe@gmail.com
-    username: admin
-    algorithm: sha1
-    salt: e36ca5701e4e2ea3f2edf77f3d61675f
-    password: c959dbd71f34e0943512dacc5860d7c504ecd109
-    is_active: true
-    is_super_admin: true
-    last_login: '2012-04-25 20:29:45'
 CategoryValue:
   CategoryValue_1:
     value: las
