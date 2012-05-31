@@ -7,6 +7,38 @@ Photo:
     path: /uploads/images/photos/las.jpg
     created_at: '2012-04-25 20:47:12'
     updated_at: '2012-04-25 20:49:35'
+  Photo_2:
+    name: las2
+    location: 'gdzies tam'
+    description: 'jakis tam kolejny las'
+    is_public: true
+    path: /uploads/images/photos/lassss.jpg
+    created_at: '2012-04-25 20:47:12'
+    updated_at: '2012-04-25 20:49:35'
+  Photo_3:
+    name: gory
+    location: 'gdzies tam w gorach'
+    description: 'jakis tam gory'
+    is_public: true
+    path: /uploads/images/photos/gory2_462.jpg
+    created_at: '2012-04-25 20:47:12'
+    updated_at: '2012-04-25 20:49:35'
+  Photo_4:
+    name: pustynia
+    location: 'gdzies tam w afryce'
+    description: 'jakis tam piasek'
+    is_public: true
+    path: /uploads/images/photos/pustynia.jpg
+    created_at: '2012-04-25 20:47:12'
+    updated_at: '2012-04-25 20:49:35'
+  Photo_5:
+    name: gory2
+    location: 'gdzies daleko'
+    description: 'gory'
+    is_public: true
+    path: /uploads/images/photos/sylwester_gory.jpg
+    created_at: '2012-04-25 20:47:12'
+    updated_at: '2012-04-25 20:49:35'
 PhotoCategoryValue:
   PhotoCategoryValue_1_1:
     Photo: Photo_1
@@ -14,6 +46,24 @@ PhotoCategoryValue:
   PhotoCategoryValue_1_6:
     Photo: Photo_1
     CategoryValue: CategoryValue_6
+  PhotoCategoryValue_2_1:
+    Photo: Photo_2
+    CategoryValue: CategoryValue_1
+  PhotoCategoryValue_2_7:
+    Photo: Photo_2
+    CategoryValue: CategoryValue_7
+  PhotoCategoryValue_3_2:
+    Photo: Photo_3
+    CategoryValue: CategoryValue_2
+  PhotoCategoryValue_4_2:
+    Photo: Photo_4
+    CategoryValue: CategoryValue_2
+  PhotoCategoryValue_4_1:
+    Photo: Photo_4
+    CategoryValue: CategoryValue_1
+  PhotoCategoryValue_5_2:
+    Photo: Photo_5
+    CategoryValue: CategoryValue_2
 Category:
   Category_2:
     name: krajobraz

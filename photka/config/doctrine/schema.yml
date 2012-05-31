@@ -60,6 +60,7 @@ Photo:
     description:  { type: string(4000), notnull: true }
     is_public:    { type: boolean, notnull: true, default: 0 }
     path:        { type: string(255), notnull: true }
+    user_id:     { type: integer(1000), notnull: false}
   relations:
     CategoryValues: 
       class: CategoryValue
@@ -67,3 +68,8 @@ Photo:
       refClass: PhotoCategoryValue
       local: photo_id
       foreign: category_value_id
+    sfGuardUser:
+      onDelete: CASCADE
+      local:  user_id
+      foreign: id
+      foreignAlias:  Photos

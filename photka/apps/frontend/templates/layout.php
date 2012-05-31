@@ -71,7 +71,10 @@
             <a class="brand" href="<?php echo url_for('homepage') ;?>">Photka</a> 
             <div class="nav-collapse"> 
               <ul class="nav"> 
-                <li class="active"><a href="./index.php">Strona główna</a></li> 
+                <li class="active"><a href="<?php echo url_for('homepage') ;?>">Strona główna</a></li> 
+                <?php if($sf_user->isAuthenticated()): ?>
+                <li class=""><a href="<?php echo url_for('photo/index') ;?>">Zdjęcia</a></li> 
+                <?php endif; ?>
               </ul>
               <div id="panel-right" class="pull-right">
                   <form id="search-bar" class="form-horizontal" action="<?php echo url_for('index/search') ?>" method="get">

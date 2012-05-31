@@ -10,7 +10,7 @@ class PhotoTable extends Doctrine_Table
     /**
      * Returns an instance of this class.
      *
-     * @return object PhotoTable
+     * @return PhotoTable
      */
     public static function getInstance()
     {

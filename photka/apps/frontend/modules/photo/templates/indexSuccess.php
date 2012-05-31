@@ -1,36 +1,37 @@
-<h1>Photos List</h1>
 
-<table class="table-bordered">
-  <thead>
-    <tr class="tab-pane row-fluid">
-      <th>Id</th>
-      <th>Category</th>
-      <th>Name</th>
-      <th>Location</th>
-      <th>Description</th>
-      <th>Token</th>
-      <th>Is public</th>
-      <th>Path</th>
-      <th>Created at</th>
-      <th>Updated at</th>
-    </tr>
-  </thead>
-  <tbody>
-    <?php foreach ($photos as $photo): ?>
-    <tr class="row">
-      <td><a href="<?php echo url_for('photo/edit?id='.$photo->getId()) ?>"><?php echo $photo->getId() ?></a></td>
-      <td><?php echo $photo->getCategoryId() ?></td>
-      <td><?php echo $photo->getName() ?></td>
-      <td><?php echo $photo->getLocation() ?></td>
-      <td><?php echo $photo->getDescription() ?></td>
-      <td><?php echo $photo->getToken() ?></td>
-      <td><?php echo $photo->getIsPublic() ?></td>
-      <td><?php echo $photo->getPath() ?></td>
-      <td><?php echo $photo->getCreatedAt() ?></td>
-      <td><?php echo $photo->getUpdatedAt() ?></td>
-    </tr>
-    <?php endforeach; ?>
-  </tbody>
-</table>
 
-  <a href="<?php echo url_for('photo/new') ?>">New</a>
+<h1>Zdjęcia</h1>
+
+<div class="row" style="margin-top: 30px;">
+    <div class="span6">
+        <h3>Moje:</h3>
+        <?php if ($my_photos->count()): ?>
+            <ul class="thumbnails">
+            <?php foreach ($my_photos as $photo): ?>
+                <li class="span3">
+                    <a href="#" class="thumbnail">
+                        <img src="<?php echo $photo->getPath(); ?>" alt="">
+                        <h5><?php echo $photo->getName(); ?></h5>
+                    </a>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+        <?php else: ?>
+            <p style="font-style: italic;"> Nie dodałeś jeszcze żadnego zdjęcia </p>
+        <?php endif; ?>
+        <a class="btn btn-success" href="<?php echo url_for('photo/new') ?>">Dodaj &raquo;</a>
+    </div>
+    <div class="span6">
+        <h3>Ostatnio dodane</h3>
+        <ul class="thumbnails">
+            <?php foreach ($other_photos as $photo): ?>
+                <li class="span3">
+                    <a href="#" class="thumbnail">
+                        <img src="<?php echo $photo->getPath(); ?>" alt="">
+                        <h5><?php echo $photo->getName(); ?></h5>
+                    </a>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    </div>    
+</div>

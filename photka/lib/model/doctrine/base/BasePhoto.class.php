@@ -10,7 +10,9 @@
  * @property string $description
  * @property boolean $is_public
  * @property string $path
+ * @property integer $user_id
  * @property Doctrine_Collection $CategoryValues
+ * @property sfGuardUser $sfGuardUser
  * @property Doctrine_Collection $PhotoCategoryValues
  * 
  * @method string              getName()                Returns the current record's "name" value
@@ -18,14 +20,18 @@
  * @method string              getDescription()         Returns the current record's "description" value
  * @method boolean             getIsPublic()            Returns the current record's "is_public" value
  * @method string              getPath()                Returns the current record's "path" value
+ * @method integer             getUserId()              Returns the current record's "user_id" value
  * @method Doctrine_Collection getCategoryValues()      Returns the current record's "CategoryValues" collection
+ * @method sfGuardUser         getSfGuardUser()         Returns the current record's "sfGuardUser" value
  * @method Doctrine_Collection getPhotoCategoryValues() Returns the current record's "PhotoCategoryValues" collection
  * @method Photo               setName()                Sets the current record's "name" value
  * @method Photo               setLocation()            Sets the current record's "location" value
  * @method Photo               setDescription()         Sets the current record's "description" value
  * @method Photo               setIsPublic()            Sets the current record's "is_public" value
  * @method Photo               setPath()                Sets the current record's "path" value
+ * @method Photo               setUserId()              Sets the current record's "user_id" value
  * @method Photo               setCategoryValues()      Sets the current record's "CategoryValues" collection
+ * @method Photo               setSfGuardUser()         Sets the current record's "sfGuardUser" value
  * @method Photo               setPhotoCategoryValues() Sets the current record's "PhotoCategoryValues" collection
  * 
  * @package    photka
@@ -62,6 +68,11 @@ abstract class BasePhoto extends sfDoctrineRecord
              'notnull' => true,
              'length' => 255,
              ));
+        $this->hasColumn('user_id', 'integer', 1000, array(
+             'type' => 'integer',
+             'notnull' => false,
+             'length' => 1000,
+             ));
     }
 
     public function setUp()
@@ -71,6 +82,11 @@ abstract class BasePhoto extends sfDoctrineRecord
              'refClass' => 'PhotoCategoryValue',
              'local' => 'photo_id',
              'foreign' => 'category_value_id'));
+
+        $this->hasOne('sfGuardUser', array(
+             'local' => 'user_id',
+             'foreign' => 'id',
+             'onDelete' => 'CASCADE'));
 
         $this->hasMany('PhotoCategoryValue as PhotoCategoryValues', array(
              'local' => 'id',
