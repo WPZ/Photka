@@ -1,3 +1,32 @@
+CategoryValue:
+  CategoryValue_1:
+    value: las
+    Category: Category_1
+    is_published: true
+  CategoryValue_2:
+    value: góry
+    Category: Category_1
+    is_published: true
+  CategoryValue_3:
+    value: morze
+    Category: Category_1
+    is_published: true
+  CategoryValue_4:
+    value: portret
+    Category: Category_2
+    is_published: true
+  CategoryValue_5:
+    value: akt
+    Category: Category_2
+    is_published: true
+  CategoryValue_6:
+    value: deszcz
+    Category: Category_3
+    is_published: true
+  CategoryValue_7:
+    value: 's?o?ce'
+    Category: Category_3
+    is_published: true
 Photo:
   Photo_1:
     name: las
@@ -34,69 +63,67 @@ Photo:
   Photo_5:
     name: gory2
     location: 'gdzies daleko'
-    description: 'gory'
+    description: gory
     is_public: true
     path: /uploads/images/photos/sylwester_gory.jpg
     created_at: '2012-04-25 20:47:12'
     updated_at: '2012-04-25 20:49:35'
+  Photo_19:
+    name: cobra
+    location: ulica
+    description: auto
+    is_public: true
+    path: /uploads/images/photos/shelby_cobra.jpg
+    sfGuardUser: sfGuardUser_1
+    created_at: '2012-06-13 21:08:53'
+    updated_at: '2012-06-13 21:08:53'
+  Photo_20:
+    name: testowe
+    location: gdzies
+    description: 'jakies tam testowe zdjecie'
+    is_public: true
+    path: /uploads/images/photos/tapeciarni-jpeg.jpg
+    sfGuardUser: sfGuardUser_1
+    created_at: '2012-06-16 13:41:53'
+    updated_at: '2012-06-16 13:41:54'
+Category:
+  Category_1:
+    name: krajobraz
+  Category_2:
+    name: ludzie
+  Category_3:
+    name: pogoda
 PhotoCategoryValue:
   PhotoCategoryValue_1_1:
     Photo: Photo_1
     CategoryValue: CategoryValue_1
-  PhotoCategoryValue_1_6:
-    Photo: Photo_1
-    CategoryValue: CategoryValue_6
   PhotoCategoryValue_2_1:
     Photo: Photo_2
     CategoryValue: CategoryValue_1
-  PhotoCategoryValue_2_7:
-    Photo: Photo_2
-    CategoryValue: CategoryValue_7
+  PhotoCategoryValue_4_1:
+    Photo: Photo_4
+    CategoryValue: CategoryValue_1
   PhotoCategoryValue_3_2:
     Photo: Photo_3
     CategoryValue: CategoryValue_2
   PhotoCategoryValue_4_2:
     Photo: Photo_4
     CategoryValue: CategoryValue_2
-  PhotoCategoryValue_4_1:
-    Photo: Photo_4
-    CategoryValue: CategoryValue_1
   PhotoCategoryValue_5_2:
     Photo: Photo_5
     CategoryValue: CategoryValue_2
-Category:
-  Category_2:
-    name: krajobraz
-  Category_3:
-    name: ludzie
-  Category_1:
-    name: pogoda
-CategoryValue:
-  CategoryValue_1:
-    value: las
-    Category: Category_2
-    is_published: true
-  CategoryValue_2:
-    value: góry
-    Category: Category_2
-    is_published: true
-  CategoryValue_3:
-    value: morze
-    Category: Category_2
-    is_published: true
-  CategoryValue_4:
-    value: portret
-    Category: Category_3
-    is_published: true
-  CategoryValue_5:
-    value: akt
-    Category: Category_3
-    is_published: true
-  CategoryValue_6:
-    value: deszcz
-    Category: Category_1
-    is_published: true
-  CategoryValue_7:
-    value: 's?o?ce'
-    Category: Category_1
-    is_published: true
+  PhotoCategoryValue_20_2:
+    Photo: Photo_20
+    CategoryValue: CategoryValue_2
+  PhotoCategoryValue_20_4:
+    Photo: Photo_20
+    CategoryValue: CategoryValue_4
+  PhotoCategoryValue_1_6:
+    Photo: Photo_1
+    CategoryValue: CategoryValue_6
+  PhotoCategoryValue_20_6:
+    Photo: Photo_20
+    CategoryValue: CategoryValue_6
+  PhotoCategoryValue_2_7:
+    Photo: Photo_2
+    CategoryValue: CategoryValue_7

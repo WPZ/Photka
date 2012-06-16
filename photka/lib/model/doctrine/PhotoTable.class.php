@@ -10,11 +10,24 @@ class PhotoTable extends Doctrine_Table
     /**
      * Returns an instance of this class.
      *
-     * @return PhotoTable
+     * @return object PhotoTable
      */
     public static function getInstance()
     {
         return Doctrine_Core::getTable('Photo');
     }
+    
+    public function getRecent($limit = null) {
+        $q = $this->createQuery()
+                ->select()
+                ->orderBy('created_at DESC');
+                
+        if($limit){
+            $q->limit($limit);
+        }
+
+        return $q->execute();
+    }
+
 }
 

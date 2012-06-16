@@ -15,7 +15,7 @@ class photoActions extends sfActions
     $user = $this->getUser()->getGuardUser();
     //var_dump($user); die;
     $this->my_photos = PhotoTable::getInstance()->findByUserId($user->getId());
-    $this->other_photos = PhotoTable::getInstance()->findAll();
+    $this->other_photos = PhotoTable::getInstance()->getRecent(10);
   }
 
   public function executeNew(sfWebRequest $request)
