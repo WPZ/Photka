@@ -13546,3 +13546,46 @@ cze 16 14:53:25 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 0.05
 cze 16 14:53:25 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 2.91 ms (2)
 cze 16 14:53:25 symfony [info] {sfWebDebugLogger} Partial "sfApply/_logoutPrompt" 1.76 ms (2)
 cze 16 14:53:25 symfony [info] {sfWebResponse} Send content (50898 o)
+Jun 16 15:29:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Jun 16 15:29:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Jun 16 15:29:40 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Jun 16 15:29:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 16 15:29:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 16 15:29:40 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Jun 17 22:33:45 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Jun 17 22:33:45 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Jun 17 22:33:45 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Jun 17 22:33:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 17 22:33:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 17 22:33:46 symfony [info] {photoActions} Call "photoActions->executeIndex()"
+Jun 17 22:34:00 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Jun 17 22:34:00 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Jun 17 22:34:00 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'index',  'action' => 'index',)
+Jun 17 22:34:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 17 22:34:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 17 22:34:00 symfony [info] {indexActions} Call "indexActions->executeIndex()"
+Jun 17 22:34:00 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/modules/index/templates/indexSuccess.php"
+Jun 17 22:34:00 symfony [info] {sfPHPView} Decorate content with "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+Jun 17 22:34:00 symfony [info] {sfPHPView} Render "/home/macko/programowanie/photka/apps/frontend/templates/layout.php"
+Jun 17 22:34:00 symfony [info] {main} Call "sfApply->executeLogin()"
+Jun 17 22:34:00 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+Jun 17 22:34:00 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+Jun 17 22:34:00 symfony [info] {main} Call "sfApply->executeLogin()"
+Jun 17 22:34:00 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_login.php"
+Jun 17 22:34:00 symfony [info] {sfPartialView} Render "/home/macko/programowanie/photka/apps/frontend/modules/sfApply/templates/_loginPrompt.php"
+Jun 17 22:34:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 17 22:34:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 17 22:34:00 symfony [info] {sfWebDebugLogger} Configuration 226.06 ms (14)
+Jun 17 22:34:00 symfony [info] {sfWebDebugLogger} Factories 7.03 ms (1)
+Jun 17 22:34:00 symfony [info] {sfWebDebugLogger} Action "index/index" 0.21 ms (1)
+Jun 17 22:34:00 symfony [info] {sfWebDebugLogger} View "Success" for "index/index" 358.71 ms (1)
+Jun 17 22:34:00 symfony [info] {sfWebDebugLogger} Component "sfApply/login" 150.55 ms (2)
+Jun 17 22:34:00 symfony [info] {sfWebDebugLogger} Partial "sfApply/_login" 34.81 ms (2)
+Jun 17 22:34:00 symfony [info] {sfWebDebugLogger} Partial "sfApply/_loginPrompt" 13.94 ms (2)
+Jun 17 22:34:00 symfony [info] {sfWebResponse} Send content (45116 o)
+Jun 21 23:57:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Jun 21 23:57:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Jun 21 23:57:23 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /photo with parameters array (  'module' => 'photo',  'action' => 'index',)
+Jun 21 23:57:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 21 23:57:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 21 23:57:23 symfony [info] {photoActions} Call "photoActions->executeIndex()"
