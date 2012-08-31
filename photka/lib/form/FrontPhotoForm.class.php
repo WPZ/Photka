@@ -11,10 +11,19 @@ class FrontPhotoForm extends BasePhotoForm
 {
   public function configure() {
       unset($this['created_at'], $this['updated_at']);
+        $this->widgetSchema['category_values_list'] = new sfWidgetFormDoctrineChoice(
+                array('multiple' => true, 'model' => 'CategoryValue', 'method' => 'getValue' ));
       
+      $this->widgetSchema['user_id'] = new sfWidgetFormInputHidden();
+      $this->widgetSchema['name']->setLabel('Nazwa');
+      $this->widgetSchema['location']->setLabel('Miejsce');
+      $this->widgetSchema['description']->setLabel('Opis');
+      $this->widgetSchema['is_public']->setLabel('Czy publiczne');
+      $this->widgetSchema['category_values_list']->setLabel('Kategorie');
+     
       $this->widgetSchema['path'] = new sfWidgetFormInputFileEditable(
                         array(
-                            'label' => 'Fotografia',
+                            'label' => 'Fotografiaaa',
                             'file_src' => $this->getObject()->getPath(),
                             'is_image' => true,
                             'edit_mode' => !$this->isNew(),
@@ -27,18 +36,6 @@ class FrontPhotoForm extends BasePhotoForm
                     'mime_types' => 'web_images',
                     'validated_file_class' => 'MainPhotoValidatedFile'
                 ));
-       
-        
-        $this->widgetSchema['category_values_list'] = new sfWidgetFormDoctrineChoice(
-                array('multiple' => true, 'model' => 'CategoryValue', 'method' => 'getValue' ));
-      
-      $this->widgetSchema['user_id'] = new sfWidgetFormInputHidden();
-      $this->widgetSchema['name']->setLabel('Nazwa');
-      $this->widgetSchema['location']->setLabel('Miejsce');
-      $this->widgetSchema['description']->setLabel('Opis');
-      $this->widgetSchema['is_public']->setLabel('Czy publiczne');
-      $this->widgetSchema['category_values_list']->setLabel('Kategorie');
-      
   } 
   
   public function save($con = null) {
@@ -49,8 +46,6 @@ class FrontPhotoForm extends BasePhotoForm
         }
 
         $item = parent::save($con);
-//var_dump($this->getValue('path')); // $item->getPath();
-//die;
         /* @var $image MainPhotoValidatedFile */
         $image = $this->getValue('path');
 

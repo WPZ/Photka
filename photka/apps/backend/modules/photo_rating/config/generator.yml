@@ -1,0 +1,24 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           PhotoRating
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          photo_rating
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        sfGuardUser:
+          label: User
+      list:    
+        display: [photo, sfGuardUser, rate, created_at]
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

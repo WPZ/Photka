@@ -73,3 +73,20 @@ Photo:
       local:  user_id
       foreign: id
       foreignAlias:  Photos
+
+PhotoRating:
+  actAs: { Timestampable: created_at }
+  columns:
+    rate:       { type: integer(1), notnull: true }
+    photo_id:   { type: integer(1000), notnull: true }
+    user_id:    { type: integer(1000), notnull: true }
+  relations:
+    Photo:
+      local: photo_id
+      foreign: id
+      foreignAlias: PhotoRatings
+    sfGuardUser:
+      onDelete: CASCADE
+      local:  user_id
+      foreign: id
+      foreignAlias:  PhotoRatings
