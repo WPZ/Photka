@@ -14,6 +14,7 @@
  * @property Doctrine_Collection $CategoryValues
  * @property sfGuardUser $sfGuardUser
  * @property Doctrine_Collection $PhotoCategoryValues
+ * @property Doctrine_Collection $PhotoRatings
  * 
  * @method string              getName()                Returns the current record's "name" value
  * @method string              getLocation()            Returns the current record's "location" value
@@ -24,6 +25,7 @@
  * @method Doctrine_Collection getCategoryValues()      Returns the current record's "CategoryValues" collection
  * @method sfGuardUser         getSfGuardUser()         Returns the current record's "sfGuardUser" value
  * @method Doctrine_Collection getPhotoCategoryValues() Returns the current record's "PhotoCategoryValues" collection
+ * @method Doctrine_Collection getPhotoRatings()        Returns the current record's "PhotoRatings" collection
  * @method Photo               setName()                Sets the current record's "name" value
  * @method Photo               setLocation()            Sets the current record's "location" value
  * @method Photo               setDescription()         Sets the current record's "description" value
@@ -33,6 +35,7 @@
  * @method Photo               setCategoryValues()      Sets the current record's "CategoryValues" collection
  * @method Photo               setSfGuardUser()         Sets the current record's "sfGuardUser" value
  * @method Photo               setPhotoCategoryValues() Sets the current record's "PhotoCategoryValues" collection
+ * @method Photo               setPhotoRatings()        Sets the current record's "PhotoRatings" collection
  * 
  * @package    photka
  * @subpackage model
@@ -89,6 +92,10 @@ abstract class BasePhoto extends sfDoctrineRecord
              'onDelete' => 'CASCADE'));
 
         $this->hasMany('PhotoCategoryValue as PhotoCategoryValues', array(
+             'local' => 'id',
+             'foreign' => 'photo_id'));
+
+        $this->hasMany('PhotoRating as PhotoRatings', array(
              'local' => 'id',
              'foreign' => 'photo_id'));
 

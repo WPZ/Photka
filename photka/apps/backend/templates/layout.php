@@ -31,6 +31,7 @@
                                 <li><a href="<?php echo url_for('photo'); ?>">photo</a></li>
                                 <li><a href="<?php echo url_for('category'); ?>">category</a></li>    
                                 <li><a href="<?php echo url_for('category_value'); ?>">category values</a></li>    
+                                <li><a href="<?php echo url_for('photo_rating'); ?>">photo rating</a></li>    
                                 <li class="pull-right"><a href="<?php echo url_for('sf_guard_signout'); ?>">logout</a></li>
                             </ul>
                         </div><!--/.nav-collapse -->
