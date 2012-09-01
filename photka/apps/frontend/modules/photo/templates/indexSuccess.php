@@ -10,7 +10,7 @@
                 <ul class="thumbnails">
                     <?php foreach ($my_photos as $photo): ?>
                         <li class="span3">
-                            <a href="#" class="thumbnail">
+                            <a href="<?php echo url_for('photo_show', array('id' => $photo->getId())); ?>" class="thumbnail">
                                 <img src="<?php echo $photo->getPath(); ?>" alt="">
                                 <h5><?php echo $photo->getName(); ?></h5>
                             </a>
@@ -31,7 +31,7 @@
             <ul class="thumbnails">
                 <?php foreach ($other_photos as $photo): ?>
                     <li class="span3">
-                        <a href="#" class="thumbnail">
+                        <a href="<?php echo url_for('photo_show', array('id' => $photo->getId())); ?>" class="thumbnail">
                             <img src="<?php echo $photo->getPath(); ?>" alt="">
                             <h5><?php echo $photo->getName(); ?></h5>
                         </a>

@@ -16,4 +16,16 @@ class PhotoRatingTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('PhotoRating');
     }
+    
+    public function getOneByPhotoAndUser($photo_id, $user_id)
+    {
+        $q = $this->createQuery()
+                    ->select()
+                    ->where('photo_id = ?', $photo_id)
+                    ->andWhere('user_id = ?', $user_id);
+        
+        return $q->fetchOne();   
+        //var_dump($result); die;
+        //return $result != null ? $result : 0;
+    }
 }

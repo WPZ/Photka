@@ -13,9 +13,11 @@ generator:
 
     config:
       actions: ~
-      fields:  ~
+      fields:  
+        avgRates:
+          label: "avg rate"
       list:    
-        display: [name, description, location, path, is_public]
+        display: [name, description, location, avgRates, path, is_public]
       filter:  
         display: [name, description, location, is_public]
       form:    
