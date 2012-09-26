@@ -1,4 +1,4 @@
-config/databases.yml
-cache
-log
+./config/
+./cache
+./log
 wq
