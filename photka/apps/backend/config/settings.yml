@@ -3,7 +3,7 @@
 
 prod:
   .settings:
-    no_script_name:         true
+    no_script_name:         false 
     logging_enabled:        false
 
 dev:
@@ -11,7 +11,7 @@ dev:
     error_reporting:        <?php echo (E_ALL | E_STRICT)."\n" ?>
     web_debug:              true
     cache:                  false
-    no_script_name:         true
+    no_script_name:         false
     etag:                   false
 
 test:
